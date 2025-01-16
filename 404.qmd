@@ -1,0 +1,19 @@
+---
+title: "Page Not Found"
+format: 
+  html:
+    page-layout: full
+---
+
+<center>
+
+# Oops!
+
+# 404 PAGE NOT FOUND
+
+A páxina que estás a buscar pode ser eliminada, cambiar o seu nome ou non está dispoñible.
+
+é osible que fose eliminada, renomeada ou en modificación.
+
+</center>
+

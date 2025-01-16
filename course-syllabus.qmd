@@ -1,0 +1,182 @@
+---
+title: "Guía Docente"
+format: 
+  html:
+    page-layout: full
+---
+#  Simulación e Optimización de Procesos Químicos. Curso 2023 - 2024
+
+## Datos identificativos
+
+Materia: Simulación e optimización de procesos químicos
+Código: V12G350V
+Titulación: Grao en Enxeñaría en Química Industrial
+Descritores:
+
+| Creditos ECTS | Seleción | Curso | Cuadrimestre | 
+|---------------|----------|:-----:|:------------:|
+| 6             | OB       | 4     | 1c           |
+| Lingua de impartición | Galego,Inglés | 
+| Departamento | Enxeñaría Química | 
+| Coordinador/a |  Sánchez Bermúdez, Ángel Manuel | 
+| Profesorado | Sánchez Bermúdez, Ángel Manuel |  
+| Correo-e | asanchez@uvigo.gal | 
+| Web |  [http://http://eqea.uvigo.es](http://http://eqea.uvigo.es) | 
+
+## Descrición xeral
+
+Asignatura obrigatoria que se imparten no 7º cuadrimestre do Grao en Química Industrial, unha vez que o alumno estudou as materias nas que deben demostrar os coñecementos necesarios sobre:  
+- Métodos numéricos empregados na enxeñaría química.  
+- Deseño de reactores químicos.  
+- Deseño de equipos para operacións de separación.  
+- Deseño de equipos de transferencia de calor empregados en procesos químicos.  
+- Control e seguridade dos procesos químicos.  
+
+Esta materia impártese no último ano. O alumno accede despois de adquirir e desenvolver habilidades para xestionar facilmente as ferramentas informáticas da informática dixital, nas que o uso seguirá funcionando e afondar.
+
+## Resultados de Formación e Aprendizaxe
+
+| Código | Descrición |
+|--------|------------|
+| B3     | CG3 Coñecemento en materias básicas e tecnolóxicas que os capacite para a aprendizaxe de novos métodos e teorías, e os dote de versatilidade para adaptarse a novas situacións. |
+| B4     | CG4 Capacidade para resolver problemas con iniciativa, toma de decisións, creatividade, razoamento crítico e capacidade para comunicar e transmitir coñecementos, habilidades e destrezas no campo da enxeñaría industrial na mención de Química Industrial. |
+| C20    | CE20 Capacidade para a análise, deseño, simulación e optimización de procesos e produtos. |
+| D2     | T2 Resolución de problemas. |
+| D6     | CT6 Aplicación da informática no ámbito de estudo. |
+| D8     | CT8 Toma de decisións. | 
+| D9     | CT9 Aplicar coñecementos. | 
+| D10    | CT10 Aprendizaxe e traballo autónomos. | 
+| D17    | CT17 Traballo en equipo. | 
+
+## Resultados previstos na materia
+
+| Resultados previstos na materia                                                  | Resultados de Formación e Aprendizaxe |
+|----------------------------------------------------------------------------------|---------------------------------------|
+| Simular un diagrama de fluxo dun proceso en réxime estacionario. Coñecer os métodos mais importantes de simulación de procesos (modular e baseado en ecuacións). Analizar as características estructurais dun proceso químico e determinar o orde de cálculo das unidades,establecer o fluxo de información e seleccionar as variables ou correntes de corte de forma axeitada. Resolver problemas de gran escala modelados por sistemas de ecuacións alxebraicas (sistemas dispersos). | B3 B4 <br> C20 <br> D6 D8 D9 D10 D17 |
+| Analizar un proceso, determinar os seus graos de libertade e escoller as mellores variables para a súa optimización. >br> Coñecer os fundamentos básicos dos algoritmos mais importantes de optimización determinista, tanto en variable continua como discreta. <br> Modelar axeitadamente un problema de optimización e/ou síntese de procesos e utilizar as ferramientas axeitadas para resolverlo.| B3 B4 <br> C20 <br> D6 D9 D17 |
+| Coñecer os fundamentos básicos do deseño de procesos mediante simuladores de proceso. A descomposición xerárquica e os fundamentos do deseño baseado en superestructuras. Aplicar os conceptos de integración de enerxía para o deseño de redes de intercambio de calor. Saber adquirir y utilizar información bibliográfica y técnica referida a esta materia. Coñecemento e aplicación da terminología inglesa empregada para descreber os conceptos correspondientes a esta materia. | B3 B4 <br> C20 <br> D2 D6 D9 D10 |
+
+## Contidos
+
+### Parte 1: SIMULACIÓN
+
+| Parte 1        | Simulación|
+|-----------------|---------------------------------------------------------------------------------------------------------------|
+| TEMA 1          | SIMULACIÓN DE PROCESOS. DIAGRAMAS DE FLUXO<br>- Simulacións por computador<br>- Tipos de simuladores<br>- Optimización |
+| TEMA 2          | SIMULACIÓN SECUENCIAL MODULAR<br>- Descomposición de sistemas a gran escala<br>- Algoritmos de particionamento<br>- Descomposición de Redes Cíclicas Máximas  |
+| TEMA 3          | SIMULACIÓN ORIENTADA A ECUACIÓNS<br>- Método de factorización local (criterio de Markowitz)<br>- Reordenación "a priori" de matrices dispersas. Fase numérica |
+| TEMA 4          | GRAOS DE LIBERDADE DUN DIAGRAMA DE FLUXO<br>- Graos de liberdade<br>- Solución de ecuacións<br> Sistemas de ecuacións nonlineais<br>- Selección das variables de deseño |
+| TEMA 5          | PROPIEDADES FÍSICAS EN SIMULADORES DE PROCESOS QUÍMICOS<br>- Obtención e uso de propiedades físicas<br>- Uso dos sistemas de cálculo de propiedades físicas |
+| TEMA 6          | DESEÑO CONCEPTUAL DE PROCESOS<br>- Síntese xerárquica<br>- Síntese baseada na programación matemática | 
+| EXEMPLOS DE APLICACIÓN | - Síntese de redes de cambiadores de calor (método de deseño "pinch")<br>- Extensións do método de "pinch" |
+| **Parte 2**         | **OPTIMIZACIÓN** |
+| TEMA 7          | OPTIMIZACIÓN DE PROCESOS QUÍMICOS<br>- Conceptos básicos sobre optimización<br>- Optimización non liñal sin restriccións<br>- Conceptos básicos da optimización non liñal con restriccións (igualdade e desigualdade) |
+| TEMA 8          | MÉTODOS NUMÉRICOS DE OPTIMIZACIÓN. OPTIMIZACIÓN SIN RESTRICCIÓNS<br>- Optimización multivariable sen restriccións<br>- Método de gradiente<bgr>- Método de Newton<bg>- Métodos da secante |
+| TEMA 9          | PROGRAMACIÓN LIÑAL (LP)<br>- Definicións e teoremas básicos da programación liñal<br>- Resolución do problema<br>- O algoritmo Simplex<br>- Programación cuadrática |
+| TEMA 10 | MÉTODOS NUMÉRICOS PARA A OPTIMIZACIÓN DE PROBLEMAS NON LIÑAIS CON RESTRICCIÓNS<br>- Métodos de penalización, barreira e Lagranxiana aumentada<br>- Programación cuadrática sucesiva<br>- Método do gradiente reducido |
+| ESTUDO DE CASOS | - Exemplos prácticos de aplicación en industrias químicas e de proceso<br>- Utilizando software de simulación e optimización de procesos |
+
+## Planificación horaria das clases
+| Actividade                                | Horas na aula | Horas fóra da aula | Horas totais |
+| ------------------------------------------|--------------:|-------------------:|-------------:|
+| Actividades introdutorias                 | 2             | 8                  | 10           |  
+| Lección maxistral                         | 6             | 0                  | 16           |  
+| Aprendizaxe baseado en proxectos          | 12            | 36                 | 48           |  
+| Estudo de casos                           | 6             | 0                  | 6            |  
+| Simulación                                | 0             | 18                 | 18           |  
+| Prácticas con apoio das TIC               | 24            | 0                  | 24           | 
+| Resolución de problemas de forma autónoma | 0             | 25                 | 25           |   
+| Metodoloxías baseadas en investigación    | 0             | 10                 | 10           |  
+| Exame de preguntas de desenvolvemento     | 10            | 3                  | 3            |  
+
+*Os datos que aparecen na táboa de planificación son de carácter orientador, considerando a heteroxeneidade do
+alumnado.
+
+## Metodoloxía docente
+
+| Actividade                                | Descrición |
+|-------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| Actividades introdutorias                 | Presentación e introducción ó uso dos programas de simulación e optimización: [**Matlab**](https://www.mathworks.com/products/matlab.html), [**Pyhton**](https://python.org)-[**Cantera**](https://cantera.org/), [**COCO SIMULATOR**](https://www.cocosimulator.org/), [**CHEMPSEP**](http://http://chemsep.org/index.html), [**DWSIM**](https://dwsim.inforside.com.br/new/), [**HYSYS**](https://www.aspentech.com/en/products/engineering/aspen-hysys) e [**ASPEN PLUS**](https://www.aspentech.com/en/products/engineering/aspen-plus) |
+| Lección maxistral                         | Presentación verbal organizada de temas referidos ós contidos da asignatura, impartidos polo profesor con axudas visuais. Este método didáctico didáctico, implica a comunicación unidireccional do presentador activo ós estudiantes |
+| Aprendizaxe baseado en proxectos          | Os estudantes traballarán nun proxecto durante un período de tempo prolongado (o cuatrimestre) que os involucre na resolución dun problema do mundo real ou na resposta a unha pregunta complexa. Demostran os seus coñecementos e habilidades creando un produto público ou unha presentación para un público real | 
+| Estudo de casos                           | Se plantexan escenarios baseados en situacións nas que os alumnos observan, analizan, rexistran, implementan, conclúen, resumen ou recomendan. Os estudos de casos créanse e utilízanse como ferramenta de análise e discusión |
+| Simulación                                | O alumno ten que preparar, e documentar, unha simulación que implique un proceso orixinal, a mellora de un proceso documentado ou a optimización dun proceso ou planta existente, así como crear unha presentación pública do seu traballo |  
+| Prácticas con apoio das TIC               | Se plantexarán simulacións de parte de procesos ou unidades de operación para resolver coas distintas ferramentas informáticas que se contemplan na materia (simuladores de proceso, linguaxes de programación, etc.) |
+| Resolución de problemas de forma autónoma | Se plantexará a resolución de problemas de libros tradicionais da enxeñaría química que serán resoltos mediante as ferramentas propostas na materia, como alternativa ós métodos tradicionais de resolución |
+| Metodoloxías baseadas en investigación    | O alumno deberá documentar o uso de sistemas de busca bibliográfica asi como de datos de interese na web (fontes de información titoriais, etc.) |
+
+## Atención personalizada
+
+Metodoloxías Descrición
+Simulación O alumno propondrá unha simulación de un proceso novo, mellora de un existente ou optimización de un proceso ou planta ou, no seu caso, debe adoptar o asignado polo profesor que titorará de xeito individualizado ou por grupo cada unha das simulacións da clase. 
+Aprendizaxe baseado en proxectos
+
+O profesor propondrá pequenos proxectos que os alumnos han de resolver mediante as
+ferramentas que se lles indiquen na clase e entragar para a súa puntuación dacordo á rúbrica
+correspondente que será publicada na plataforma de e-learning. Cada alumno debe entragar o
+traballo realizado en clase ó finalizar a mesma. Os proxectos recibirán unha puntuación acorde á
+rúbrica que se publicará na plataforma de e-learning.
+Estudo de casos Se plantexan escenarios baseados en situacións nas que os alumnos observan, analizan, rexistran,
+implementan, conclúen, resumen ou recomendan. Non haberá probas.
+Prácticas con apoio
+das TIC
+
+Na aula informática ou na aula de teoría se farán simulacións e resolución de problemas mediante
+ferramentas informáticas que han de ser entregados no memo día polos alumnos. cualificación
+estará rubricada por rúbrica públicada na plataforma de e-learning.
+
+## Avaliación
+
+Actividade | Descrición | Cualificación | 
+|----------------------------------|----------------------------------------------------------------------------------------------------------------------------|
+| Aprendizaxe baseado en proxectos | Se realizará durante todo o semestre e se entregará ó concluir as clases presenciais e antes do exame final. A cualificación estará rubricada por rúbrica públicada na plataforma de e-learning | 20 |  
+| Simulación                       | O alumno debe realizae e entregar unha simulación que contribúe á avaliación continua e que debe ser realizada de xeito tutelado durante todo o semestre. A cualificación estará rubricada por rúbrica públicada na plataforma de e-learning | 20 |  
+| Resolución de problemas de forma autónoma | Periódicamente o alimno debe entregar resoltos os problemas que se lle plantexan. | 20 |  
+| Exame de preguntas de desenvolvemento     | Correesponde ó exame final da asignatura que, no caso de renuncia á avaliación continua, será o total da nota. Está constituído por un ou varios casos, ou simulacións e a súa correccióne stará asemesmo rubricada. | 40 |  
+
+### Outros comentarios sobre a Avaliación**
+
+- Alumnos con avaliación continua: A avaliación continua aplicaráse na primeira convocatoria.
+- Para os alumnos con renuncia concedida oficialmente polo centro á avaliación continua o exame final valerá o 100%.
+- Compromiso ético: Espérase que o alumno presente un comportamento ético adecuado. No caso de detectar un
+- comportamento non ético (copia, plaxio, utilización de aparellos electrónicos non autorizados, e outros) considerarase que o alumno non reúne os requisitos necesarios para superar a materia. Neste caso a cualificación global no presente curso académico será de suspenso (0,0).
+
+## Bibliografía. Fontes de información
+
+### Bibliografía Básica
+Kamal I.M. Al-Malah, **Aspen Plus: Chemical Engineering Applications** , 1st Edition, Wiley, 2016.  
+Juma Haydary, **Chemical Process Design and Simulation: Aspen Plus and Aspen Hysys Applications** , 1st Edition, AIChE, 2019.  
+D.M. Himmelblau, K.B. Bischoff, **Análisis y Simulación de Procesos** , Reverté, 2004.  
+Simant Ranjan Upreti, **PROCESS MODELING AND SIMULATION FOR CHEMICAL ENGINEERS** , 1st Edition, Wiley, 2017.  
+
+### Bibliografía Complementaria
+David. M. Himmelblau, **Optimization of Chemical Processes** , 2nd Edition, McGraw-Hill Higher Education, 2001.  
+
+## Recomendacións
+
+### Materias que continúan o temario  
+- Control e instrumentación de procesos químicos/V12G350V  
+- Deseño de plantas químicas e de proceso/V12G350V  
+- Modelaxe de procesos biotecnolóxicos/V12G350V  
+
+### Materias que se recomenda cursar simultaneamente**
+- Xestión e posta en servizo de plantas químicas e de proceso/V12G350V  
+- Optimización de produtos/V12G350V  
+- Procesos e produtos biotecnolóxicos/V12G350V  
+- Química orgánica industrial/V12G350V  
+
+### Materias que se recomenda ter cursado previamente
+
+- Enxeñaría química I/V12G350V  
+- Termodinámica e transmisión de calor/V12G350V  
+- Experimentación en química industrial I/V12G350V  
+- Experimentación en química industrial II/V12G350V  
+- Enxeñaría química II/V12G350V  
+- Reactores e biotecnoloxía/V12G350V  
+- Calor e frío na industria de proceso/V12G350V  
+- Técnicas e xestión medioambientais/V12G350V  
+
+## Outros comentarios
+
+Os pilares que sustentan esta materia concrétanse no uso das técnicas de cálculo numérico, aplicado ós contidos proprios da enxeñaría química: balances de materia i enerxía , fenómenos de trasporte, termodinámica, fluidodinámica, termotecnia, operacións de separación, reactores , control de procesos , etc.
+

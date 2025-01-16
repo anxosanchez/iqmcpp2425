@@ -1,0 +1,324 @@
+---
+title: "Descrición do Proxecto da Asignatura"
+language: custom.yml
+format: 
+  html:
+    page-layout: full
+---
+
+## Liña de tempo
+
+[Ideas para o proxecto](#topic-ideas) ata Venres, 25 de Outubro de 2024  
+[Borrador de informe](#draft-report) ata Domingo, 22 de Novembro de 2024   
+[Informe Final](#written-report) ata Venres, 3 de Xaneiro de 2025    
+[Presentación en vídeo + diapositivas](#video-presentation-slides) Venres, 3 de Xaneiro de 2025   
+
+## Introdución
+
+**O Proxecto**: Pensa en unha idea ou concepto da Enxeñaría Química e desenvólvea en forma de demostración, utilidade, simulación ou programa de cálculo ou deseño. Ese é o verdadeiro obxecivo. Trátase de que uses a simulación ou a optimización para ilustar de algún xeito algúns dos aspectos mais importantes da enxeñaría química.
+
+O modelo no que te basees xa pode existir, ou ben, podes plantexar un por ti mesmo sobre algún tema que che insterse especialmente, ou buscalo na web. O teu obxectivo ca realización do proxecto debe de ser a demostraci´on das túas competencias adquiridas na materia en forma de un caso práctico xa sexa de deseño, solución, mellora ou simple simulación demostrativa.
+
+A linguaxe de programación no é tan importante coma a idea. Non obstante a simulación debe presentar ó usuario unha interface (ou GUI) que o faga útil (por exemplo formularios de excel, widgets de python, GUI's de Matlab, etc.).
+
+Todos os traballos deben estar acompañados da súa documentación, tanto do obxectivo, método, algortimo, código e interface, así comop un emmplod e aplicación xa terminado.
+
+Antes de pasar á realización do mesmo deberás entregar (entregable en MOOVI) un preproxecto quye deberá ser aprobado polo teu profesor, En caso de que a túa proposta non sexa axeitada ou non cunpla cun nivel acorde ca asignatura, non poderás empezar e debesrás reescribir a túa proposta, ben sexa sonbre o mesmo tema ou sobre outro.
+
+### Loxística
+
+Traballarás no proxecto de xeito indicidual.
+
+Os entregables obligatorios para o proxecto final son
+
+- Un **Informe escrito** e reproducible que detalla a súa análise, os algoritmos ou métodos numéricos usados, o diagrama de fluxo da programación d a descrición da interface.
+- Un **Código executable** debvidamente documentado acorde ó documento anterior.
+- Unha **Presentación en formato diapositivas**
+- Un **Vídeo explicativo do proxcto e a súas funcionalidads**
+
+## Ideas para o proxecto {#topic-ideas}
+
+#### Introdución e propósito
+
+- Indicae a fonte e o propósito da simulacion.
+- Describe a fonte(s) de inspiración e a utilidade que lle ves.
+- Describe as observacións e as características para plantexala e desenvolvela.
+- Describe o software e os algoritmos de cálculo ou solución que vas a empregar para a simulación.
+
+#### Utilidade
+
+- Describe para que se podería utilizar a túa simulació e os potenciais usuarios da mesma.
+
+## Proposta de proxeto {#project-proposal}
+
+O propósito da proposta do proxecto é axudarche a pensar na túa estratexia de análise cedo.
+
+Inclúe o seguinte na proposta:
+
+### Sección 1 - Introdución
+
+A sección de introdución inclúe
+
+- Unha introdución ao tema que estás simulando.
+- A motivación para a da túa elección (citando calquera bibliografía relevante).
+- A pregunta ou problema xeral que desexas resolver.
+- As túas hipóteses sobre a cuestión.
+ 
+### Sección 2 - Descrición dos datos
+
+Nesta sección, describirás o conxunto de datos que vas usar. Isto inclúe
+
+- Descrición das observacións no conxunto de datos, variables, librerías etc.,
+- Descrición de como se procederá orixinalmente á realización da simulación, a interface e os usuarios ña que vai dirixida.
+ 
+### Sección 3 - Enfoque da análise
+
+Nesta sección, proporcionarás unha breve visión xeral do teu enfoque de análise da simulación. Isto inclúe:
+
+- Descrición da variables de resposta.
+- Estatísticas de visualización gráfica e nmérica das variable de resposta.
+- Lista de variables que vas a consideradar na simulación.
+- Técnica de modelado numérico (regresión lineal múltiple, ODE,etc.).
+
+### Dicionario de datos (enunciado de variables principais)
+
+- Inclúe un dicionario de datos para todas as variables do conxunto de datos da simulación.
+- Crea un ficheiro "Readme" do teu proxecto en texto plano no cartafol principal.
+
+### Envío
+
+Mete todos os teus ficheiros finais nda proposta e entrégaos nun ficheiro zip, ou creao un repositorio ou disco compartido (por exemplo GitHub ou OneDrive) e envía o PDF da súa proposta ca ligazón ó repositorio.
+
+### Cualficación das propostas
+
+|Total |100 ptos |
+| ---------------------- | -------- |
+| Introdución | 30 ptos |
+| Descrición dos datos | 20 ptos |
+| Enfoque da análise | 40 ptos |
+| Dicionario de datos | 10 pts |
+
+Cada compoñente cualificarase do seguinte xeito:
+
+- Cumpre as expectativas (crédito completo): Todos os elementos necesarios están completados e son precisos. A narración está escrita con claridade, todas as táboas e visualizacións están ben formatadas e o traballo sería presenta nun look profesional.
+- Cerca das expectativas (crédito medio): Hai algúns elementos que faltan e/ou imprecisos. Hai algúns problemas co formato.
+- Non cumpre as expectativas (sen crédito): Faltan os elementos principais. O traballo non está perfectamente formateado e non presentaría nun look profesional.
+
+## Borrador de informe {#draft-report}
+
+O propósito do borrador é darche a oportunidade de obter comentarios anticipados sobre a túa simulación. Polo tanto, o borrador e centraranse principalmente nunha análise exploratoria da simulación, modelado de datos e interpretacións iniciais do obxectivo.
+
+Escribe o borrador no ficheiro **informe-escrito** no repo do seu proxecto ou engrégao en **MOOVI**.
+
+A continuación móstrase unha breve descrición das seccións para centrarse no borrador:
+
+### Introdución e datos
+
+Esta sección inclúe unha introdución á motivación da simulación, datos implicado e obxecto d mesma. Describe os datos e definicións de variables clave. Tamén debe incluír algunha análise exploratorios do proceso.
+
+### Metodoloxía
+
+Esta sección inclúe unha breve descrición do seu proceso de modelado. 
+
+- Explica o razoamento do tipo de modelo que estás encaixando, as variables de predición consideradas para o modelo incluíndo calquera interacción.   
+- Amosa como chegas ós requeriments finais que lle pos á túa simulación, describindo o proceso de selección de modelos,   calquera transformacións variables (se é necesario) e calquera outra consideración relevante que formaron parte ds mesma.  
+- Explica tamén a linguaxe de programacion que vas a usa e cáles son as rzóns da túa elección.  
+
+### Resultados
+
+Nesta sección, presenta os resultados que se poidan tirar da simulación e inclúe unha breve discusión sobre os aspectos mais relevantes que ti considreres.
+
+Esta sección tamén inclúe interpretacións iniciais e conclusións extraídas do modelo así como a interfaces que vas a presentar ó usuario.
+
+## Informe escrito {#written-report}
+
+O teu informe escrito debe completarse no ficheiro `informe-escrito` e debe estar en formato `pdf` ou `odt`. Antes de finalizar a súa escritura, asegúrese de que a impresión de anacos de código está desactivada e o códiga resaltado, ben indicado.
+
+- O PDF que envíes debe coincidir cos ficheiros de entrega (repositorio GitHub, ficheiro `.zip` ou disco compartido) *exactamente*.  
+- Os compoñentes obrigatorios do informe están numeradas mais adiante no texto, inda que eres libre de engadir seccións adicionais segundo sexa necesario.
+  - O informe, incluídas as visualizacións, debería ser **non máis de 10 páxinas de longo**.
+  - Non hai requerimento dun número mínimo de páxina, non obstante, debes abordar de xeito exhaustivo toda a análise e informe.  
+- Se selectivo no que inclúe na súa redacción final. O obxectivo é escribir unha narración cohesionada que demostre unha análise completa e completa en vez de explicar cada paso da análise.
+- Será valorada a inclusión dun **apéndice** con traballo adicional ao final do documento de informe escrito, non obstante, a cualificación basearase en gran medida no contido do corpo principal do informe.
+  - Debes asumir que o material do apéndice non se consultará a menos que o solicite no corpo principal de texto do informe.  
+  - O apéndice debe estar formateado e ser fácil de navegar por el. 
+  - Non está incluído no límite de 10 páxinas.
+
+O informe escrito vale 40 puntos, descomprimido do seguinte xeito:
+
+|Total |100 ptos |
+| ------------------------------- | -------- |
+| Introdución | 10 ptos  |
+| Metodoloxía | 25 ptos |
+| Resultados  | 15 pts  |
+| Discusión + Descrición + Conclusións | 20 ptos |
+| Organización + Formato + Interface | 20 ptos |
+
+[Rúbrica](rubrica.qmd") para obter un PDF descritivo da rúbrica da avaliación do proxecto.
+
+### Introdución e datos
+
+Esta sección inclúe unha introdución dos datos que manipulas na simulación.
+
+- Describe os datos e definicións de variables clave.
+- Tamén debe incluír algunha análise exploratoria de datos (valores guess, por exemplo).
+- Algunhas outras deas sobre as variables e relacións interesantes na simulación.
+  
+#### Criterio de avaliación
+
+- O  obxectivo da simulación debe están claramente indicado na introdución, incluíndo a bibliografía consultada, as fontes de datos e calquera investigación externa.
+- Descrebe claramente os datos, incluída unha descrición sobre como se recollían orixinalmente os datos e unha definición concisa das variables relevantes para comprender os resultados da simulación.
+- Descrebe tamén o proceso de "limpeza de datos", incluíndo as decisións tomadas no proceso (por exemplo, creando novas variables, eliminando observacións, consideranto variables constantes nun intervalo etc.) A análise de datos explicativa axuda ao lector a comprender mellor as observacións nos datos xunto con relacións interesantes e relevantes entre ovariables.
+- Incorpora tantas gráficas como consideres oprtuno.
+- No caso de incluir unha interface, descrebe a sús funcioinalidades.
+  
+### Metodoloxía
+
+Esta sección inclúe unha breve descrición do teu proceso de modelado.
+
+- Explica razoadamente o tipo de modelo que estás usando, as variables que consideras e as súas interaccións.
+- Descrebe como chegas ó modelo final: proceso de selección de modelos, as interaccións consideradas, as transformacións de variables (se é necesario), a avaliación de condicións e diagnósticos e calquera outra consideración relevante que formaron parte do proceso de montaxe da simulación.
+
+#### Criterios de avaliación
+
+En xeral, se che terán en conta os seguintes conceptos para a acaliación do proxecto (inda que mais adiante podes ver a rúbrica).
+- Os pasos de análise son apropiados para a simulación.
+- O enfoque é minucioso e coidadoso para seleccionar o modelo final.
+- O enfoque descríbese claramente no informe.
+- O proceso de selección de modelos tivo en conta os potenciais efectos de interacción e abordou calquera violación nas condicións do modelo.
+- As condicións do modelo e os diagnósticos son avaliadas a fondo e con precisión para a utilidade da simulación
+
+### Resultados
+
+Aquí é onde debes de valorizar a túa simulación.
+
+- Describe os resultados clave da simulación.
+- O obxectivo non é interpretar todas as variables, senón demostrar que és competente no uso da saídas da simulación para explicar as súas funcionalidades, empregando as interpretacións para apoiar as túas conclusións.
+- Concéntrate nas variables claves da simulación, e en todo aquelo que proporcione un contexto relevante para o usuario da mesma.
+
+#### Criterios de avaliación
+
+- O modelo usad axústase ós requerimentos da simulación e é describe claramente os resultados.  
+- As interpretacións dos resultados úsanse para demostrar ou facilitar o tema obxecto da siuacionapoiar, as conclusións clave, en lugar de simplemente enumerar a interpretación de todos os coeficientes do moesmo.  
+- Se o principal obxectivo de modelado é a predición ou o cálculo, avalíase a fondo o poder predictivo do modelo ou a presicisón do cálculo.
+
+### Discussion + Conclusion
+
+- Nesta sección incluirás un resumo do que aprendiches facenso a túa simulación, xunto con argumentos estatísticos que apoien as túas conclusións.
+- Ademais, discute as limitacións da memsa e proporciona suxestións sobre formas de mellorala.
+- Tamén se deben discutir calquera problema potencial relacionado coa fiabilidade e validez dos resultados ue se poidan extraer da mesma.
+- Por último, esta sección incluirá ideas para o traballo futuro.
+
+#### Criterios de avaliación 
+
+- Descríbe claramente a funcionalidade da túa simulación. Análiza os resultados do modelo que propós no contexto máis amplo do tema e da cuestión de investigación orixinal.
+- Fai unha consideración reflexiva das posibles limitacións dos datos e/ou análises, e as ideas para o traballo futuro.
+- Explica a utilidade do teu modelo (simulación, dimensionamento de equipos, docencia...) e valora a súa aplicación e ralci´on directa ca materia.
+  
+### Organización e formato
+
+A continuación se describe información sobre a avaliación e o formato do informe escrito.
+
+#### Criterios de avaliación
+
+- O informe debe estar ordeado e organizado coas correspondentes cabeceiras das seccións e figuras de tamaño axecuado coas correspondentes textos informativos. 
+- Os resultados numéricos denrán estar formatados cun número razoable de díxitos e todas as gráficas tamén, con título, títulos de eixos, lenfas de datos, e demais.
+- Todas as citas e ligazóns deben estár correctamente formatadas.
+- Se hai un apéndice que resuma todos os datos, mellor. debe estar razoablemente organizado e ser fácil de ler útil para atopar información relevante.
+- No código de programa debes suprimír avisos, códigos de erro e mensaxes.
+O corpo principal do informe escrito (sen incluír o apéndice) non é superior a 10 páxinas.
+
+## Video presentation + slides {#video-presentation-slides}
+
+### Diapositivas
+
+- Ademais do informe escrito, o debes creará diapositivas de presentación e grabar unha presentación de vídeo que resuma e mostrará o teu proxecto. Poderemos pedirche que a expoñas na aula.
+- Fai unha introdución da túa simulación, conxunto de datos, representacións gráficas, utilidade, e discute as conclusións pricipais do teu traballo.
+- Estas diapositivas deben servir como un breve complemento visual ó teu informe escrito e terán un certo peso na nota final do proxecto.
+- Para a subir a presentación, converte estas diapositivas a un documento .pdf oy .html e entrégao en **MOOVI**. 
+- A presentación de diapositivas non debe ter máis de 10 diapositivas de contido + 1 diapositiva de título.
+- Aquí tes unha suxestión, a modo de esquema, de como deben ser as diapositivas:
+
+Diapositiva do título
+Diapositiva 1: Introducir o tema e a motivación
+Diapositiva 2: Marco teórico
+Diapositiva 3: Modelo lóxico
+Diapositiva 4: Modelo matemático
+Diapositiva 5: Ferramentas de software 
+Diapositiva 6: Interface de usuario ou variables axustables
+Diapositiva 7: Exemplo de uso
+Diapositiva 8: Discusión dos aspectos reevantes
+Diapositiva 9: Conclusións +
+Diapositiva 10: traballo futuro (melloras)
+
+### Presentación en Vídeo 
+
+- Para a presentación de vídeo, podes falar sobre as túas de diapositivas, como nas conferencias.
+- A presentación de vídeo non debe ser superior a 5 minutos.
+- Podes usar pode usar calquera plataforma dee soporte de vídeo ou subir a grabación en formato mp4 ou mkv a **MOOVI**.
+- 
+A continuación móstranse algúns recursos na gravación de vídeos:
+- [Ferramentas de grabación de pantalla de balde:
+  - [Camstudio](https://sourceforge.net/projects/camstudio/)  
+  - [Simple Screen Recorder](https://www.maartenbaert.be/simplescreenrecorder/)  
+  - [OBS Studio]()https://obsproject.com/
+- [Apple QuickTime para a gravación de pantalla] (https://support.apple.com/en-gb/guide/quicktime-player/qtp97b08e666/mac)
+- [Funcionalidade de gravación de pantalla incorporada de Windows 10] (https://www.youtube.com/watch?v=ofpBr1mrduo)
+
+## Reproducibilidade + organización
+
+Todo o traballo escrito (con excepción das diapositivas de presentación) debe ser reproducible e o directorio compartido ou ficheiro `.zip` debería estar ben organizado. Debería ter a seguinte estrutura:
+
+- `README`: descrición curta do proxecto.  
+- `informe-escrito`: informe final escrito en formato `pdf` ou `odt`.  
+- Cartafol `Datos`: cartafol que contén o conxunto de datos para o proxecto final.
+- Cartafol `Preparación`: cartafol que contén os ficheiros `ideas` e `proposta-de-proxecto`.
+- Cartafol `Presentación`: cartafol coas diapositivas da presentación.
+    - Se as diapositivas de presentación están en liña, podes poñer unha ligazón ás diapositivas nun ficheiro `readme` no cartafol `Presentación`.
+- Cartadfol `Vídeo`: cartafol co vídeo.
+  - Se o vídeo están en liña, podes poñer unha ligazón nun ficheiro `readme` no cartafol `Vídeo`. 
+- Os puntos para a **reproducibilidade e organización** estarán baseados na reproducibilidade do informe escrito e na organización do ficheiro ou disco de entrega.
+- O repo, disco ou `.zip` debe estar organizado perfectamente como se describe anteriormente, non debería haber ficheiros alleos, todo o texto no **README** debe ser facilmente lexible.
+
+::: {callout-note}
+A nosa recomendación é que crees un espazo de traballo en [Github](https://github.com), é de balde par auso persoal e podes aprender bastante en cano a gardar o teu traballo de xeito seguro e organizado, incluindo o control de versións, tan importante á hora de eleborar código.
+:::
+## Puntuación final
+
+A rúbrica de avaliación de do proxecto da asignatura é a seguinte:
+
+| Total                              | 100 pts |
+|------------------------------------|---------|
+| Ideas e orixinallidade             | 5 pts   |
+| Proposta de proxecto               | 10 pts  |
+| revisión bibliográfica             | 10 pts  |
+| Informe escrito                    | 40 pts  |
+| Diapositivas e preosentación       | 25 pts  |
+| Reproducibilidade e organización   | 5 pts   |
+| Vídeo                              | 5 pts   |
+
+::: {.callout-warning}
+Note: Non se aceptarán entregas fóra de prazo.
+:::
+
+### Resumo da avaliación
+
+A valoración final do proxecto terá en conta o seguinte:
+
+- Contido - Cal é a calidade da simulación e a relevancia dos cálculos?.
+- Corrección: Os procedementos matemáticos realízanse e explícanse correctamente?.
+- Escritura e presentación: A calidade da presentación estatística, a escritura e as explicacións son boas?.
+- Creatividade e pensamento crítico: Está ben pensada e é útila?. Ten limitacións importantes?.
+- Dedicación: O tempo e o esforzo encaixan na planificación de dedicación de traballo pèrsoal da guía docnete da materia?.
+
+Un desglose xeral da puntuación é o seguinte:
+
+- *90%-100%*: Esforzo intenso. O estudante entende como aplicar todos os conceptos teóricos e praćticos, pode poñer os resultados en valor, pode identificar debilidades do traballo e pode comunicar claramente os resultados.
+- *80%-89%*: Bo esforzo. O estudante entende a maioría dos conceptos teóricos, pode poñer a meirande parte dos resultados en valor, pode identificar as debilidades importantes do traballo e pode comunicar razoablemente os resultados.
+- *70%-79%*: Esforzo mediocre. O estudante ten unha incomprensión de conceptos teóricos en áreas, ten algúns problemas para argumentar os resultados, e a comunicación dos mesmos ás veces non está clara.
+- *60%-69%*: Esforzo insuficinte: O estudante fixo pouco esforzo, ten carencias na comprensión do modelo e é incapaz de xustificar a validez da súa simulación. A comunicación de resultados non está clara.
+- *por baixo do 60% *: o alumno non fixo un esforzo suficiente.
+
+### Política de entregas de última hora
+
+Salvo que medie algunha xustificación por razońs de forza maior, debidamente acreditada,**Non se aceptaránm entregas fora de prazo**. 

@@ -1,0 +1,18 @@
+---
+title: "Computing access"
+format: 
+  html:
+    page-layout: full
+---
+
+Para acceder a recursos informáticos para o uso de **python** do Departamento de Enxeñaría Química da Universidade de Vigo, diríxete ao [servidor de notebooks](https://eqea.uvigo.gal) e accede co te nome (o primeiro só) escrito en minúsculas e sin acento ningún. En caso de que non che permita o acceso o mais probable é que exista algún outro compañeiro co memso primeiro nome c cal debes engadir a inicial do primeioro apelido en maiúsculas (p.e. AnaL, AnaG, etc.).
+
+Se esta é a primeira vez que accedes debes introducir o contrasinal que quedará por defecto. Só tes que facelo unha vez e.
+
+Entrarás nunha instancia de [JupyterLab](https://jupyterlab.readthedocs.io/en/latest/), que che permite facer varias cousas, entre elas notebools de jupyter.
+
+Como alternativa podes usar [Google Collab](https://colab.research.google.com/#). As diferencias mais salientable entre Collab e EQEA son que no servidor do Departamenteo de Enxeñaría química están instaladas todas as  librerías python que se usan no curso, asi como o [Octave](https://octave.org/), que é o clon libre de [Matlab](https://es.mathworks.com/products/matlab.html). 
+
+As entregas deberalas facer a través de **MOOVI** xa que inda que quedan almacendas en **Collab** e **EQEA**, non se trasladan directamente ó teu curso de **MOOVI** para a súa avaliación.
+
+

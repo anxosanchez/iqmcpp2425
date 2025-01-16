@@ -1,0 +1,32 @@
+---
+title: "FAQ"
+---
+
+## Cómo teño que subir as miñas tarefas a [MOOVI](https://moovi.uvigo.gal)?
+
+En xeral, os ficheiros de cada asignación, entregable, etc. se suben á plataforma directamente a unha tarefa patada no tempo pero que non caduca (pódese entregar fora de prazo, inda que penzaliza a puntuación). 
+
+En casos específicos se indicará algún outro xeito de facelo, Non obsrante, ante calquera dúbida ou malfunciń dos programas, podes entregalos por correo electrónico a (asanchez@uvigo.gal), ou no Despacho 205 da EEI sede cidade (2ª pranta).
+
+É conviente, inda que opcional, que separes o que é o código de solución (.py, .ipynb, .xlsx, etc.) do texto explicativo que pide a rúbrica de cada item da avaliación continua que pode estar en formato text, pdf, wordx, etc., ten en conta que por cada asignación p´dense subir ata 10 ficheiros.
+
+## Qué programas podo usar para resolver os casos?
+
+
+Salvo que se espeficique, podes resolver o que se che pide en calquera linguaxe de programación pero se recomenda que o fagas en **matlab**, **python** ou **follas de cálculo** para axilizar a corrección.
+
+## Teño que ter instalado algún programa ou podo usar os que me proporciona a Universidade?
+
+Podes usar, nas horas asignadas, os ordenadores das aula informáticas da Universidade. Non obstante e, co fin de poder facer parte do traballos que confrman a avaliaión continua, sería conviente que fixeras instalación no teu computador persoal de:
+
+- Python ou matlab
+- Folla de cálculo
+- Simulador de procesos (DWSIM, HYSYS, ASPENPLUS, COCO, CHEMSEP, etc.). 
+
+Aqueles programas que estean licinciados á Universidade de Vigo que queiras instalar, deberás comunicalo ó profesorado da materia, non asi os que sexan de libre distribución ou demos.
+
+## Qué programas se me recomenda instalar no meu computador?
+
+Unha dotación básica sería:
+- Folla de cálculo (Excel ou Libreoffice Calc)
+- Unha linguaxe de programación: (Matlab ou Python). No caso de Python unha distribución fácilmente usable como [Miniconda](https://www.anaconda.com), [Winpython](https://winpython.github.io) ou [Thonny](https://www.thonny.org)

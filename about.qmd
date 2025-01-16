@@ -1,0 +1,37 @@
+---
+title: "About me"
+about:
+  template: jolla
+  image: Anxo.jpg
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com
+    - icon: github
+      text: Github
+      href: https://github.com
+    - icon: youtube
+      text: Youtube
+      href: https://www.youtube.com/@anxosanchez6428/featured
+---
+
+
+
+Anxo Sánchez: Son Catedrático de Universidade do Departamento de Enxeñaría Química da **Universidade de Vigo**. 
+
+## Educación
+
+Universidade de Vigo:
+- Escola de Enxeñaría Industriais:
+    - Campus Universitario Lagoas-Marcosende, 9 36310 Vigo (SPAIN)
+- Escola de Enxeñar´ia Forestal
+    - Campus Universitario Pontevedra
+
+## Investigación
+
+Áreas de traballo:
+- Enerxía da biomasa
+- TEcnoloxías do Hidr´xeno e as Pilas de combustible
+- Deseño de Procesos e Prodtos Químicos Sustentables, en especial 
+    - Disolventes verdes
+    - Biocombustibles

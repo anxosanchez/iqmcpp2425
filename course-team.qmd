@@ -1,0 +1,22 @@
+---
+title: "Teaching team"
+format: 
+  html:
+    page-layout: full
+---
+
+## Profesor
+
+![](./imaxes/Anxo.jpg){style="float:right;padding: 0 0 0 10px;" fig-alt="Anxo Sánchez Bermúdez" width="200"}
+
+[**Anxo Sánchez**](http://webs.uvigo.gal/asanchez) é Professor e Coordinador da materia dende o Curso 2017-1028.
+
+Na actualidade é u único Profesor encargado da mesma.
+
+| Horario de titorías presenciais      | Despacho 205 da EEI, Sede Cidade                                                                                          |
+|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
+| Mércores 09:00 - 12:00               |                                                                                                                           |
+| Xoves    11:00 - 14:00               |                                                                                                                           |
+
+En calqueira outra ocadssión debes axendar unha titoría na [páxina de booking](<a href='https://outlook.office365.com/owa/calendar/AxendadeAnxoSnchez@universidadevigo.onmicrosoft.com/bookings/'>Schedule online</a>)
+

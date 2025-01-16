@@ -1,0 +1,33 @@
+---
+title: "SOPQ-2324: Simulación e Optimización de Procesos Químicos"
+format: 
+  html:
+    page-layout: full
+---
+DATOS IDENTIFICATIVOS	2023_24
+Materia	Simulación e optimización de procesos químicos	Código	V12G350V01702
+Titulación	
+Grao en Enxeñaría en Química Industrial
+Descritores	Cr.totais	Sinale	Curso	Cuadrimestre
+6	OB	4	1c
+Lingua de impartición	
+Galego
+Inglés
+Prerrequisitos	
+Departamento	
+Coordinador/a	
+Sánchez Bermúdez, Ángel Manuel
+Correo-e	asanchez@uvigo.gal
+Profesorado	
+Sánchez Bermúdez, Ángel Manuel
+Web	http://http://eqea.uvigo.es
+Descrición xeral	Asignatura obrigatoria que se imparten no 7º cuadrimestre do Grao en Química Industrial, unha vez que o alumno estudou as materias nas que deben demostrar os coñecementos necesarios sobre:
+- Métodos numéricos empregados na enxeñaría química.
+- Deseño de reactores químicos.
+- Deseño de equipos para operacións de separación.
+- Deseño de equipos de transferencia de calor empregados en procesos químicos.
+- Control e seguridade dos procesos químicos.
+
+Esta materia impártese no último ano. O alumno accede despois de adquirir e desenvolver habilidades para xestionar facilmente as ferramentas informáticas da informática dixital, nas que o uso seguirá funcionando e afondar.
+
+![](./imaxes/50228974867_a810331216_o.png){fig-alt="" width="800"}

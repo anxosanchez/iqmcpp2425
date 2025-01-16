@@ -1,0 +1,79 @@
+---
+title: "Consellos sobre o proxecto e recursos"
+---
+
+## Fontes de información
+
+### Algúns recursos que poden ser útiles para que atopes ideas:
+
+-   [Learcheme](https://rfun.library.duke.edu/blog/data-sources-for-regression-analysis/)
+Podes atopar en este repositorio:
+
+- **Screencasts**: capturas de pantalla curta dun PC tableta con narración. Inclúen exemplos e solucións de problemas, explicacións de conceptos, tutoriales de software, introdución a temas, descricións do diagrama e críticas.
+- **Módulos interactivos de auto-estudo**: inclúindo introducións, exames de conceptos básicos, presentacións, ecuacións importantes, simulacións interactivas, simulacións de autoavaliación, reolución interactiva de problemas en pantalla e puntos clave da Enxeñaría Química.
+- 
+(https://nptel.ac.in/courses/103105106)
+
+-   [FiveThirtyEight data](https://data.fivethirtyeight.com/)
+-   [TidyTuesday](https://github.com/rfordatascience/tidytuesday)
+
+
+## Consellos
+
+- **Titorías** Fai preguntas se algunha das expectativas non está clara.
+- **Código:** Na túa escritura o teu código debería estar oculto para que o documento sexa ordenado e fácil de ler. Non obstante, o teu documento debería incluír todo o teu código de xeito que se volva a colocar o ficheiro QMD, debería poder obter os resultados que presentaches.
+- **Excepción:** Se queres resaltar algo específico sobre un anaco de código, podes amosar esa parte.
+
+## Formato e presentando os proxecto
+
+### suprime o código, as advertencias e as mensaxes
+
+- Inclúe o seguinte código nun pedazo de código na parte superior do seu ficheiro .qmd para suprimir todo o código, avisos e outras mensaxes.  
+
+### Cabeceiras
+
+- Use cabeceiras para etiquetar claramente cada sección.
+- Inspeccione o esquema do documento para revisar as cabeceiras e os sub-cabeceiros.
+
+### Referencias
+
+- Inclúe todas as referencias bibliográficas e web nunha sección chamada **Referencias** ao final do informe.
+- Este curso non ten requisitos específicos para formatar citas e referencias.
+
+### Apéndice
+
+- Se tes un traballo adicional que non encaixa ou non pertence ao corpo do informe, pode poñelo ao final do documento na sección chamada **Apéndice**.
+- Os elementos do apéndice deben estar etiquetados correctamente.
+- O apéndice só debe ser para material adicional.O lector debería poder comprender completamente o seu informe sen ver o contido no apéndice.
+
+### Redimensionar as cifras
+
+Redimensionar as parcelas e as figuras, polo que tes máis espazo para a narración.
+
+## Esmérate na presentación dos gráficos.
+
+- Use títulos informativos, non nomes de variables, para títulos e etiquetas do eixe.  
+- Título informativo e etiquetas do eixe  
+- Que os nomes sexan lexibles  
+- Nomes capitalizados  
+- Opcional:  
+  - Usa un esquema de cores coordinado en todo o documento ou presentación.  
+  - Aplicado un tema, usa o mesmo tema en todo o documento ou presentación.  
+
+### Directrices para comunicar resultados
+
+- **Non use nomes variables na túa narración:** usa termos descritivos, polo que o lector entende a súa narración sen depender do dicionario de datos.  
+- **Coñece a túa audiencia:** O teu traballo debería estar escrito para un público xeral pero que comprenda as simulacións os conceptos principais da enxeñaría química.  
+- ** Evite a xerga de temas: ** Non supoña que a audiencia coñeza toda a terminoloxía específica relacionada coa súa materia.  
+Se debes usar a xerga, inclúe unha breve definición a primeira vez que introduce un termo.  
+- ** Diga o "Entón": ** O seu informe e presentación debería ser máis que unha lista de interpretacións e definicións técnicas.
+Concéntrate no que significan os resultados, é dicir, o que queres que a audiencia saiba sobre o teu tema despois de ler o teu informe ou ver a túa presentación.  
+- ** Conta unha historia: ** Todas as visualizacións, táboas, saída do modelo e narrativa deberían contar unha historia cohesionada.  
+
+## Recursos adicionais-   
+- [Jup]yter Notebook](https://docs.jupyter.org/en/latest/)
+  
+- Visualización de datos
+  - [Matplotlib](https://matplotlib.org/stable/gallery/index)
+  - [Plotly](https://plotly.com/python/)
+  - [Guía de visualización de datos](https://www.tableau.com/es-mx/learn/articles/data-visualization)

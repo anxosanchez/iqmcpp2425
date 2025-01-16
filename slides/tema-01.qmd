@@ -1,0 +1,588 @@
+---
+title: "Modelización e simulación de procesos químicos"
+author: "A. Sánchez"
+format:
+  revealjs:
+    transition: slide
+    background-transition: fade
+    height: 748
+    width: 1024
+---
+
+## Introdución ó modelado e a simulación: contidos
+
+- Modelado de sistemas físicos  
+- Simulación estacionaria  
+- Simulación dinámica  
+- Sistemas de parámetros distribuidos  
+- sistemas híbridos  
+
+## Qué é un sistema.
+
+-- Según (B. Ziegler) : _“Un sistema é unha fonte potencial de datos”_
+- É un conxunto de compoñentes, pezas ou obxectos, que interactúan entre si dentro dos límites para producir un determinado patrón de comportamento
+- “A system is defined by its boundary”
+Según (B. Gaines) : _“Un sistema é o que se distingue como sistema"_
+
+A definición completa de sistema mediante o seu contorno implica ter en conta:
+- As especificación da fronteira   
+- Os canais do contorno a través dos cuais o sistema interacciona co entorno (entradas e saídas)    
+- A estructura interna e o comportamento do sistema    
+
+## O sistema e o seu entorno
+
+Tipos de variables  
+- Entrada: denota o efecto do entorno sobre o proceso  
+- Manipuladas: o seus valores pódense axustar libremente por un operador ou unha acción de control  
+- Perturbacións: os seus valores non son axustables  
+- Saída: denota o efecto do proceso sobre o entorno  
+- Medidas: os seus valores son coñecidos polos sistemas de medida  
+- Nom medidas: os seus valores non se poden medir de forma directa  
+- Internas: Son variables propias do sistema  
+- De estado: definen o estado do sistema e necesitan coñecer a
+historia do mesmo para ser definidas. É o conxunto mínimo de
+variables internas que define o estado do sistema.
+
+## Tipos de sistemas (relacións co entorno)
+
+- Aillado: non intercambia nin materia nin enerxía co entorno  
+  - Reactor batch adiabático  
+- Pechado: non intercambia materia pero sí enerxía coentorno
+  - Reactor batch no adiabático    
+- Aberto: intercambia materia e enerxía co entorno  
+  - Reactor CSTR
+
+## Modeloss
+
+
+## Multiscale
+
+## modeling
+
+## Model reduction
+
+## Minimal models
+
+## Model nature
+
+## Functional models
+
+## Logical models
+
+## Bioinspired models
+
+## Model assumptions Model use
+
+## Model implementation
+
+## Model languages Empirical models
+
+## Qualitative models
+
+## Modeling hierarchy Model integration
+
+## Goals in models
+
+
+## ! “I have been, and remain, entirely
+
+## committed to the idea that modeling is the
+
+## essence of science and the habitat of all
+
+## epistemology.”
+
+## - Robert Rosen, Essays on
+
+## Life Itself
+
+# why models
+
+
+##### MODELO ( M.Minsky ): Un modelo M para un sistema S y un experimento E,
+
+##### es cualquier cosa a la que se le puede aplicar E en orden a obtener respuestas
+
+##### a preguntas que hagamos sobre S.
+
+##### MODELO: Es una representación simplificada de un sistema y está formado
+
+##### por un conjunto de variables y por un conjunto de relaciones entre ellas.
+
+##### Con el se pretende mejorar nuestra habilidad de entender, explicar, cambiar,
+
+##### preservar, predecir y posiblemente controlar el comportamiento del sistema
+
+##### representado.
+
+##### MODELO: Actúa como el objeto real modelado en cuanto a la imitación
+
+##### de ciertas características, pero su uso evita experimentos reales que pueden
+
+##### ser caros, peligrosos, lentos o físicamente imposibles.
+
+# 2. Qué es un modelo. Tipos.
+
+
+#### Un modelo es:
+
+##### · La representación formal del sistema
+
+##### · Las suposiciones que definen el contexto en el que el
+
+##### modelo es aplicado.
+
+##### ¿Predice el modelo los aspectos del comportamiento del sistema que nos
+
+##### interesan con suficiente exactitud para nuestra aplicación?
+
+- El modelo sólo es válido en el contexto y bajo las suposiciones con las
+
+##### que ha sido desarrollado.
+
+- La extrapolación del modelo fuera del contexto es muy peligrosa.
+- Se debe verificar el modelo contra el sistema real siempre que sea posible.
+- Existen muchos modelos para un mismo sistema, cada uno representa una
+
+##### vista diferente del sistema. Es importante seleccionar un buen nivel de abstracción.
+
+
+### CLASIFICACIÓN
+
+```
+F FÍSICOS : Caros, díficiles de construir y usar.!
+Estáticos : Maquetas,..!
+Dinámicos :!
+-Analógicos: Circuitos eléctricos!
+-Prototipos: Plantas piloto!
+!
+F MENTALES : Heurísticos, intuitivos.!
+Son imprecisos y de difícil comunicación!
+!
+ MATEMÁTICOS : (Cuantitativos):!
+Estáticos : No se considera la variable tiempo.!
+Dinámicos : El tiempo es una variable del sistema.!
+-Analíticos!
+-Numéricos!
+!
+F SIMBÓLICOS :!
+Lingüísiticos : Decripción de hechos!
+Cualitativos!
+Basados en reglas .!
+```
+
+```
+Estático vs. Dinámico: Transitorios
+```
+```
+Agrupados vs. Distribuidos: Descripción espacial
+```
+```
+Determinísticos vs. Estocásticos: Aleatoriedad
+```
+```
+Contínuos vs. Discretos: Muestreos o eventos
+```
+```
+Lineal vs. No lineal: Comportamiento cualitativo
+```
+```
+Caja Negra vs. Espacio de Estados: Comportamiento interno
+```
+```
+Tiempo vs. Frecuencia: Escala de tiempo
+```
+### MODELOS MATEMÁTICOS (CUANTITATIVOS)
+
+```
+Traslación de las relaciones entre variables físicas a estructuras matemáticas.
+```
+
+```
+Estático vs. Dinámico: Transitorios
+```
+```
+Agrupados vs. Distribuidos: Descripción espacial
+```
+```
+Determinísticos vs. Estocásticos: Ruido
+```
+```
+Contínuos vs. Discretos: Muestreos o eventos
+```
+```
+Lineal vs. No lineal: Comportamiento cualitativo
+```
+```
+Caja Negra vs. Espacio de Estados: Comportamiento interno
+```
+```
+Tiempo vs. Frecuencia: Escala de tiempo
+```
+### MODELOS MATEMÁTICOS (CUANTITATIVOS)
+
+```
+Traslación de las relaciones entre variables físicas a estructuras matemáticas.
+```
+
+```
+Estático Dinámico
+```
+```
+Agrupados AE ODE
+Distribuidos PDE Eliptica PDE Parabólica
+```
+```
+Determinísticos NLAE ODEs/PDE
+Estocásticos AE y DE ODEs estocásticas y DE
+```
+```
+Contínuos AE ODE
+Discretos DE DE
+```
+```
+Lineal LAE LODE
+No lineal NLAE NLODE
+```
+### MODELOS MATEMÁTICOS (CUANTITATIVOS)
+
+```
+Ecuaciones que resultan de los diferentes modelos:
+```
+```
+AE: Ecuaciones algebraicas. LAE: AEs lineales. NLAE: AEs no lineales.
+ODE: Ecuaciones diferenciales ordinarias. LODE: ODEs lineales.
+NLODE: ODES no lineales.
+DE: Ecuaciones en diferencias.
+PDE: Ecuaciones en derivadas parciales.
+```
+
+#### Estático vs. dinámico
+
+#### Modelo estático:
+
+#### Relaciona las variables en un
+
+#### estado de equilibrio
+
+#### Modelo dinámico:
+
+#### Relaciona las variables a
+
+#### lo largo del tiempo
+
+```
+tiempo
+```
+```
+variable
+```
+
+#### Agrupado vs. distribuido
+
+#### Agrupado: Considera que todas
+
+#### las fuerzas están aplicadas en el
+
+#### centro de gravedad y que el
+
+#### sistema se puede “reducir” a dicho
+
+#### punto. No se considera el espacio.
+
+#### Distribuido: Se considera el
+
+#### espacio y por tanto el sistema hay
+
+#### que analizarlo descomponiendolo
+
+#### en elementos. Está distribuido en
+
+#### el espacio.
+
+
+#### Caja negra vs. espacio de estados
+
+#### Caja Negra: El modelo se ha
+
+#### hallado mediante identificación a
+
+#### través de unos datos empíricos. No
+
+#### se conoce el porqué.
+
+#### Espacio de estados: El modelo
+
+#### está basado en un conocimiento
+
+#### del sistema, en leyes físicas y
+
+#### químicas que rigen su
+
+#### comportamiento..
+
+
+```
+22
+System (S)
+```
+```
+Model (M)
+```
+```
+inputs
+```
+```
+inputs
+```
+```
+outputs
+```
+```
+outputs
+```
+```
+u y
+```
+```
+i o
+```
+```
+simplification
+```
+```
+y=S[u]
+```
+```
+x
+```
+```
+ms,p x
+```
+```
+Model (M)
+inputs outputs
+```
+```
+i o
+ms,p x
+```
+```
+Model (M)
+inputs outputs (desired)
+```
+```
+i o
+msp x
+```
+```
+Model (M)
+inputs outputs (measured)
+```
+```
+i o
+ms p x
+```
+```
+Model (M)
+inputs outputs
+```
+```
+i o
+ms,p x
+```
+```
+Model (M)
+inputs outputs (measured)
+```
+```
+i o
+ms p x
+```
+```
+Model (M)
+inputs outputs
+```
+```
+i o
+ms,p x
+```
+```
+Simulation (prediction)
+```
+```
+dynamic
+steady state
+```
+```
+Design specification
+```
+```
+System identification
+```
+```
+Control (regulation) problem. Inverse simulation
+```
+```
+fault detection and diagnosis
+```
+```
+Optimization
+```
+```
+DATA
+```
+```
+RESULT
+```
+```
+!"#
+$%&#''()*
+*%+'
+```
+```
+ms: model structure
+p: model parameters
+x: states
+```
+```
+x: states
+```
+```
+*%+',-./01
+```
+```
++ objective function
+```
+###### MODOS DE OPERACIÓN
+
+###### DE UN MODELO
+
+
+###### QUÉ DEBE TENER UN BUEN MODELO
+
+###### PRECISIÓN
+
+```
+Ni mucha ni poca
+Cuantitativa y cualitativa
+```
+###### VALIDEZ
+
+```
+Rango de validez
+Condiciones de operación
+Condiciones transitorias
+Propiedades internas
+```
+###### COMPLEJIDAD
+
+```
+Simple (macroscópico)
+Detallado (microscópico)
+```
+
+###### ESPECTRO DEL MODELADO Y LA SIMULACIÓN
+
+
+# 3. Qué es la simulación. Fases y tipos
+
+##### DEFINICIÓN: (g.Korn) : “Una simulación es un experimento realizado
+
+##### sobre un modelo.”
+
+##### DEFINICIÓN: Es la representación de un sistema que intenta
+
+##### mantener las mismas características que el
+
+##### objeto simulado, descrito por el modelo.
+
+##### DEFINICIÓN: Es la técnica de construir y ejecutar un modelo
+
+##### de un sistema real con el fin de estudiar su
+
+##### comportamiento sin intervenir en el ambiente
+
+##### del sistema real.
+
+
+##### FASES EN LA SIMULACIÓN
+
+
+##### TIPOS DE SIMULADORES
+
+**Régimen** :
+
+_Estáticos_ (régimen permanente o estacionario)
+
+_Dinámicos_ (regimen transitorio)
+
+**Arquitectura** :
+
+_Secuenciales-modulares_
+
+_Orientados a ecuaciones_
+
+_Modulares simultáneos_
+
+
+##### USO DE LOS SIMULADORES ESTÁTICOS.!
+
+###### !
+
+##### ! Resolución rigurosa de las ecuaciones de balance de materia y
+
+##### energía para el conjunto de operaciones unitarias de un proceso
+
+##### continuo.
+
+##### ! Proporciona datos para el dimensionamiento de equipos
+
+##### ! Reducción de la inversión por diseño más ajustado
+
+##### ! Mejora de la calidad
+
+##### ! Menos ensayos en planta piloto: Ahorro de tiempo y dinero
+
+##### ! Eliminación de cálculos repetitivos y errores
+
+##### ! Ensayo sin riesgo de nuevas ideas de operación
+
+##### ! Mejor entendimiento del proceso
+
+##### ! Escalado de procesos
+
+##### ! Operación fuera de diseño
+
+##### ! Optimización de planta y diseño
+
+##### ! Cuellos de botella, revamping, mejora en la producción
+
+
+##### USO DE SIMULADORES DINÁMICOS
+
+##### Operación :
+
+##### ! Respuesta de procesos continuos ante perturbaciones
+
+##### ! Ajuste de controladores
+
+##### ! Maniobras y desviaciones anormales en el proceso, para
+
+##### estudios de seguridad y de emisiones
+
+##### ! Análisis de operabilidad y riesgo
+
+##### ! Validación de procedimientos de emergencia
+
+##### ! Entrenamiento de operadores
+
+##### Diseño :
+
+##### ! Sistema de control y controlabilidad
+
+##### ! Procedimeintos de puesta en marcha y parada
+
+##### ! Procesos discontinuos
+
+

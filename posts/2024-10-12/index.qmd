@@ -1,0 +1,170 @@
+---
+title: "Cálculo da constante de eqilibrio e as concentracións mediante a minimizaci´lln da enerxía libre de Gibbs"
+format: html
+autor: "Anxo Sánchez"
+lang: es
+---
+
+Calcular as composicións no equilibrio a 1000 K e 1 bar para a reacción de intercambio gas auga (WGS) para unha limentación equimolar de CO e H<sub>2</sub>O usando:
+- a minimización da enexía libre de Gibbs
+- o grao de avance da reacción.
+
+Para o cálculo das funcióons termodimmámicas usa os **polinomios de Shomate**.
+
+Consultado a base de datos do Nist temos os valores eequiridos para resolver o problema. 
+
+CO  
+$\Delta H_{f,gas}^o$	= -110.53 kJ·mol<sup>-1</sup>  
+$S^o$_{gas}$ = 197.66 J·mol<sup>-1</sup>·K<sup>-1</sup>  
+CO<sub>2</sub>    
+$\Delta H_{f,gas}^o$	= -393.51 kJ·mol<sup>-1</sup>  
+$S^o$_{gas}$ = 213.79 J·mol<sup>-1</sup>·K<sup>-1</sup>  	
+H<sub>2</sub>  
+$S^o$_{gas}$ = 130.68 J·mol<sup>-1</sup>·K<sup>-1</sup>	 
+H<sub>2</sub>O  
+$\Delta H_{f,gas}^o$ = -241.83k J·mol<sup>-1</sup>  
+$S^o$_{gas}$ = 188.84 J·mol<sup>-1</sup>·K<sup>-1</sup>
+  
+Recordamos as as ecuación de Shomate baseadas en 8 termos A, B, C, D, E, F, G, H, que permiten calcular varios parámetros termodinámicos:
+  
+$$
+\beg]in{align*}
+C^o_p & = & A + B t + C t^2 + D t^3 + \frac{E}{t^2} \\
+H^o − H°_{298.15} & = & At + B \frac{B}{\frac {t^2} {2}} + C \frac{C}{\frac {t^3} {3}} + D \frac{D}{\frac {t^4} {4}} − \frac{E}{t^2} + F − H
+S^o = A \ln(t) + B t + C \frac{t^2}{2} + D \frac{t^3}{3} − \frac{E}{2t^2} + G
+\end{align*}
+$$
+  
+onde:  
+- Cp = capacidade calorífica (J/mol*K).  
+- H° = enthalpía estándar (kJ/mol).  
+- S° = enthalpía estándar (J/mol*K).  
+- t = temperatura (K) / 1000.
+
+Como a temperatura do problema é de 1000 K, tomaremos o primeiro conxunto de datos.
+
+| CO | CO2 | H2 | H2O |
+| ---------: | ---------: | ---------: | ---------: | 
+| A	| 25.56759 | 24.99735 | 33.066178 |  30.09200 |  
+| B	| 6.096130 | 55.18696 | -11.363417 | 6.832514 |  
+| C	| 4.054656 | -33.69137 | 11.432816 | 6.793435 |    
+| D	| -2.671301 | 7.948387 | -2.772874 | -2.534480 |   
+| E	| 0.131021 | -0.136638 | -0.158558 | 0.082139 |   
+| F	| -118.0089 | -403.6075 | -9.980797 | -250.8810 |  
+| G	| 227.3665 | 228.2431 | 172.707974 | 223.3967 |  
+| H	| -110.5271 | -393.5224 | 0.0 | -241.8264 |   
+
+# Solución
+
+- Primeriro teremos que definir as constantes e os datos do problema
+
+```{python}
+import numpy as np
+
+T = 1000  # K
+R = 8.314e-3 # kJ/mol/K
+
+P = 1.0 # bar, a presión total do sistema
+P0 = 1.0 # bar, presión do estado estándar
+
+especies = ['CO', 'CO2', 'H2', 'H2O']
+
+# Entalpías de formación at 298.15 K sacadas do NIST Webbook
+
+Hf298 = [
+    -110.53,  # CO
+    -241.826, # H2O
+    -393.51,  # CO2
+       0.0]   # H2
+
+# Parámetros das ecuacións de Shomate para cada especie
+#           A          B           C          D          E            F          G       H
+WB = [[25.56759,  6.096130,     4.054656,  -2.671301,  0.131021, -118.0089, 227.3665,   -110.5271],  # CO
+      [30.09200,  6.832514,     6.793435,  -2.534480,  0.082139, -250.8810, 223.3967,   -241.8264],  # H2O
+      [24.99735,  55.18696,   -33.69137,    7.948387, -0.136638, -403.6075, 228.2431,   -393.5224],  # CO2
+      [33.066178, -11.363417,  11.432816,  -2.772874, -0.158558, -9.980797, 172.707974,    0.0]]     # H2
+
+WB = np.array(WB)
+
+# Ecuacións de Shomate
+
+t = T/1000
+T_H = np.array([t,  t**2 / 2.0, t**3 / 3.0, t**4 / 4.0, -1.0 / t, 1.0, 0.0, -1.0])
+T_S = np.array([np.log(t), t,  t**2 / 2.0,  t**3 / 3.0, -1.0 / (2.0 * t**2), 0.0, 1.0, 0.0])
+
+H = np.dot(WB, T_H)        # (H - H_298.15) kJ/mol
+S = np.dot(WB, T_S/1000.0) # entropía absoluta kJ/mol/K
+
+Gio = Hf298 + H - T * S      # Gibbs energy of each component at 1000 K
+```
+
+Agora, construimos a función da enerxía libre de Gibbs, contabilizando o cambio na actividade debido aos cambios de concentración (mestura ideal).
+
+```{python}
+def func(ni):
+    ni = np.array(ni)
+    sumni = np.sum(ni)
+    Gi =  Gio / ( R * T ) + np.log( ni / sumni * P / P0 )
+    return np.dot(ni, Gi)
+```
+
+Impoñemos a restrición da conservación dos átomos desde as condicións iniciais ata a distribución no equilibrio das especies. Estas restricións teñen a forma de un sistema de ecuacións:
+  
+$$
+A_{equil} = b_{equil}
+$$
+  
+onde $n$ é o vector que contén o número de moles de cada especie.
+
+```{python}
+Aeq = np.array([[ 1,    0,    1,    0],  # balance C 
+                [ 1,    1,    2,    0],  # balance O 
+                [ 0,    2,    0,    2]]) # balance H 
+
+# alimentación equimolar de 1 mol de H2O e 1 mol de CO
+beq = np.array([1,  # moles de C na alimentación
+                2,  # moles de O na alimentación
+                2]) # moles de H na alimentación
+```
+
+Definimos a funxión de conservación de átomos:
+
+```{python}
+def ec1(ni):
+    'condición da lei de conservación dos átoms'
+    return np.dot(Aeq, ni) - beq
+```
+
+Agora xa podemos resolver. O podemos facer con 'fmin_slsqp' 
+
+```{python}
+from scipy.optimize import fmin_slsqp 
+
+n0 = [0.5, 0.5, 0.5, 0.5]  # supoñemos valores iniciais
+N = fmin_slsqp(func, n0, f_eqcons=ec1)
+print(N)
+```
+
+# Cálculo das fraccións molares e presións parciais
+
+As presións aquí están de bo acordo coas presións atopadas por outros métodos. O desacordo menor (no terceiro ou cuarto lugar decimal) é probable debido ás tolerancias de converxencia nos distintos algoritmos empregados.
+
+```{python}
+yi = N / np.sum(N)
+Pi = yi * P
+
+for s, y, p in zip(especies, yi, Pi):
+    print('{0:10s}: {1:1.4f} {2:1.4f}'.format(s, y, p))
+```
+
+# Constantes de equilibrio informático
+
+Podemos calcular a constante de equilibrio para a reacción:
+
+CO + H<sub>2</sub>O ⇌ CO<sub>2</sub> + H<sub>2</sub>
+
+```{python}
+nui = np.array([-1, -1, 1, 1])  # coeficientes estequiométricos da reacción
+K = np.prod(yi**nui)
+print(K)
+```

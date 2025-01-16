@@ -1,0 +1,67 @@
+---
+title: "Soporte"
+format: 
+  html:
+    page-layout: full
+---
+
+Se en algún momento do prooceso tes a sensación de non poder acabr o traballo pide axuda, usa os mecanismos que che proporciona a universidade para non acabar cunha frustrarción e sensación de que é tarde, e sintes incomodeidade, para buscar axuda.
+
+## Clases e laboratorios
+
+Se tes unha pregunta durante as clases teóricas ou as prácticas, non dubides en preguntar. Probablemente haxa outros compañeiros coas mesma preguntas, polo que unha pregunta túa creará unha oportunidade de aprendizaxe para todos.
+
+## Horario oficial
+
+- Os docentes estamos aquí para axudarche a ter éxito no curso.
+- Anímase a asistir ás titorías presenciais para facer preguntas sobre o contido e as tarefas do curso, ou busar consello en xerakl sovrea tiutulación.
+- Moitas preguntas quedan mellor respondidas en persoa, polo que o horario de atención presencial é un recurso valioso. Ningúbn profesor pode nin debe afearche o uso intensivo do hotrario de titorías.
+- Fai un calendario de consultas de titorías para cada materia que curses, polo menos unha vez durante as primeiras semanas de clase.
+- O horario de titorías está pbligatoriamente publicado na guía docente da materia e en na [secretaría virtual}(https://seix.uvigo.gal).
+
+## Foros de discusión
+
+- Tes algunha pregunta que non pode esperar ao horario de titorías?
+- Prefires escribir a túa pregunta en detalle en vez de preguntar en persoa?
+- O foro de discusión en liña é o mellor lugar para estes.
+- Usa [conversas] (https://sakai.duke.edu/portal/site/779c3ebe-3b88-4bcc-bd01-1813e8396a23/tool/13b6446a-a6c6-4222-8cfb-c36d10802b) como o en liña.
+Hai unha posibilidade de que outro estudante xa se fixera unha pregunta similar, polo que consulte as outras publicacións sobre a discusión de ED antes de engadir unha nova pregunta.
+Se coñeces a resposta a unha pregunta que se publica, anímovos a responder.
+
+## Email
+
+- En caso necesario podes contactar por correo electrónico inda que sexa para adiar un ha videoconferencia ou formular directamente calquera consulta. 
+- Lembra quye este método se reduce a interacción entre ti e o teu profesor e non aporta nada ós compañeiros de curso, sempre é preferible o foro.
+- Trata de enviar as proguntas sobre o de contido do curso (estas deberían ir ó [foro](https://moovi.uvigo.gal/mod/forum/view.php?id=782878)) e só usa correo electrónico para preguntas sobre asuntos persoais que poden non te atreves a enunciar no foro público (por exemplo, enfermidade, conselloss, etc.).
+- Para tales asuntos, podes enviar un correo electrónico [] (mailto: asanchez@uvigo.gal).
+- Se me envías un correo electrónico, inclúe "SOPQ-2324" noasunto.
+- O tempo de resposta pode ser máis lento para os correos electrónicos enviados o fin de semana.
+
+## Soporte académico
+
+Para obter axuda técnica da materia, a continuación relátanse as ligazóns mais relevantes:
+
+- [MOOVI](https://moovi.uvigo.gal/my/)
+- [Teams](https://teams.microsoft.com/_#/school/conversations/Xeral?threadId=19:zvat2Mz9NIBaexMm5LJI6TFYc0nRSI5kpSHXz-LD3W41@thread.tacv2&ctx=channel)
+- [Campusremoto](https://campusremotouvigo.gal/access/public/meeting/682475815)
+- [Github](https://anxosanchez.github.io/SOPQ-2324/)
+
+### Asistencia Teams ou Campusremoto
+
+- Ten en conta que imos facer un uso intensido **MOOVI** n canto ó seguemento académico da materia.
+- No seu lugar toda a presentación e titoriais, vídeos ,atc. terá lugar en GitHub.
+- O **Teams** utilizarase para o horario de atención liña, ou seña, as titorías telemáticas ou videconferencias particulares solicitadas previamente.
+
+## Saúde mental e benestar
+
+- A saúde mental e o benestar dos estudantes son de importancia primordial na Uvigo, e a universidade ofrece recursos para apoiar aos estudantes na xestión do estrés diario e no coidado de si mesmo.
+- Non teñas medo de utilizar esos recursos. 
+- Visita con frecuencia as páxinas da [Viccerreitoría de estudiantes](https://www.uvigo.gal/es/universidad/gobierno-uvigo/equipo-gobierno/vicerrectorado-estudiantado-empleabilidad). 
+- A Uvigo ofrece varios recursos para que os estudantes busquen asistencia en cursos e para fomentar hábitos diarios que admiten o benestar global, algúns dos cales figuran a continuación:
+
+## Dereitos dos materiais do curso
+
+- Todos os materiais docentes de este curso son de libre distribucvión, amparados polas licencias Creative Commons, agás as aplicacións de prácticas HYSYS e AspenPlus. 
+- Non hai problemas de copyright asociados a este curso.
+- Todas as lecturas procederán de recursos abertos libremente dispoñibles (libros de texto de código aberto, artigos de diario, etc.).
+

@@ -1,0 +1,16 @@
+---
+title: "Ligazóns"
+format: 
+  html:
+    page-layout: full
+---
+
+|                            |                                                                                                                                      |
+|----------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| Handbook online | [Universidade estatal de Iowa](https://iastate.pressbooks.pub/chemicalengineeringseparations/) |
+| Cálculos | 🔗 on [Checalc](https://checalc.com/#calc)                                                                                        |
+| Cálculos VLE | 🔗 on [VLE-Cacl](Duke Container Manager)                                                                  |
+| Recursos educativos | 🔗 on [CaCHE](https://cache.org/teaching-resources-center)                                                                 |
+| Screencasts | 🔗 on [Learncheme](https://learncheme.com/screencasts/) |
+| Autoavaliación                  | 🔗 on [Sakai](https://sakai.duke.edu/portal/site/779c3ebe-3b88-4bcc-bd01-1813e8396a23/tool/69078433-67a6-4054-a2e7-9e6c202ecdc3/)     |
+| Laboratorios virtuais          | 🔗 on [Universidade Colorado Boulder](https://learncheme.com/virtual-laboratories/)      |
