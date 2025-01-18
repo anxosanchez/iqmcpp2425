@@ -1,0 +1,248 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: Obtención do diagrama P-x, T-xy e xy.\n",
+        "jupyter: python3\n",
+        "---"
+      ],
+      "id": "75e2a61c"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import numpy as np"
+      ],
+      "id": "10f3a60e",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "# Parámetros de Antoine\n",
+        "\n",
+        "# heptano\n",
+        "A_heptano = 4.02832\n",
+        "B_heptano = 1268.636\n",
+        "C_heptano = -56.199\n",
+        "\n",
+        "#Octano\n",
+        "A_octano=4.04867\n",
+        "B_octano=1355.126\n",
+        "C_octano=-63.633\n",
+        "\n",
+        "# Alternativa\n",
+        "# A = [A_heptano, A_octano]\n",
+        "# B=[B_heptano, B_octano]\n",
+        "# A[0] = A del heptano\n",
+        "\n",
+        "# Dato: temperatura\n",
+        "T = 115 + 273.15 # K"
+      ],
+      "id": "4c28cbe8",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "# Cálculo da presión de vapor dos compoñentes puros (ecuación de Antoine)\n"
+      ],
+      "id": "cb512ffa"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "pv_heptano = 10 ** ( A_heptano - B_heptano / ( T + C_heptano ) ) # bar\n",
+        "pv_octano  = 10 ** ( A_octano  - B_octano  / ( T + C_octano  ) ) # bar\n",
+        "print(f'A presión de vapor do heptano puro é de {pv_heptano:6.4f} bar.') # compoñente mais volátil, maior presión de vapor\n",
+        "# print('A presión de vapor do heptano puro é de {:6.4f} bar.'.format(pv_heptano)) #más volátil, mayor presión de vapor\n",
+        "print(f'A presión de vapor do heptano puro é de {pv_octano:6.4f} bar.') # compoñente mais volátil, maior presión de vapor\n",
+        "# print('A presión de vapor do octano puro {:6.4f} bar.'.format(pv_octano))"
+      ],
+      "id": "91cfb2b6",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import matplotlib.pyplot as plt\n",
+        "# Vector de valores de x\n",
+        "x_heptano = np.linspace(0,1,11)\n",
+        "\n",
+        "# Calcula a presión total a partires das presións de vapor e as fraccións molares na fase vapor\n",
+        "P_total = x_heptano * pv_heptano + ( 1 - x_heptano ) * pv_octano\n",
+        "\n",
+        "# Cálculo Presións de burbulla\n",
+        "P_burbulla = x_heptano * pv_heptano + ( 1 - x_heptano ) * pv_octano\n",
+        "\n",
+        "#Calcular los valores de y\n",
+        "y_heptano = pv_heptano * x_heptano / P_burbulla\n",
+        "\n",
+        "#Presiones de rocío\n",
+        "P_orballo = 1 / ( y_heptano / pv_heptano + ( 1 - y_heptano ) / pv_octano )\n",
+        "\n",
+        "#Representación del diagrama P-x,y\n",
+        "plt.plot(x_heptano, P_burbulla, 'yo-', y_heptano, P_orballo, 'go-')\n",
+        "plt.xlim(0,1)\n",
+        "plt.xlabel('x, y (heptano)')\n",
+        "plt.ylabel('Presión (bar)')\n",
+        "plt.title('Diagrama P-x,y')"
+      ],
+      "id": "41df562c",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "## Aparatdo 2 . Diagrama T-xy a partires da presión total dada\n"
+      ],
+      "id": "ed64345e"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "from scipy.optimize import fsolve"
+      ],
+      "id": "8dadb10a",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "# Datos do exercicio\n",
+        "\n",
+        "P_t = 1.5 #bar\n",
+        "x_heptano = np.linspace(0,1,11)\n",
+        "\n",
+        "# Suponse unha temperatura de partida\n",
+        "\n",
+        "T_guess=396\n",
+        "\n",
+        "# Créanse dúas listas nas que se almacenarán os datos de temperatura e fraccións molares do heptano, para cada valor de x\n",
+        "\n",
+        "lista_temperatura=[]\n",
+        "lista_y=[]\n",
+        "\n",
+        "# Definiranse as funcións para obter as presións de saturación do heptano e o octano\n",
+        "\n",
+        "def p_sat_heptano(T):\n",
+        "    return 10  ** ( A_heptano - B_heptano / ( T + C_heptano ) )\n",
+        "\n",
+        "def p_sat_octano(T):\n",
+        "    return 10 ** ( A_octano - B_octano / ( T + C_octano ) )\n",
+        "\n",
+        "# Créase un lazo que devolve o valor da temperatura e a fracción molar do vapor para cada valor de x\n",
+        "\n",
+        "for i in x_heptano:\n",
+        "    def fmin(T):\n",
+        "        return i*p_sat_heptano(T)/P_t+(1-i)*p_sat_octano(T)/P_t-1\n",
+        "    solucion=fsolve(fmin,T_guess)\n",
+        "    lista_temperatura.append(solucion[0])\n",
+        "    y_heptano=i*p_sat_heptano(solucion)/P_t\n",
+        "    lista_y.append(y_heptano[0])\n",
+        "\n",
+        "print(lista_temperatura) # valores de temperatura calculados\n",
+        "print(lista_y) # valores de y calculados"
+      ],
+      "id": "a54f3d07",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "# Representación do diagrama T-xy\n",
+        "\n",
+        "import matplotlib.pyplot as plt\n",
+        "plt.plot(x_heptano, lista_temperatura, 'ko-', lista_y, lista_temperatura, 'ro-')\n",
+        "plt.xlim(0,1)\n",
+        "plt.xlabel('x, y (heptano)')\n",
+        "plt.ylabel('Temperatura (K)')\n",
+        "plt.title('Diagrama T-x,y')"
+      ],
+      "id": "862c6933",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "# Tamén se pde realizar con fsolve aplicado a la ecuación de Antoine, y no al sumatorio de y - 1\n",
+        "z=np.linspace(0,1, num=11) #composición inicial\n",
+        "\n",
+        "# Funciónes para determinar as presións de saturación dos dous compoñentes\n",
+        "\n",
+        "def Psat1(T):\n",
+        "    return 10**(A_heptano-B_heptano/(T+C_heptano))\n",
+        "def Psat2(T):\n",
+        "    return 10**(A_octano-B_octano/(T+C_octano))\n",
+        "\n",
+        "# Datos do enunciado\n",
+        "y=z\n",
+        "P = 1.5 #bar\n",
+        "from scipy.optimize import fsolve\n",
+        "\n",
+        "\n",
+        "def fun1(T):\n",
+        "    return P - 10**(A_heptano-B_heptano/(T+C_heptano)) # a qué temperatura P externa es igual al otro término\n",
+        "Tinf=fsolve(fun1, 350) # 350K valor inicial suposto\n",
+        "                       # Tinf = temperatura de fervura do heptano\n",
+        "\n",
+        "def fun2(T):\n",
+        "    return P - 10**(A_octano-B_octano/(T+C_octano))\n",
+        "Tsup=fsolve(fun2, 373) # Tsup = temperatura de fervura do octano\n",
+        "\n",
+        "print('A temperatura á que hierve o heptano á presión externa é {:5.2f} K.'.format(Tinf[0]))\n",
+        "print('A temperatura á que hierve o octano  á presión externa é {:5.2f} K.'.format(Tsup[0]))"
+      ],
+      "id": "5ab4ce93",
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "T=np.linspace(Tinf,Tsup, num=11)\n",
+        "x = (P-Psat2(T))/(Psat1(T)-Psat2(T))\n",
+        "y=x*Psat1(T)/P\n",
+        "plt.plot(x, T,'ko-', y,T,'ro-')\n",
+        "plt.xlim(0,1)\n",
+        "plt.xlabel('x, y')\n",
+        "plt.ylabel('T')\n",
+        "plt.title('Diagrama T-x, y')"
+      ],
+      "id": "938332c3",
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "/home/anxo/.local/share/jupyter/kernels/python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

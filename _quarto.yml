@@ -55,7 +55,7 @@ website:
           text: Ligazońs
         - href: course-support.qmd
           text: Soporte  
-        - href: course-faq.qmd            
+        - href: course-faq.qmd        
           text: FAQ
       - section: "Computación"
         contents: 
