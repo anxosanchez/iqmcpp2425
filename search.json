@@ -1,0 +1,1042 @@
+[
+  {
+    "objectID": "slides/tema-01.html#introdución-ó-modelado-e-a-simulación-contidos",
+    "href": "slides/tema-01.html#introdución-ó-modelado-e-a-simulación-contidos",
+    "title": "Modelización e simulación de procesos químicos",
+    "section": "Introdución ó modelado e a simulación: contidos",
+    "text": "Introdución ó modelado e a simulación: contidos\n\nModelado de sistemas físicos\n\nSimulación estacionaria\n\nSimulación dinámica\n\nSistemas de parámetros distribuidos\n\nsistemas híbridos"
+  },
+  {
+    "objectID": "slides/tema-01.html#qué-é-un-sistema.",
+    "href": "slides/tema-01.html#qué-é-un-sistema.",
+    "title": "Modelización e simulación de procesos químicos",
+    "section": "Qué é un sistema.",
+    "text": "Qué é un sistema.\n– Según (B. Ziegler) : “Un sistema é unha fonte potencial de datos” - É un conxunto de compoñentes, pezas ou obxectos, que interactúan entre si dentro dos límites para producir un determinado patrón de comportamento - “A system is defined by its boundary” Según (B. Gaines) : “Un sistema é o que se distingue como sistema”\nA definición completa de sistema mediante o seu contorno implica ter en conta: - As especificación da fronteira\n- Os canais do contorno a través dos cuais o sistema interacciona co entorno (entradas e saídas)\n- A estructura interna e o comportamento do sistema"
+  },
+  {
+    "objectID": "slides/tema-01.html#o-sistema-e-o-seu-entorno",
+    "href": "slides/tema-01.html#o-sistema-e-o-seu-entorno",
+    "title": "Modelización e simulación de procesos químicos",
+    "section": "O sistema e o seu entorno",
+    "text": "O sistema e o seu entorno\nTipos de variables\n- Entrada: denota o efecto do entorno sobre o proceso\n- Manipuladas: o seus valores pódense axustar libremente por un operador ou unha acción de control\n- Perturbacións: os seus valores non son axustables\n- Saída: denota o efecto do proceso sobre o entorno\n- Medidas: os seus valores son coñecidos polos sistemas de medida\n- Nom medidas: os seus valores non se poden medir de forma directa\n- Internas: Son variables propias do sistema\n- De estado: definen o estado do sistema e necesitan coñecer a historia do mesmo para ser definidas. É o conxunto mínimo de variables internas que define o estado do sistema."
+  },
+  {
+    "objectID": "slides/tema-01.html#tipos-de-sistemas-relacións-co-entorno",
+    "href": "slides/tema-01.html#tipos-de-sistemas-relacións-co-entorno",
+    "title": "Modelización e simulación de procesos químicos",
+    "section": "Tipos de sistemas (relacións co entorno)",
+    "text": "Tipos de sistemas (relacións co entorno)\n\nAillado: non intercambia nin materia nin enerxía co entorno\n\nReactor batch adiabático\n\n\nPechado: non intercambia materia pero sí enerxía coentorno\n\nReactor batch no adiabático\n\n\nAberto: intercambia materia e enerxía co entorno\n\nReactor CSTR"
+  },
+  {
+    "objectID": "slides/tema-01.html#modeloss",
+    "href": "slides/tema-01.html#modeloss",
+    "title": "Modelización e simulación de procesos químicos",
+    "section": "Modeloss",
+    "text": "Modeloss"
+  },
+  {
+    "objectID": "slides/tema-01.html#multiscale",
+    "href": "slides/tema-01.html#multiscale",
+    "title": "Modelización e simulación de procesos químicos",
+    "section": "Multiscale",
+    "text": "Multiscale"
+  },
+  {
+    "objectID": "slides/tema-01.html#modeling",
+    "href": "slides/tema-01.html#modeling",
+    "title": "Modelización e simulación de procesos químicos",
+    "section": "modeling",
+    "text": "modeling"
+  },
+  {
+    "objectID": "slides/tema-01.html#model-reduction",
+    "href": "slides/tema-01.html#model-reduction",
+    "title": "Modelización e simulación de procesos químicos",
+    "section": "Model reduction",
+    "text": "Model reduction"
+  },
+  {
+    "objectID": "slides/tema-01.html#minimal-models",
+    "href": "slides/tema-01.html#minimal-models",
+    "title": "Modelización e simulación de procesos químicos",
+    "section": "Minimal models",
+    "text": "Minimal models"
+  },
+  {
+    "objectID": "slides/tema-01.html#model-nature",
+    "href": "slides/tema-01.html#model-nature",
+    "title": "Modelización e simulación de procesos químicos",
+    "section": "Model nature",
+    "text": "Model nature"
+  },
+  {
+    "objectID": "slides/tema-01.html#functional-models",
+    "href": "slides/tema-01.html#functional-models",
+    "title": "Modelización e simulación de procesos químicos",
+    "section": "Functional models",
+    "text": "Functional models"
+  },
+  {
+    "objectID": "slides/tema-01.html#logical-models",
+    "href": "slides/tema-01.html#logical-models",
+    "title": "Modelización e simulación de procesos químicos",
+    "section": "Logical models",
+    "text": "Logical models"
+  },
+  {
+    "objectID": "slides/tema-01.html#bioinspired-models",
+    "href": "slides/tema-01.html#bioinspired-models",
+    "title": "Modelización e simulación de procesos químicos",
+    "section": "Bioinspired models",
+    "text": "Bioinspired models"
+  },
+  {
+    "objectID": "slides/tema-01.html#model-assumptions-model-use",
+    "href": "slides/tema-01.html#model-assumptions-model-use",
+    "title": "Modelización e simulación de procesos químicos",
+    "section": "Model assumptions Model use",
+    "text": "Model assumptions Model use"
+  },
+  {
+    "objectID": "slides/tema-01.html#model-implementation",
+    "href": "slides/tema-01.html#model-implementation",
+    "title": "Modelización e simulación de procesos químicos",
+    "section": "Model implementation",
+    "text": "Model implementation"
+  },
+  {
+    "objectID": "slides/tema-01.html#model-languages-empirical-models",
+    "href": "slides/tema-01.html#model-languages-empirical-models",
+    "title": "Modelización e simulación de procesos químicos",
+    "section": "Model languages Empirical models",
+    "text": "Model languages Empirical models"
+  },
+  {
+    "objectID": "slides/tema-01.html#qualitative-models",
+    "href": "slides/tema-01.html#qualitative-models",
+    "title": "Modelización e simulación de procesos químicos",
+    "section": "Qualitative models",
+    "text": "Qualitative models"
+  },
+  {
+    "objectID": "slides/tema-01.html#modeling-hierarchy-model-integration",
+    "href": "slides/tema-01.html#modeling-hierarchy-model-integration",
+    "title": "Modelización e simulación de procesos químicos",
+    "section": "Modeling hierarchy Model integration",
+    "text": "Modeling hierarchy Model integration"
+  },
+  {
+    "objectID": "slides/tema-01.html#goals-in-models",
+    "href": "slides/tema-01.html#goals-in-models",
+    "title": "Modelización e simulación de procesos químicos",
+    "section": "Goals in models",
+    "text": "Goals in models"
+  },
+  {
+    "objectID": "slides/tema-01.html#i-have-been-and-remain-entirely",
+    "href": "slides/tema-01.html#i-have-been-and-remain-entirely",
+    "title": "Modelización e simulación de procesos químicos",
+    "section": "! “I have been, and remain, entirely",
+    "text": "! “I have been, and remain, entirely"
+  },
+  {
+    "objectID": "slides/tema-01.html#committed-to-the-idea-that-modeling-is-the",
+    "href": "slides/tema-01.html#committed-to-the-idea-that-modeling-is-the",
+    "title": "Modelización e simulación de procesos químicos",
+    "section": "committed to the idea that modeling is the",
+    "text": "committed to the idea that modeling is the"
+  },
+  {
+    "objectID": "slides/tema-01.html#essence-of-science-and-the-habitat-of-all",
+    "href": "slides/tema-01.html#essence-of-science-and-the-habitat-of-all",
+    "title": "Modelización e simulación de procesos químicos",
+    "section": "essence of science and the habitat of all",
+    "text": "essence of science and the habitat of all"
+  },
+  {
+    "objectID": "slides/tema-01.html#epistemology.",
+    "href": "slides/tema-01.html#epistemology.",
+    "title": "Modelización e simulación de procesos químicos",
+    "section": "epistemology.”",
+    "text": "epistemology.”"
+  },
+  {
+    "objectID": "slides/tema-01.html#robert-rosen-essays-on",
+    "href": "slides/tema-01.html#robert-rosen-essays-on",
+    "title": "Modelización e simulación de procesos químicos",
+    "section": "- Robert Rosen, Essays on",
+    "text": "- Robert Rosen, Essays on"
+  },
+  {
+    "objectID": "slides/tema-01.html#life-itself",
+    "href": "slides/tema-01.html#life-itself",
+    "title": "Modelización e simulación de procesos químicos",
+    "section": "Life Itself",
+    "text": "Life Itself"
+  },
+  {
+    "objectID": "rubrica.html#puntuación-final",
+    "href": "rubrica.html#puntuación-final",
+    "title": "Rúbrica da avaliación do proxecto da asignatura",
+    "section": "Puntuación final",
+    "text": "Puntuación final\nA rúbrica de avaliación de do proxecto da asignatura é a seguinte:\n\n\n\nTotal\n100 pts\n\n\n\n\nIdeas e orixinalidade\n5 pts\n\n\nProposta de proxecto\n10 pts\n\n\nRevisión bibliográfica\n10 pts\n\n\nInforme escrito\n40 pts\n\n\nDiapositivas e presentación\n25 pts\n\n\nReproducibilidade e organización\n5 pts\n\n\nVídeo\n5 pts\n\n\n\n::: {.callout-warning} Note: Non se aceptarán entregas fóra de prazo. :::\n\nResumo da avaliación\nA valoración final do proxecto terá en conta o seguinte:\n\nContido - Cal é a calidade da simulación e a relevancia dos cálculos?.\nCorrección: Os procedementos matemáticos realízanse e explícanse correctamente?.\nEscritura e presentación: A calidade da presentación estatística, a escritura e as explicacións son boas?.\nCreatividade e pensamento crítico: Está ben pensada e é útila?. Ten limitacións importantes?.\nDedicación: O tempo e o esforzo encaixan na planificación de dedicación de traballo pèrsoal da guía docnete da materia?.\n\nUn desglose xeral da puntuación é o seguinte:\n\n90%-100%: Esforzo intenso. O estudante entende como aplicar todos os conceptos teóricos e praćticos, pode poñer os resultados en valor, pode identificar debilidades do traballo e pode comunicar claramente os resultados.\n80%-89%: Bo esforzo. O estudante entende a maioría dos conceptos teóricos, pode poñer a meirande parte dos resultados en valor, pode identificar as debilidades importantes do traballo e pode comunicar razoablemente os resultados.\n70%-79%: Esforzo mediocre. O estudante ten unha incomprensión de conceptos teóricos en áreas, ten algúns problemas para argumentar os resultados, e a comunicación dos mesmos ás veces non está clara.\n60%-69%: Esforzo insuficinte: O estudante fixo pouco esforzo, ten carencias na comprensión do modelo e é incapaz de xustificar a validez da súa simulación. A comunicación de resultados non está clara.\n*por baixo do 60% *: o alumno non fixo un esforzo suficiente.\n\n\n\nPolítica de entregas de última hora\nSalvo que medie algunha xustificación por razońs de forza maior, debidamente acreditada,Non se aceptaránm entregas fora de prazo.\n\n\nRubric\n\n\n\n\nIdeas e orixinalidade\n\n\n\n\n\n\n\n\nPouco ou moi pouco esforzo\n\n\n0 points\n\n\n\n\n\n\nEsforzo insuficinte\n\n\n2 points\n\n\n\n\n\n\nEsforzo mediocre\n\n\n3 points\n\n\n\n\n\n\nBo esforzo\n\n\n4 points\n\n\n\n\n\n\nEsforzo intenso\n\n\n5 points\n\n\n\n\n\n\n\n\n\n\nProposta de proxecto\n\n\n\n\n\n\n\n\nPouc ou moi pouco esforzo\n\n\n0 points\n\n\n\n\n\n\nEsforzo mediocre\n\n\n4 points\n\n\n\n\n\n\nBo esforzo\n\n\n6 points\n\n\n\n\n\n\nEsforzo intenso\n\n\n8 points\n\n\n\n\n\n\nEsforzo intenso\n\n\n10 points\n\n\n\n\n\n\n\n\n\n\nRevisión bibliográfica\n\n\n\n\n\n\n\n\nPouc ou moi pouco esforzo\n\n\n0 points\n\n\n\n\n\n\nEsforzo insuficinte\n\n\n4 points\n\n\n\n\n\n\nEsforzo mediocre\n\n\n6 points\n\n\n\n\n\n\nBo esforzo\n\n\n8 points\n\n\n\n\n\n\nEsforzo intenso\n\n\n10 points\n\n\n\n\n\n\n\n\n\n\nInforme escrito\n\n\n\n\n\n\n\n\nPouc ou moi pouco esforzo\n\n\n0 points\n\n\n\n\n\n\nEsforzo insuficinte\n\n\n10 points\n\n\n\n\n\n\nEsforzo mediocre\n\n\n20 points\n\n\n\n\n\n\nBo esforzo\n\n\n30 points\n\n\n\n\n\n\nEsforzo intenso\n\n\n40 points\n\n\n\n\n\n\n\n\n\n\nDiapositivas e presentación\n\n\n\n\n\n\n\n\nPouc ou moi pouco esforzo\n\n\n0 points\n\n\n\n\n\n\nEsforzo insuficinte\n\n\n6.25 points\n\n\n\n\n\n\nEsforzo mediocre\n\n\n12.5 points\n\n\n\n\n\n\nBo esforzo\n\n\n18.25 points\n\n\n\n\n\n\nEsforzo intenso\n\n\n25 points\n\n\n\n\n\n\n\n\n\n\nReproducibilidade e organización\n\n\n\n\n\n\n\n\nPouc ou moi pouco esforzo\n\n\n0 points\n\n\n\n\n\n\nEsforzo insuficinte\n\n\n2 points\n\n\n\n\n\n\nEsforzo mediocre\n\n\n3 points\n\n\n\n\n\n\nBo esforzo\n\n\n4 points\n\n\n\n\n\n\nEsforzo intenso\n\n\n5 points\n\n\n\n\n\n\n\n\n\n\nVídeo\n\n\n\n\n\n\n\n\nPouc ou moi pouco esforzo\n\n\n0 points\n\n\n\n\n\n\nEsforzo insuficinte\n\n\n2 points\n\n\n\n\n\n\nEsforzo mediocre\n\n\n3 points\n\n\n\n\n\n\nBo esforzo\n\n\n4 points\n\n\n\n\n\n\nEsforzo intenso\n\n\n5 points"
+  },
+  {
+    "objectID": "qmd/Diagramas_Pxy_Txy.html",
+    "href": "qmd/Diagramas_Pxy_Txy.html",
+    "title": "Obtención do diagrama P-x para unha temperatura de 115 ºC para unha mestura de hepano e octano",
+    "section": "",
+    "text": "import numpy as np\n# Parámetros de Antoine\n\n# heptano\nA_heptano = 4.02832\nB_heptano = 1268.636\nC_heptano = -56.199\n\n#Octano\nA_octano=4.04867\nB_octano=1355.126\nC_octano=-63.633\n\n# Alternativa\n# A = [A_heptano, A_octano]\n# B=[B_heptano, B_octano]\n# A[0] = A del heptano\n\n# Dato: temperatura\nT = 115 + 273.15 # K"
+  },
+  {
+    "objectID": "qmd/Diagramas_Pxy_Txy.html#aparatdo-2-.-diagrama-t-xy-a-partires-da-presión-total-dada",
+    "href": "qmd/Diagramas_Pxy_Txy.html#aparatdo-2-.-diagrama-t-xy-a-partires-da-presión-total-dada",
+    "title": "Obtención do diagrama P-x para unha temperatura de 115 ºC para unha mestura de hepano e octano",
+    "section": "Aparatdo 2 . Diagrama T-xy a partires da presión total dada",
+    "text": "Aparatdo 2 . Diagrama T-xy a partires da presión total dada\n\nfrom scipy.optimize import fsolve\n\n\n#Datos do exercicio\n\nP_t = 1.5 #bar\nx_heptano = np.linspace(0,1,11)\n\n# Suponse unha temperatura de partida\n\nT_guess=396\n\n# Créanse dúas listas nas que se almacenarán os datos de temperatura e fraccións molares do heptano, para cada valor de x\n\nlista_temperatura=[]\nlista_y=[]\n\n# Definiranse as funcións para obter as presións de saturación do heptano e o octano\n\ndef p_sat_heptano(T):\n    return 10  ** ( A_heptano - B_heptano / ( T + C_heptano ) )\n\ndef p_sat_octano(T):\n    return 10 ** ( A_octano - B_octano / ( T + C_octano ) )\n\n# Créase un lazo que devolve o valor da temperatura e a fracción molar do vapor para cada valor de x\n\nfor i in x_heptano:\n    def fmin(T):\n        return i*p_sat_heptano(T)/P_t+(1-i)*p_sat_octano(T)/P_t-1\n    solucion=fsolve(fmin,T_guess)\n    lista_temperatura.append(solucion[0])\n    y_heptano=i*p_sat_heptano(solucion)/P_t\n    lista_y.append(y_heptano[0])\n\nprint(lista_temperatura) # valores de temperatura calculados\nprint(lista_y) # valores de y calculados\n\n[np.float64(413.5615852273091), np.float64(409.77113336473025), np.float64(406.2684364969948), np.float64(403.0216612183846), np.float64(400.00305716655544), np.float64(397.18844969691617), np.float64(394.55676804690006), np.float64(392.0896214256247), np.float64(389.77092633460484), np.float64(387.58658343897787), np.float64(385.52419985536085)]\n[np.float64(0.0), np.float64(0.1837276326189331), np.float64(0.33830109800891695), np.float64(0.4693199994809487), np.float64(0.581154434977709), np.float64(0.6772413410638028), np.float64(0.7603047808262194), np.float64(0.832520410718438), np.float64(0.895638942399593), np.float64(0.9510793956603304), np.float64(1.0000000000003693)]\n\n\n\n# Representación do diagrama T-xy\n\nimport matplotlib.pyplot as plt\nplt.plot(x_heptano, lista_temperatura, 'ko-', lista_y, lista_temperatura, 'ro-')\nplt.xlim(0,1)\nplt.xlabel('x, y (heptano)')\nplt.ylabel('Temperatura (K)')\nplt.title('Diagrama T-x,y')\n\nText(0.5, 1.0, 'Diagrama T-x,y')\n\n\n\n\n\n\n\n\n\n\n#También se puede realizar con fsolve aplicado a la ecuación de Antoine, y no al sumatorio de y - 1\nz=np.linspace(0,1, num=11) #composición inicial\n\n# Funciónes para determinar as presións de saturación dos dous compoñentes\n\ndef Psat1(T):\n    return 10**(A_heptano-B_heptano/(T+C_heptano))\ndef Psat2(T):\n    return 10**(A_octano-B_octano/(T+C_octano))\n\n#Datos do enunciado\ny=z\nP = 1.5 #bar\nfrom scipy.optimize import fsolve\n\n\ndef fun1(T):\n    return P - 10**(A_heptano-B_heptano/(T+C_heptano)) # a qué temperatura P externa es igual al otro término\nTinf=fsolve(fun1, 350) # 350K valor inicial suposto\n                       # Tinf = temperatura de fervura do heptano\n\ndef fun2(T):\n    return P - 10**(A_octano-B_octano/(T+C_octano))\nTsup=fsolve(fun2, 373) # Tsup = temperatura de fervura do octano\n\nprint('A temperatura á que hierve o heptano á presión externa é {:5.2f} K.'.format(Tinf[0]))\nprint('A temperatura á que hierve o octano  á presión externa é {:5.2f} K.'.format(Tsup[0]))\n\nA temperatura á que hierve o heptano á presión externa é 385.52 K.\nA temperatura á que hierve o octano  á presión externa é 413.56 K.\n\n\n\nT=np.linspace(Tinf,Tsup, num=11)\nx = (P-Psat2(T))/(Psat1(T)-Psat2(T))\ny=x*Psat1(T)/P\nplt.plot(x, T,'ko-', y,T,'ro-')\nplt.xlim(0,1)\nplt.xlabel('x, y')\nplt.ylabel('T')\nplt.title('Diagrama T-x, y')\n\nText(0.5, 1.0, 'Diagrama T-x, y')"
+  },
+  {
+    "objectID": "project-description.html",
+    "href": "project-description.html",
+    "title": "Descrición do Proxecto da Asignatura",
+    "section": "",
+    "text": "Ideas para o proxecto ata Venres, 25 de Outubro de 2024\nBorrador de informe ata Domingo, 22 de Novembro de 2024\nInforme Final ata Venres, 3 de Xaneiro de 2025\nPresentación en vídeo + diapositivas Venres, 3 de Xaneiro de 2025",
+    "crumbs": [
+      "Proxecto",
+      "Instrucións"
+    ]
+  },
+  {
+    "objectID": "project-description.html#liña-de-tempo",
+    "href": "project-description.html#liña-de-tempo",
+    "title": "Descrición do Proxecto da Asignatura",
+    "section": "",
+    "text": "Ideas para o proxecto ata Venres, 25 de Outubro de 2024\nBorrador de informe ata Domingo, 22 de Novembro de 2024\nInforme Final ata Venres, 3 de Xaneiro de 2025\nPresentación en vídeo + diapositivas Venres, 3 de Xaneiro de 2025",
+    "crumbs": [
+      "Proxecto",
+      "Instrucións"
+    ]
+  },
+  {
+    "objectID": "project-description.html#introdución",
+    "href": "project-description.html#introdución",
+    "title": "Descrición do Proxecto da Asignatura",
+    "section": "Introdución",
+    "text": "Introdución\nO Proxecto: Pensa en unha idea ou concepto da Enxeñaría Química e desenvólvea en forma de demostración, utilidade, simulación ou programa de cálculo ou deseño. Ese é o verdadeiro obxecivo. Trátase de que uses a simulación ou a optimización para ilustar de algún xeito algúns dos aspectos mais importantes da enxeñaría química.\nO modelo no que te basees xa pode existir, ou ben, podes plantexar un por ti mesmo sobre algún tema que che insterse especialmente, ou buscalo na web. O teu obxectivo ca realización do proxecto debe de ser a demostraci´on das túas competencias adquiridas na materia en forma de un caso práctico xa sexa de deseño, solución, mellora ou simple simulación demostrativa.\nA linguaxe de programación no é tan importante coma a idea. Non obstante a simulación debe presentar ó usuario unha interface (ou GUI) que o faga útil (por exemplo formularios de excel, widgets de python, GUI’s de Matlab, etc.).\nTodos os traballos deben estar acompañados da súa documentación, tanto do obxectivo, método, algortimo, código e interface, así comop un emmplod e aplicación xa terminado.\nAntes de pasar á realización do mesmo deberás entregar (entregable en MOOVI) un preproxecto quye deberá ser aprobado polo teu profesor, En caso de que a túa proposta non sexa axeitada ou non cunpla cun nivel acorde ca asignatura, non poderás empezar e debesrás reescribir a túa proposta, ben sexa sonbre o mesmo tema ou sobre outro.\n\nLoxística\nTraballarás no proxecto de xeito indicidual.\nOs entregables obligatorios para o proxecto final son\n\nUn Informe escrito e reproducible que detalla a súa análise, os algoritmos ou métodos numéricos usados, o diagrama de fluxo da programación d a descrición da interface.\nUn Código executable debvidamente documentado acorde ó documento anterior.\nUnha Presentación en formato diapositivas\nUn Vídeo explicativo do proxcto e a súas funcionalidads",
+    "crumbs": [
+      "Proxecto",
+      "Instrucións"
+    ]
+  },
+  {
+    "objectID": "project-description.html#topic-ideas",
+    "href": "project-description.html#topic-ideas",
+    "title": "Descrición do Proxecto da Asignatura",
+    "section": "Ideas para o proxecto",
+    "text": "Ideas para o proxecto\n\nIntrodución e propósito\n\nIndicae a fonte e o propósito da simulacion.\nDescribe a fonte(s) de inspiración e a utilidade que lle ves.\nDescribe as observacións e as características para plantexala e desenvolvela.\nDescribe o software e os algoritmos de cálculo ou solución que vas a empregar para a simulación.\n\n\n\nUtilidade\n\nDescribe para que se podería utilizar a túa simulació e os potenciais usuarios da mesma.",
+    "crumbs": [
+      "Proxecto",
+      "Instrucións"
+    ]
+  },
+  {
+    "objectID": "project-description.html#project-proposal",
+    "href": "project-description.html#project-proposal",
+    "title": "Descrición do Proxecto da Asignatura",
+    "section": "Proposta de proxeto",
+    "text": "Proposta de proxeto\nO propósito da proposta do proxecto é axudarche a pensar na túa estratexia de análise cedo.\nInclúe o seguinte na proposta:\n\nSección 1 - Introdución\nA sección de introdución inclúe\n\nUnha introdución ao tema que estás simulando.\nA motivación para a da túa elección (citando calquera bibliografía relevante).\nA pregunta ou problema xeral que desexas resolver.\nAs túas hipóteses sobre a cuestión.\n\n\n\nSección 2 - Descrición dos datos\nNesta sección, describirás o conxunto de datos que vas usar. Isto inclúe\n\nDescrición das observacións no conxunto de datos, variables, librerías etc.,\nDescrición de como se procederá orixinalmente á realización da simulación, a interface e os usuarios ña que vai dirixida.\n\n\n\nSección 3 - Enfoque da análise\nNesta sección, proporcionarás unha breve visión xeral do teu enfoque de análise da simulación. Isto inclúe:\n\nDescrición da variables de resposta.\nEstatísticas de visualización gráfica e nmérica das variable de resposta.\nLista de variables que vas a consideradar na simulación.\nTécnica de modelado numérico (regresión lineal múltiple, ODE,etc.).\n\n\n\nDicionario de datos (enunciado de variables principais)\n\nInclúe un dicionario de datos para todas as variables do conxunto de datos da simulación.\nCrea un ficheiro “Readme” do teu proxecto en texto plano no cartafol principal.\n\n\n\nEnvío\nMete todos os teus ficheiros finais nda proposta e entrégaos nun ficheiro zip, ou creao un repositorio ou disco compartido (por exemplo GitHub ou OneDrive) e envía o PDF da súa proposta ca ligazón ó repositorio.\n\n\nCualficación das propostas\n\n\n\nTotal\n100 ptos\n\n\n\n\nIntrodución\n30 ptos\n\n\nDescrición dos datos\n20 ptos\n\n\nEnfoque da análise\n40 ptos\n\n\nDicionario de datos\n10 pts\n\n\n\nCada compoñente cualificarase do seguinte xeito:\n\nCumpre as expectativas (crédito completo): Todos os elementos necesarios están completados e son precisos. A narración está escrita con claridade, todas as táboas e visualizacións están ben formatadas e o traballo sería presenta nun look profesional.\nCerca das expectativas (crédito medio): Hai algúns elementos que faltan e/ou imprecisos. Hai algúns problemas co formato.\nNon cumpre as expectativas (sen crédito): Faltan os elementos principais. O traballo non está perfectamente formateado e non presentaría nun look profesional.",
+    "crumbs": [
+      "Proxecto",
+      "Instrucións"
+    ]
+  },
+  {
+    "objectID": "project-description.html#draft-report",
+    "href": "project-description.html#draft-report",
+    "title": "Descrición do Proxecto da Asignatura",
+    "section": "Borrador de informe",
+    "text": "Borrador de informe\nO propósito do borrador é darche a oportunidade de obter comentarios anticipados sobre a túa simulación. Polo tanto, o borrador e centraranse principalmente nunha análise exploratoria da simulación, modelado de datos e interpretacións iniciais do obxectivo.\nEscribe o borrador no ficheiro informe-escrito no repo do seu proxecto ou engrégao en MOOVI.\nA continuación móstrase unha breve descrición das seccións para centrarse no borrador:\n\nIntrodución e datos\nEsta sección inclúe unha introdución á motivación da simulación, datos implicado e obxecto d mesma. Describe os datos e definicións de variables clave. Tamén debe incluír algunha análise exploratorios do proceso.\n\n\nMetodoloxía\nEsta sección inclúe unha breve descrición do seu proceso de modelado.\n\nExplica o razoamento do tipo de modelo que estás encaixando, as variables de predición consideradas para o modelo incluíndo calquera interacción.\n\nAmosa como chegas ós requeriments finais que lle pos á túa simulación, describindo o proceso de selección de modelos, calquera transformacións variables (se é necesario) e calquera outra consideración relevante que formaron parte ds mesma.\n\nExplica tamén a linguaxe de programacion que vas a usa e cáles son as rzóns da túa elección.\n\n\n\nResultados\nNesta sección, presenta os resultados que se poidan tirar da simulación e inclúe unha breve discusión sobre os aspectos mais relevantes que ti considreres.\nEsta sección tamén inclúe interpretacións iniciais e conclusións extraídas do modelo así como a interfaces que vas a presentar ó usuario.",
+    "crumbs": [
+      "Proxecto",
+      "Instrucións"
+    ]
+  },
+  {
+    "objectID": "project-description.html#written-report",
+    "href": "project-description.html#written-report",
+    "title": "Descrición do Proxecto da Asignatura",
+    "section": "Informe escrito",
+    "text": "Informe escrito\nO teu informe escrito debe completarse no ficheiro informe-escrito e debe estar en formato pdf ou odt. Antes de finalizar a súa escritura, asegúrese de que a impresión de anacos de código está desactivada e o códiga resaltado, ben indicado.\n\nO PDF que envíes debe coincidir cos ficheiros de entrega (repositorio GitHub, ficheiro .zip ou disco compartido) exactamente.\n\nOs compoñentes obrigatorios do informe están numeradas mais adiante no texto, inda que eres libre de engadir seccións adicionais segundo sexa necesario.\n\nO informe, incluídas as visualizacións, debería ser non máis de 10 páxinas de longo.\nNon hai requerimento dun número mínimo de páxina, non obstante, debes abordar de xeito exhaustivo toda a análise e informe.\n\n\nSe selectivo no que inclúe na súa redacción final. O obxectivo é escribir unha narración cohesionada que demostre unha análise completa e completa en vez de explicar cada paso da análise.\nSerá valorada a inclusión dun apéndice con traballo adicional ao final do documento de informe escrito, non obstante, a cualificación basearase en gran medida no contido do corpo principal do informe.\n\nDebes asumir que o material do apéndice non se consultará a menos que o solicite no corpo principal de texto do informe.\n\nO apéndice debe estar formateado e ser fácil de navegar por el.\nNon está incluído no límite de 10 páxinas.\n\n\nO informe escrito vale 40 puntos, descomprimido do seguinte xeito:\n\n\n\nTotal\n100 ptos\n\n\n\n\nIntrodución\n10 ptos\n\n\nMetodoloxía\n25 ptos\n\n\nResultados\n15 pts\n\n\nDiscusión + Descrición + Conclusións\n20 ptos\n\n\nOrganización + Formato + Interface\n20 ptos\n\n\n\nRúbrica para obter un PDF descritivo da rúbrica da avaliación do proxecto.\n\nIntrodución e datos\nEsta sección inclúe unha introdución dos datos que manipulas na simulación.\n\nDescribe os datos e definicións de variables clave.\nTamén debe incluír algunha análise exploratoria de datos (valores guess, por exemplo).\nAlgunhas outras deas sobre as variables e relacións interesantes na simulación.\n\n\nCriterio de avaliación\n\nO obxectivo da simulación debe están claramente indicado na introdución, incluíndo a bibliografía consultada, as fontes de datos e calquera investigación externa.\nDescrebe claramente os datos, incluída unha descrición sobre como se recollían orixinalmente os datos e unha definición concisa das variables relevantes para comprender os resultados da simulación.\nDescrebe tamén o proceso de “limpeza de datos”, incluíndo as decisións tomadas no proceso (por exemplo, creando novas variables, eliminando observacións, consideranto variables constantes nun intervalo etc.) A análise de datos explicativa axuda ao lector a comprender mellor as observacións nos datos xunto con relacións interesantes e relevantes entre ovariables.\nIncorpora tantas gráficas como consideres oprtuno.\nNo caso de incluir unha interface, descrebe a sús funcioinalidades.\n\n\n\n\nMetodoloxía\nEsta sección inclúe unha breve descrición do teu proceso de modelado.\n\nExplica razoadamente o tipo de modelo que estás usando, as variables que consideras e as súas interaccións.\nDescrebe como chegas ó modelo final: proceso de selección de modelos, as interaccións consideradas, as transformacións de variables (se é necesario), a avaliación de condicións e diagnósticos e calquera outra consideración relevante que formaron parte do proceso de montaxe da simulación.\n\n\nCriterios de avaliación\nEn xeral, se che terán en conta os seguintes conceptos para a acaliación do proxecto (inda que mais adiante podes ver a rúbrica). - Os pasos de análise son apropiados para a simulación. - O enfoque é minucioso e coidadoso para seleccionar o modelo final. - O enfoque descríbese claramente no informe. - O proceso de selección de modelos tivo en conta os potenciais efectos de interacción e abordou calquera violación nas condicións do modelo. - As condicións do modelo e os diagnósticos son avaliadas a fondo e con precisión para a utilidade da simulación\n\n\n\nResultados\nAquí é onde debes de valorizar a túa simulación.\n\nDescribe os resultados clave da simulación.\nO obxectivo non é interpretar todas as variables, senón demostrar que és competente no uso da saídas da simulación para explicar as súas funcionalidades, empregando as interpretacións para apoiar as túas conclusións.\nConcéntrate nas variables claves da simulación, e en todo aquelo que proporcione un contexto relevante para o usuario da mesma.\n\n\nCriterios de avaliación\n\nO modelo usad axústase ós requerimentos da simulación e é describe claramente os resultados.\n\nAs interpretacións dos resultados úsanse para demostrar ou facilitar o tema obxecto da siuacionapoiar, as conclusións clave, en lugar de simplemente enumerar a interpretación de todos os coeficientes do moesmo.\n\nSe o principal obxectivo de modelado é a predición ou o cálculo, avalíase a fondo o poder predictivo do modelo ou a presicisón do cálculo.\n\n\n\n\nDiscussion + Conclusion\n\nNesta sección incluirás un resumo do que aprendiches facenso a túa simulación, xunto con argumentos estatísticos que apoien as túas conclusións.\nAdemais, discute as limitacións da memsa e proporciona suxestións sobre formas de mellorala.\nTamén se deben discutir calquera problema potencial relacionado coa fiabilidade e validez dos resultados ue se poidan extraer da mesma.\nPor último, esta sección incluirá ideas para o traballo futuro.\n\n\nCriterios de avaliación\n\nDescríbe claramente a funcionalidade da túa simulación. Análiza os resultados do modelo que propós no contexto máis amplo do tema e da cuestión de investigación orixinal.\nFai unha consideración reflexiva das posibles limitacións dos datos e/ou análises, e as ideas para o traballo futuro.\nExplica a utilidade do teu modelo (simulación, dimensionamento de equipos, docencia…) e valora a súa aplicación e ralci´on directa ca materia.\n\n\n\n\nOrganización e formato\nA continuación se describe información sobre a avaliación e o formato do informe escrito.\n\nCriterios de avaliación\n\nO informe debe estar ordeado e organizado coas correspondentes cabeceiras das seccións e figuras de tamaño axecuado coas correspondentes textos informativos.\nOs resultados numéricos denrán estar formatados cun número razoable de díxitos e todas as gráficas tamén, con título, títulos de eixos, lenfas de datos, e demais.\nTodas as citas e ligazóns deben estár correctamente formatadas.\nSe hai un apéndice que resuma todos os datos, mellor. debe estar razoablemente organizado e ser fácil de ler útil para atopar información relevante.\nNo código de programa debes suprimír avisos, códigos de erro e mensaxes. O corpo principal do informe escrito (sen incluír o apéndice) non é superior a 10 páxinas.",
+    "crumbs": [
+      "Proxecto",
+      "Instrucións"
+    ]
+  },
+  {
+    "objectID": "project-description.html#video-presentation-slides",
+    "href": "project-description.html#video-presentation-slides",
+    "title": "Descrición do Proxecto da Asignatura",
+    "section": "Video presentation + slides",
+    "text": "Video presentation + slides\n\nDiapositivas\n\nAdemais do informe escrito, o debes creará diapositivas de presentación e grabar unha presentación de vídeo que resuma e mostrará o teu proxecto. Poderemos pedirche que a expoñas na aula.\nFai unha introdución da túa simulación, conxunto de datos, representacións gráficas, utilidade, e discute as conclusións pricipais do teu traballo.\nEstas diapositivas deben servir como un breve complemento visual ó teu informe escrito e terán un certo peso na nota final do proxecto.\nPara a subir a presentación, converte estas diapositivas a un documento .pdf oy .html e entrégao en MOOVI.\nA presentación de diapositivas non debe ter máis de 10 diapositivas de contido + 1 diapositiva de título.\nAquí tes unha suxestión, a modo de esquema, de como deben ser as diapositivas:\n\nDiapositiva do título Diapositiva 1: Introducir o tema e a motivación Diapositiva 2: Marco teórico Diapositiva 3: Modelo lóxico Diapositiva 4: Modelo matemático Diapositiva 5: Ferramentas de software Diapositiva 6: Interface de usuario ou variables axustables Diapositiva 7: Exemplo de uso Diapositiva 8: Discusión dos aspectos reevantes Diapositiva 9: Conclusións + Diapositiva 10: traballo futuro (melloras)\n\n\nPresentación en Vídeo\n\nPara a presentación de vídeo, podes falar sobre as túas de diapositivas, como nas conferencias.\nA presentación de vídeo non debe ser superior a 5 minutos.\nPodes usar pode usar calquera plataforma dee soporte de vídeo ou subir a grabación en formato mp4 ou mkv a MOOVI.\nA continuación móstranse algúns recursos na gravación de vídeos:\n[Ferramentas de grabación de pantalla de balde:\n\nCamstudio\n\nSimple Screen Recorder\n\nOBS Studiohttps://obsproject.com/\n\n[Apple QuickTime para a gravación de pantalla] (https://support.apple.com/en-gb/guide/quicktime-player/qtp97b08e666/mac)\n[Funcionalidade de gravación de pantalla incorporada de Windows 10] (https://www.youtube.com/watch?v=ofpBr1mrduo)",
+    "crumbs": [
+      "Proxecto",
+      "Instrucións"
+    ]
+  },
+  {
+    "objectID": "project-description.html#reproducibilidade-organización",
+    "href": "project-description.html#reproducibilidade-organización",
+    "title": "Descrición do Proxecto da Asignatura",
+    "section": "Reproducibilidade + organización",
+    "text": "Reproducibilidade + organización\nTodo o traballo escrito (con excepción das diapositivas de presentación) debe ser reproducible e o directorio compartido ou ficheiro .zip debería estar ben organizado. Debería ter a seguinte estrutura:\n\nREADME: descrición curta do proxecto.\n\ninforme-escrito: informe final escrito en formato pdf ou odt.\n\nCartafol Datos: cartafol que contén o conxunto de datos para o proxecto final.\nCartafol Preparación: cartafol que contén os ficheiros ideas e proposta-de-proxecto.\nCartafol Presentación: cartafol coas diapositivas da presentación.\n\nSe as diapositivas de presentación están en liña, podes poñer unha ligazón ás diapositivas nun ficheiro readme no cartafol Presentación.\n\nCartadfol Vídeo: cartafol co vídeo.\n\nSe o vídeo están en liña, podes poñer unha ligazón nun ficheiro readme no cartafol Vídeo.\n\nOs puntos para a reproducibilidade e organización estarán baseados na reproducibilidade do informe escrito e na organización do ficheiro ou disco de entrega.\nO repo, disco ou .zip debe estar organizado perfectamente como se describe anteriormente, non debería haber ficheiros alleos, todo o texto no README debe ser facilmente lexible.\n\n\nA nosa recomendación é que crees un espazo de traballo en Github, é de balde par auso persoal e podes aprender bastante en cano a gardar o teu traballo de xeito seguro e organizado, incluindo o control de versións, tan importante á hora de eleborar código.",
+    "crumbs": [
+      "Proxecto",
+      "Instrucións"
+    ]
+  },
+  {
+    "objectID": "project-description.html#puntuación-final",
+    "href": "project-description.html#puntuación-final",
+    "title": "Descrición do Proxecto da Asignatura",
+    "section": "Puntuación final",
+    "text": "Puntuación final\nA rúbrica de avaliación de do proxecto da asignatura é a seguinte:\n\n\n\nTotal\n100 pts\n\n\n\n\nIdeas e orixinallidade\n5 pts\n\n\nProposta de proxecto\n10 pts\n\n\nrevisión bibliográfica\n10 pts\n\n\nInforme escrito\n40 pts\n\n\nDiapositivas e preosentación\n25 pts\n\n\nReproducibilidade e organización\n5 pts\n\n\nVídeo\n5 pts\n\n\n\n\n\n\n\n\n\nAviso\n\n\n\nNote: Non se aceptarán entregas fóra de prazo.\n\n\n\nResumo da avaliación\nA valoración final do proxecto terá en conta o seguinte:\n\nContido - Cal é a calidade da simulación e a relevancia dos cálculos?.\nCorrección: Os procedementos matemáticos realízanse e explícanse correctamente?.\nEscritura e presentación: A calidade da presentación estatística, a escritura e as explicacións son boas?.\nCreatividade e pensamento crítico: Está ben pensada e é útila?. Ten limitacións importantes?.\nDedicación: O tempo e o esforzo encaixan na planificación de dedicación de traballo pèrsoal da guía docnete da materia?.\n\nUn desglose xeral da puntuación é o seguinte:\n\n90%-100%: Esforzo intenso. O estudante entende como aplicar todos os conceptos teóricos e praćticos, pode poñer os resultados en valor, pode identificar debilidades do traballo e pode comunicar claramente os resultados.\n80%-89%: Bo esforzo. O estudante entende a maioría dos conceptos teóricos, pode poñer a meirande parte dos resultados en valor, pode identificar as debilidades importantes do traballo e pode comunicar razoablemente os resultados.\n70%-79%: Esforzo mediocre. O estudante ten unha incomprensión de conceptos teóricos en áreas, ten algúns problemas para argumentar os resultados, e a comunicación dos mesmos ás veces non está clara.\n60%-69%: Esforzo insuficinte: O estudante fixo pouco esforzo, ten carencias na comprensión do modelo e é incapaz de xustificar a validez da súa simulación. A comunicación de resultados non está clara.\npor baixo do 60% : o alumno non fixo un esforzo suficiente.\n\n\n\nPolítica de entregas de última hora\nSalvo que medie algunha xustificación por razońs de forza maior, debidamente acreditada,Non se aceptaránm entregas fora de prazo.",
+    "crumbs": [
+      "Proxecto",
+      "Instrucións"
+    ]
+  },
+  {
+    "objectID": "posts/2023-10-30-week-01/index.html",
+    "href": "posts/2023-10-30-week-01/index.html",
+    "title": "Obtención do diagrama P-x, T-xy e xy.",
+    "section": "",
+    "text": "import numpy as np\n# Parámetros de Antoine\n\n# heptano\nA_heptano = 4.02832\nB_heptano = 1268.636\nC_heptano = -56.199\n\n#Octano\nA_octano=4.04867\nB_octano=1355.126\nC_octano=-63.633\n\n# Alternativa\n# A = [A_heptano, A_octano]\n# B=[B_heptano, B_octano]\n# A[0] = A del heptano\n\n# Dato: temperatura\nT = 115 + 273.15 # K"
+  },
+  {
+    "objectID": "posts/2023-10-30-week-01/index.html#aparatdo-2-.-diagrama-t-xy-a-partires-da-presión-total-dada",
+    "href": "posts/2023-10-30-week-01/index.html#aparatdo-2-.-diagrama-t-xy-a-partires-da-presión-total-dada",
+    "title": "Obtención do diagrama P-x, T-xy e xy.",
+    "section": "Aparatdo 2 . Diagrama T-xy a partires da presión total dada",
+    "text": "Aparatdo 2 . Diagrama T-xy a partires da presión total dada\n\nfrom scipy.optimize import fsolve\n\n\n# Datos do exercicio\n\nP_t = 1.5 #bar\nx_heptano = np.linspace(0,1,11)\n\n# Suponse unha temperatura de partida\n\nT_guess=396\n\n# Créanse dúas listas nas que se almacenarán os datos de temperatura e fraccións molares do heptano, para cada valor de x\n\nlista_temperatura=[]\nlista_y=[]\n\n# Definiranse as funcións para obter as presións de saturación do heptano e o octano\n\ndef p_sat_heptano(T):\n    return 10  ** ( A_heptano - B_heptano / ( T + C_heptano ) )\n\ndef p_sat_octano(T):\n    return 10 ** ( A_octano - B_octano / ( T + C_octano ) )\n\n# Créase un lazo que devolve o valor da temperatura e a fracción molar do vapor para cada valor de x\n\nfor i in x_heptano:\n    def fmin(T):\n        return i*p_sat_heptano(T)/P_t+(1-i)*p_sat_octano(T)/P_t-1\n    solucion=fsolve(fmin,T_guess)\n    lista_temperatura.append(solucion[0])\n    y_heptano=i*p_sat_heptano(solucion)/P_t\n    lista_y.append(y_heptano[0])\n\nprint(lista_temperatura) # valores de temperatura calculados\nprint(lista_y) # valores de y calculados\n\n[np.float64(413.5615852273091), np.float64(409.77113336473025), np.float64(406.2684364969948), np.float64(403.0216612183846), np.float64(400.00305716655544), np.float64(397.18844969691617), np.float64(394.55676804690006), np.float64(392.0896214256247), np.float64(389.77092633460484), np.float64(387.58658343897787), np.float64(385.52419985536085)]\n[np.float64(0.0), np.float64(0.1837276326189331), np.float64(0.33830109800891695), np.float64(0.4693199994809487), np.float64(0.581154434977709), np.float64(0.6772413410638028), np.float64(0.7603047808262194), np.float64(0.832520410718438), np.float64(0.895638942399593), np.float64(0.9510793956603304), np.float64(1.0000000000003693)]\n\n\n\n# Representación do diagrama T-xy\n\nimport matplotlib.pyplot as plt\nplt.plot(x_heptano, lista_temperatura, 'ko-', lista_y, lista_temperatura, 'ro-')\nplt.xlim(0,1)\nplt.xlabel('x, y (heptano)')\nplt.ylabel('Temperatura (K)')\nplt.title('Diagrama T-x,y')\n\nText(0.5, 1.0, 'Diagrama T-x,y')\n\n\n\n\n\n\n\n\n\n\n# Tamén se pde realizar con fsolve aplicado a la ecuación de Antoine, y no al sumatorio de y - 1\nz=np.linspace(0,1, num=11) #composición inicial\n\n# Funciónes para determinar as presións de saturación dos dous compoñentes\n\ndef Psat1(T):\n    return 10**(A_heptano-B_heptano/(T+C_heptano))\ndef Psat2(T):\n    return 10**(A_octano-B_octano/(T+C_octano))\n\n# Datos do enunciado\ny=z\nP = 1.5 #bar\nfrom scipy.optimize import fsolve\n\n\ndef fun1(T):\n    return P - 10**(A_heptano-B_heptano/(T+C_heptano)) # a qué temperatura P externa es igual al otro término\nTinf=fsolve(fun1, 350) # 350K valor inicial suposto\n                       # Tinf = temperatura de fervura do heptano\n\ndef fun2(T):\n    return P - 10**(A_octano-B_octano/(T+C_octano))\nTsup=fsolve(fun2, 373) # Tsup = temperatura de fervura do octano\n\nprint('A temperatura á que hierve o heptano á presión externa é {:5.2f} K.'.format(Tinf[0]))\nprint('A temperatura á que hierve o octano  á presión externa é {:5.2f} K.'.format(Tsup[0]))\n\nA temperatura á que hierve o heptano á presión externa é 385.52 K.\nA temperatura á que hierve o octano  á presión externa é 413.56 K.\n\n\n\nT=np.linspace(Tinf,Tsup, num=11)\nx = (P-Psat2(T))/(Psat1(T)-Psat2(T))\ny=x*Psat1(T)/P\nplt.plot(x, T,'ko-', y,T,'ro-')\nplt.xlim(0,1)\nplt.xlabel('x, y')\nplt.ylabel('T')\nplt.title('Diagrama T-x, y')\n\nText(0.5, 1.0, 'Diagrama T-x, y')"
+  },
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Blog de SOPQ-2324",
+    "section": "",
+    "text": "Cálculos de separacións flash\n\n\n\n\n\n\n\n\n\n\n\nAnxo Sánchez\n\n\n\n\n\n\n\n\n\n\n\n\nObtención do diagrama P-x, T-xy e xy.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCálculo da constante de eqilibrio e as concentracións mediante a minimizaci´lln da enerxía libre de Gibbs\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "Blog",
+      "Artigos"
+    ]
+  },
+  {
+    "objectID": "notebooks/enunciado.html",
+    "href": "notebooks/enunciado.html",
+    "title": "SOPQ-2425",
+    "section": "",
+    "text": "import random\n\nalunos = ['PCF','ICP','MCM','ACV','SFC','FEFC','MGL','IGD','CGF','ULL','ELG','RPF','RRC','BRS','MSC','ASM','GVG']\n\nfoo = ['pentano', 'hexano', 'heptano', 'octano', 'ciclohexano','benceno','tolueno','o-xileno','m-xileno','p_xileno']\n\nprint(f'| {'Inciais:':4s} | {'Presión:':8s} | {'Composto 1':12s} | {'Composto 2':12s} | {'  x_1':6s} | {'z_1':4s} |')\nprint(f'| {':-------':4s} | {'-------:':8s} | {'---------:':12s} | {'---------:':12s} | {':----:':6s} | {':--:':4s} |')\n\n\nfor i in alunos:\n    composto1 = random.choice(foo)\n    composto2 = random.choice(foo)\n    while composto1 == composto2:\n        composto2 = random.choice(foo)\n    \n    presion_bar = random.uniform(1.15, 2.25)\n    z_1 = random.uniform(0.40, .60)\n    fraccion_molar1 = random.uniform(0.1, 0.9)\n\n    print(f'| {i:8s} | {presion_bar:8.2f} | {composto1:12s} | {composto2:12s} | {fraccion_molar1:1.4f} | {z_1:1.2f} |')\n    # (,composto1,composto2,fraccion_molar1,fraccion_molar2)\n\n\n| Inciais: | Presión: | Composto 1   | Composto 2   |   x_1  | z_1  |\n| :------- | -------: | ---------:   | ---------:   | :----: | :--: |\n| PCF      |     2.22 | tolueno      | benceno      | 0.8023 | 0.56 |\n| ICP      |     2.08 | benceno      | m-xileno     | 0.2822 | 0.40 |\n| MCM      |     1.70 | tolueno      | hexano       | 0.6100 | 0.51 |\n| ACV      |     1.27 | m-xileno     | octano       | 0.8817 | 0.57 |\n| SFC      |     2.19 | octano       | ciclohexano  | 0.6454 | 0.46 |\n| FEFC     |     1.65 | benceno      | o-xileno     | 0.6681 | 0.57 |\n| MGL      |     1.55 | o-xileno     | p_xileno     | 0.4678 | 0.58 |\n| IGD      |     1.47 | octano       | heptano      | 0.2648 | 0.54 |\n| CGF      |     1.97 | heptano      | tolueno      | 0.3718 | 0.51 |\n| ULL      |     2.24 | p_xileno     | o-xileno     | 0.3777 | 0.42 |\n| ELG      |     1.94 | octano       | pentano      | 0.5126 | 0.41 |\n| RPF      |     1.47 | pentano      | tolueno      | 0.4426 | 0.48 |\n| RRC      |     1.62 | o-xileno     | pentano      | 0.3683 | 0.53 |\n| BRS      |     1.58 | m-xileno     | p_xileno     | 0.2367 | 0.42 |\n| MSC      |     2.02 | tolueno      | m-xileno     | 0.8489 | 0.49 |\n| ASM      |     1.19 | benceno      | heptano      | 0.8231 | 0.47 |\n| GVG      |     1.93 | pentano      | p_xileno     | 0.5187 | 0.42 |"
+  },
+  {
+    "objectID": "notebooks/Control-teoria-1.html",
+    "href": "notebooks/Control-teoria-1.html",
+    "title": "SOPQ-2425",
+    "section": "",
+    "text": "Cos datos reflexados na táboa que contén as túas iniciais, responde ós seguintes apartados, usando o NIST Webbook como fonte de información:"
+  },
+  {
+    "objectID": "notebooks/Control-teoria-1.html#datos",
+    "href": "notebooks/Control-teoria-1.html#datos",
+    "title": "SOPQ-2425",
+    "section": "DATOS:",
+    "text": "DATOS:\n\n\n\n\n\n\n\n\n\n\n\nInciais:\nPresión:\nComposto 1\nComposto 2\nx1\nz1\n\n\n\n\nPCF\n2.22\ntolueno\nbenceno\n0.8023\n0.56\n\n\nICP\n2.08\nbenceno\nm-xileno\n0.2822\n0.40\n\n\nMCM\n1.70\ntolueno\nhexano\n0.6100\n0.51\n\n\nACV\n1.27\nm-xileno\noctano\n0.8817\n0.57\n\n\nSFC\n2.19\noctano\nciclohexano\n0.6454\n0.46\n\n\nFEFC\n1.65\nbenceno\no-xileno\n0.6681\n0.57\n\n\nMGL\n1.55\no-xileno\np_xileno\n0.4678\n0.58\n\n\nIGD\n1.47\noctano\nheptano\n0.2648\n0.54\n\n\nCGF\n1.97\nheptano\ntolueno\n0.3718\n0.51\n\n\nULL\n2.24\np_xileno\no-xileno\n0.3777\n0.42\n\n\nELG\n1.94\noctano\npentano\n0.5126\n0.41\n\n\nRPF\n1.47\npentano\ntolueno\n0.4426\n0.48\n\n\nRRC\n1.62\no-xileno\npentano\n0.3683\n0.53\n\n\nBRS\n1.58\nm-xileno\np_xileno\n0.2367\n0.42\n\n\nMSC\n2.02\ntolueno\nm-xileno\n0.8489\n0.49\n\n\nASM\n1.19\nbenceno\nheptano\n0.8231\n0.47\n\n\nGVG\n1.93\npentano\np_xileno\n0.5187\n0.42"
+  },
+  {
+    "objectID": "course-team.html",
+    "href": "course-team.html",
+    "title": "Teaching team",
+    "section": "",
+    "text": "Anxo Sánchez é Professor e Coordinador da materia dende o Curso 2017-1028.\nNa actualidade é u único Profesor encargado da mesma.\n\n\n\n\n\n\n\nHorario de titorías presenciais\nDespacho 205 da EEI, Sede Cidade\n\n\n\n\nMércores 09:00 - 12:00\n\n\n\nXoves 11:00 - 14:00\n\n\n\n\nEn calqueira outra ocadssión debes axendar unha titoría na [páxina de booking](Schedule online)",
+    "crumbs": [
+      "Información xeral",
+      "Profesorado"
+    ]
+  },
+  {
+    "objectID": "course-team.html#profesor",
+    "href": "course-team.html#profesor",
+    "title": "Teaching team",
+    "section": "",
+    "text": "Anxo Sánchez é Professor e Coordinador da materia dende o Curso 2017-1028.\nNa actualidade é u único Profesor encargado da mesma.\n\n\n\n\n\n\n\nHorario de titorías presenciais\nDespacho 205 da EEI, Sede Cidade\n\n\n\n\nMércores 09:00 - 12:00\n\n\n\nXoves 11:00 - 14:00\n\n\n\n\nEn calqueira outra ocadssión debes axendar unha titoría na [páxina de booking](Schedule online)",
+    "crumbs": [
+      "Información xeral",
+      "Profesorado"
+    ]
+  },
+  {
+    "objectID": "course-support.html",
+    "href": "course-support.html",
+    "title": "Soporte",
+    "section": "",
+    "text": "Se en algún momento do prooceso tes a sensación de non poder acabr o traballo pide axuda, usa os mecanismos que che proporciona a universidade para non acabar cunha frustrarción e sensación de que é tarde, e sintes incomodeidade, para buscar axuda.",
+    "crumbs": [
+      "Información xeral",
+      "Soporte"
+    ]
+  },
+  {
+    "objectID": "course-support.html#clases-e-laboratorios",
+    "href": "course-support.html#clases-e-laboratorios",
+    "title": "Soporte",
+    "section": "Clases e laboratorios",
+    "text": "Clases e laboratorios\nSe tes unha pregunta durante as clases teóricas ou as prácticas, non dubides en preguntar. Probablemente haxa outros compañeiros coas mesma preguntas, polo que unha pregunta túa creará unha oportunidade de aprendizaxe para todos.",
+    "crumbs": [
+      "Información xeral",
+      "Soporte"
+    ]
+  },
+  {
+    "objectID": "course-support.html#horario-oficial",
+    "href": "course-support.html#horario-oficial",
+    "title": "Soporte",
+    "section": "Horario oficial",
+    "text": "Horario oficial\n\nOs docentes estamos aquí para axudarche a ter éxito no curso.\nAnímase a asistir ás titorías presenciais para facer preguntas sobre o contido e as tarefas do curso, ou busar consello en xerakl sovrea tiutulación.\nMoitas preguntas quedan mellor respondidas en persoa, polo que o horario de atención presencial é un recurso valioso. Ningúbn profesor pode nin debe afearche o uso intensivo do hotrario de titorías.\nFai un calendario de consultas de titorías para cada materia que curses, polo menos unha vez durante as primeiras semanas de clase.\nO horario de titorías está pbligatoriamente publicado na guía docente da materia e en na [secretaría virtual}(https://seix.uvigo.gal).",
+    "crumbs": [
+      "Información xeral",
+      "Soporte"
+    ]
+  },
+  {
+    "objectID": "course-support.html#foros-de-discusión",
+    "href": "course-support.html#foros-de-discusión",
+    "title": "Soporte",
+    "section": "Foros de discusión",
+    "text": "Foros de discusión\n\nTes algunha pregunta que non pode esperar ao horario de titorías?\nPrefires escribir a túa pregunta en detalle en vez de preguntar en persoa?\nO foro de discusión en liña é o mellor lugar para estes.\nUsa [conversas] (https://sakai.duke.edu/portal/site/779c3ebe-3b88-4bcc-bd01-1813e8396a23/tool/13b6446a-a6c6-4222-8cfb-c36d10802b) como o en liña. Hai unha posibilidade de que outro estudante xa se fixera unha pregunta similar, polo que consulte as outras publicacións sobre a discusión de ED antes de engadir unha nova pregunta. Se coñeces a resposta a unha pregunta que se publica, anímovos a responder.",
+    "crumbs": [
+      "Información xeral",
+      "Soporte"
+    ]
+  },
+  {
+    "objectID": "course-support.html#email",
+    "href": "course-support.html#email",
+    "title": "Soporte",
+    "section": "Email",
+    "text": "Email\n\nEn caso necesario podes contactar por correo electrónico inda que sexa para adiar un ha videoconferencia ou formular directamente calquera consulta.\nLembra quye este método se reduce a interacción entre ti e o teu profesor e non aporta nada ós compañeiros de curso, sempre é preferible o foro.\nTrata de enviar as proguntas sobre o de contido do curso (estas deberían ir ó foro) e só usa correo electrónico para preguntas sobre asuntos persoais que poden non te atreves a enunciar no foro público (por exemplo, enfermidade, conselloss, etc.).\nPara tales asuntos, podes enviar un correo electrónico [] (mailto: asanchez@uvigo.gal).\nSe me envías un correo electrónico, inclúe “SOPQ-2324” noasunto.\nO tempo de resposta pode ser máis lento para os correos electrónicos enviados o fin de semana.",
+    "crumbs": [
+      "Información xeral",
+      "Soporte"
+    ]
+  },
+  {
+    "objectID": "course-support.html#soporte-académico",
+    "href": "course-support.html#soporte-académico",
+    "title": "Soporte",
+    "section": "Soporte académico",
+    "text": "Soporte académico\nPara obter axuda técnica da materia, a continuación relátanse as ligazóns mais relevantes:\n\nMOOVI\nTeams\nCampusremoto\nGithub\n\n\nAsistencia Teams ou Campusremoto\n\nTen en conta que imos facer un uso intensido MOOVI n canto ó seguemento académico da materia.\nNo seu lugar toda a presentación e titoriais, vídeos ,atc. terá lugar en GitHub.\nO Teams utilizarase para o horario de atención liña, ou seña, as titorías telemáticas ou videconferencias particulares solicitadas previamente.",
+    "crumbs": [
+      "Información xeral",
+      "Soporte"
+    ]
+  },
+  {
+    "objectID": "course-support.html#saúde-mental-e-benestar",
+    "href": "course-support.html#saúde-mental-e-benestar",
+    "title": "Soporte",
+    "section": "Saúde mental e benestar",
+    "text": "Saúde mental e benestar\n\nA saúde mental e o benestar dos estudantes son de importancia primordial na Uvigo, e a universidade ofrece recursos para apoiar aos estudantes na xestión do estrés diario e no coidado de si mesmo.\nNon teñas medo de utilizar esos recursos.\nVisita con frecuencia as páxinas da Viccerreitoría de estudiantes.\nA Uvigo ofrece varios recursos para que os estudantes busquen asistencia en cursos e para fomentar hábitos diarios que admiten o benestar global, algúns dos cales figuran a continuación:",
+    "crumbs": [
+      "Información xeral",
+      "Soporte"
+    ]
+  },
+  {
+    "objectID": "course-support.html#dereitos-dos-materiais-do-curso",
+    "href": "course-support.html#dereitos-dos-materiais-do-curso",
+    "title": "Soporte",
+    "section": "Dereitos dos materiais do curso",
+    "text": "Dereitos dos materiais do curso\n\nTodos os materiais docentes de este curso son de libre distribucvión, amparados polas licencias Creative Commons, agás as aplicacións de prácticas HYSYS e AspenPlus.\nNon hai problemas de copyright asociados a este curso.\nTodas as lecturas procederán de recursos abertos libremente dispoñibles (libros de texto de código aberto, artigos de diario, etc.).",
+    "crumbs": [
+      "Información xeral",
+      "Soporte"
+    ]
+  },
+  {
+    "objectID": "course-links.html",
+    "href": "course-links.html",
+    "title": "Ligazóns",
+    "section": "",
+    "text": "Handbook online\nUniversidade estatal de Iowa\n\n\nCálculos\n🔗 on Checalc\n\n\nCálculos VLE\n🔗 on VLE-Cacl\n\n\nRecursos educativos\n🔗 on CaCHE\n\n\nScreencasts\n🔗 on Learncheme\n\n\nAutoavaliación\n🔗 on Sakai\n\n\nLaboratorios virtuais\n🔗 on Universidade Colorado Boulder",
+    "crumbs": [
+      "Información xeral",
+      "Ligazońs"
+    ]
+  },
+  {
+    "objectID": "computing-troubleshooting.html",
+    "href": "computing-troubleshooting.html",
+    "title": "Problemas de computación",
+    "section": "",
+    "text": "Se tes dificultades para lanzar unha sesión de Python desde o teu usuario reservado, diríxete a a este email.\n\nSe o estado mostra algo que non sexa “operativo”, isto significa que hai un incidente coñecido cos contedores. Volve máis tarde para ver se se resolveu.\nSe non se resolve, publica no foro do curso en MOOVI para facernos saber que hai un problema. Intentaremos determinar o problema con rapidez e se é posible resolvelo. En caso contrario, decidiráse que facer e se vos comunicará a través do foro MOOVI da materia.\n\nNota: Non prevemos que isto suceda regularmente, os sistemas están a operar unha gran maioría do tempo.\n\nSe o estado mostra “operativo”, isto significa que o sistema está previsto que funcione.\nComproba a túa conexión a Internet, se é necesario, reinicie o ordenador para garantir unha nova conexión nova.\nSe o teu problema persiste, publica no foro do curso detalles sobre o que probaches e os erros que ves (incluíndo erros e/ou capturas de pantalla verbatim).\nDe calquera xeito tamén podes cubrir o formulario seguinte:\n\n\n\nIntentaremos, na medida da nosas posibilidades solucionar o problema.",
+    "crumbs": [
+      "Computación",
+      "Problemas c servidor"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About me",
+    "section": "",
+    "text": "Anxo Sánchez: Son Catedrático de Universidade do Departamento de Enxeñaría Química da Universidade de Vigo."
+  },
+  {
+    "objectID": "about.html#educación",
+    "href": "about.html#educación",
+    "title": "About me",
+    "section": "Educación",
+    "text": "Educación\nUniversidade de Vigo: - Escola de Enxeñaría Industriais: - Campus Universitario Lagoas-Marcosende, 9 36310 Vigo (SPAIN) - Escola de Enxeñar´ia Forestal - Campus Universitario Pontevedra"
+  },
+  {
+    "objectID": "about.html#investigación",
+    "href": "about.html#investigación",
+    "title": "About me",
+    "section": "Investigación",
+    "text": "Investigación\nÁreas de traballo: - Enerxía da biomasa - TEcnoloxías do Hidr´xeno e as Pilas de combustible - Deseño de Procesos e Prodtos Químicos Sustentables, en especial - Disolventes verdes - Biocombustibles"
+  },
+  {
+    "objectID": "computing-access.html",
+    "href": "computing-access.html",
+    "title": "Computing access",
+    "section": "",
+    "text": "Para acceder a recursos informáticos para o uso de python do Departamento de Enxeñaría Química da Universidade de Vigo, diríxete ao servidor de notebooks e accede co te nome (o primeiro só) escrito en minúsculas e sin acento ningún. En caso de que non che permita o acceso o mais probable é que exista algún outro compañeiro co memso primeiro nome c cal debes engadir a inicial do primeioro apelido en maiúsculas (p.e. AnaL, AnaG, etc.).\nSe esta é a primeira vez que accedes debes introducir o contrasinal que quedará por defecto. Só tes que facelo unha vez e.\nEntrarás nunha instancia de JupyterLab, que che permite facer varias cousas, entre elas notebools de jupyter.\nComo alternativa podes usar Google Collab. As diferencias mais salientable entre Collab e EQEA son que no servidor do Departamenteo de Enxeñaría química están instaladas todas as librerías python que se usan no curso, asi como o Octave, que é o clon libre de Matlab.\nAs entregas deberalas facer a través de MOOVI xa que inda que quedan almacendas en Collab e EQEA, non se trasladan directamente ó teu curso de MOOVI para a súa avaliación.",
+    "crumbs": [
+      "Computación",
+      "Aceso"
+    ]
+  },
+  {
+    "objectID": "course-faq.html",
+    "href": "course-faq.html",
+    "title": "FAQ",
+    "section": "",
+    "text": "En xeral, os ficheiros de cada asignación, entregable, etc. se suben á plataforma directamente a unha tarefa patada no tempo pero que non caduca (pódese entregar fora de prazo, inda que penzaliza a puntuación).\nEn casos específicos se indicará algún outro xeito de facelo, Non obsrante, ante calquera dúbida ou malfunciń dos programas, podes entregalos por correo electrónico a (asanchez@uvigo.gal), ou no Despacho 205 da EEI sede cidade (2ª pranta).\nÉ conviente, inda que opcional, que separes o que é o código de solución (.py, .ipynb, .xlsx, etc.) do texto explicativo que pide a rúbrica de cada item da avaliación continua que pode estar en formato text, pdf, wordx, etc., ten en conta que por cada asignación p´dense subir ata 10 ficheiros.",
+    "crumbs": [
+      "Información xeral",
+      "FAQ"
+    ]
+  },
+  {
+    "objectID": "course-faq.html#cómo-teño-que-subir-as-miñas-tarefas-a-moovi",
+    "href": "course-faq.html#cómo-teño-que-subir-as-miñas-tarefas-a-moovi",
+    "title": "FAQ",
+    "section": "",
+    "text": "En xeral, os ficheiros de cada asignación, entregable, etc. se suben á plataforma directamente a unha tarefa patada no tempo pero que non caduca (pódese entregar fora de prazo, inda que penzaliza a puntuación).\nEn casos específicos se indicará algún outro xeito de facelo, Non obsrante, ante calquera dúbida ou malfunciń dos programas, podes entregalos por correo electrónico a (asanchez@uvigo.gal), ou no Despacho 205 da EEI sede cidade (2ª pranta).\nÉ conviente, inda que opcional, que separes o que é o código de solución (.py, .ipynb, .xlsx, etc.) do texto explicativo que pide a rúbrica de cada item da avaliación continua que pode estar en formato text, pdf, wordx, etc., ten en conta que por cada asignación p´dense subir ata 10 ficheiros.",
+    "crumbs": [
+      "Información xeral",
+      "FAQ"
+    ]
+  },
+  {
+    "objectID": "course-faq.html#qué-programas-podo-usar-para-resolver-os-casos",
+    "href": "course-faq.html#qué-programas-podo-usar-para-resolver-os-casos",
+    "title": "FAQ",
+    "section": "Qué programas podo usar para resolver os casos?",
+    "text": "Qué programas podo usar para resolver os casos?\nSalvo que se espeficique, podes resolver o que se che pide en calquera linguaxe de programación pero se recomenda que o fagas en matlab, python ou follas de cálculo para axilizar a corrección.",
+    "crumbs": [
+      "Información xeral",
+      "FAQ"
+    ]
+  },
+  {
+    "objectID": "course-faq.html#teño-que-ter-instalado-algún-programa-ou-podo-usar-os-que-me-proporciona-a-universidade",
+    "href": "course-faq.html#teño-que-ter-instalado-algún-programa-ou-podo-usar-os-que-me-proporciona-a-universidade",
+    "title": "FAQ",
+    "section": "Teño que ter instalado algún programa ou podo usar os que me proporciona a Universidade?",
+    "text": "Teño que ter instalado algún programa ou podo usar os que me proporciona a Universidade?\nPodes usar, nas horas asignadas, os ordenadores das aula informáticas da Universidade. Non obstante e, co fin de poder facer parte do traballos que confrman a avaliaión continua, sería conviente que fixeras instalación no teu computador persoal de:\n\nPython ou matlab\nFolla de cálculo\nSimulador de procesos (DWSIM, HYSYS, ASPENPLUS, COCO, CHEMSEP, etc.).\n\nAqueles programas que estean licinciados á Universidade de Vigo que queiras instalar, deberás comunicalo ó profesorado da materia, non asi os que sexan de libre distribución ou demos.",
+    "crumbs": [
+      "Información xeral",
+      "FAQ"
+    ]
+  },
+  {
+    "objectID": "course-faq.html#qué-programas-se-me-recomenda-instalar-no-meu-computador",
+    "href": "course-faq.html#qué-programas-se-me-recomenda-instalar-no-meu-computador",
+    "title": "FAQ",
+    "section": "Qué programas se me recomenda instalar no meu computador?",
+    "text": "Qué programas se me recomenda instalar no meu computador?\nUnha dotación básica sería: - Folla de cálculo (Excel ou Libreoffice Calc) - Unha linguaxe de programación: (Matlab ou Python). No caso de Python unha distribución fácilmente usable como Miniconda, Winpython ou Thonny",
+    "crumbs": [
+      "Información xeral",
+      "FAQ"
+    ]
+  },
+  {
+    "objectID": "course-overview.html",
+    "href": "course-overview.html",
+    "title": "SOPQ-2324: Simulación e Optimización de Procesos Químicos",
+    "section": "",
+    "text": "DATOS IDENTIFICATIVOS 2023_24 Materia Simulación e optimización de procesos químicos Código V12G350V01702 Titulación\nGrao en Enxeñaría en Química Industrial Descritores Cr.totais Sinale Curso Cuadrimestre 6 OB 4 1c Lingua de impartición\nGalego Inglés Prerrequisitos\nDepartamento\nCoordinador/a\nSánchez Bermúdez, Ángel Manuel Correo-e asanchez@uvigo.gal Profesorado Sánchez Bermúdez, Ángel Manuel Web http://http://eqea.uvigo.es Descrición xeral Asignatura obrigatoria que se imparten no 7º cuadrimestre do Grao en Química Industrial, unha vez que o alumno estudou as materias nas que deben demostrar os coñecementos necesarios sobre: - Métodos numéricos empregados na enxeñaría química. - Deseño de reactores químicos. - Deseño de equipos para operacións de separación. - Deseño de equipos de transferencia de calor empregados en procesos químicos. - Control e seguridade dos procesos químicos.\nEsta materia impártese no último ano. O alumno accede despois de adquirir e desenvolver habilidades para xestionar facilmente as ferramentas informáticas da informática dixital, nas que o uso seguirá funcionando e afondar.",
+    "crumbs": [
+      "Información xeral",
+      "Información xeral"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html",
+    "href": "course-syllabus.html",
+    "title": "Guía Docente",
+    "section": "",
+    "text": "Materia: Simulación e optimización de procesos químicos Código: V12G350V Titulación: Grao en Enxeñaría en Química Industrial Descritores:\n\n\n\nCreditos ECTS\nSeleción\nCurso\nCuadrimestre\n\n\n\n\n6\nOB\n4\n1c\n\n\nLingua de impartición\nGalego,Inglés\n\n\n\n\nDepartamento\nEnxeñaría Química\n\n\n\n\nCoordinador/a\nSánchez Bermúdez, Ángel Manuel\n\n\n\n\nProfesorado\nSánchez Bermúdez, Ángel Manuel\n\n\n\n\nCorreo-e\nasanchez@uvigo.gal\n\n\n\n\nWeb\nhttp://http://eqea.uvigo.es\n\n\n\n\n\n\n\n\nAsignatura obrigatoria que se imparten no 7º cuadrimestre do Grao en Química Industrial, unha vez que o alumno estudou as materias nas que deben demostrar os coñecementos necesarios sobre:\n- Métodos numéricos empregados na enxeñaría química.\n- Deseño de reactores químicos.\n- Deseño de equipos para operacións de separación.\n- Deseño de equipos de transferencia de calor empregados en procesos químicos.\n- Control e seguridade dos procesos químicos.\nEsta materia impártese no último ano. O alumno accede despois de adquirir e desenvolver habilidades para xestionar facilmente as ferramentas informáticas da informática dixital, nas que o uso seguirá funcionando e afondar.\n\n\n\n\n\n\n\n\n\n\nCódigo\nDescrición\n\n\n\n\nB3\nCG3 Coñecemento en materias básicas e tecnolóxicas que os capacite para a aprendizaxe de novos métodos e teorías, e os dote de versatilidade para adaptarse a novas situacións.\n\n\nB4\nCG4 Capacidade para resolver problemas con iniciativa, toma de decisións, creatividade, razoamento crítico e capacidade para comunicar e transmitir coñecementos, habilidades e destrezas no campo da enxeñaría industrial na mención de Química Industrial.\n\n\nC20\nCE20 Capacidade para a análise, deseño, simulación e optimización de procesos e produtos.\n\n\nD2\nT2 Resolución de problemas.\n\n\nD6\nCT6 Aplicación da informática no ámbito de estudo.\n\n\nD8\nCT8 Toma de decisións.\n\n\nD9\nCT9 Aplicar coñecementos.\n\n\nD10\nCT10 Aprendizaxe e traballo autónomos.\n\n\nD17\nCT17 Traballo en equipo.\n\n\n\n\n\n\n\n\n\n\n\n\n\nResultados previstos na materia\nResultados de Formación e Aprendizaxe\n\n\n\n\nSimular un diagrama de fluxo dun proceso en réxime estacionario. Coñecer os métodos mais importantes de simulación de procesos (modular e baseado en ecuacións). Analizar as características estructurais dun proceso químico e determinar o orde de cálculo das unidades,establecer o fluxo de información e seleccionar as variables ou correntes de corte de forma axeitada. Resolver problemas de gran escala modelados por sistemas de ecuacións alxebraicas (sistemas dispersos).\nB3 B4  C20  D6 D8 D9 D10 D17\n\n\nAnalizar un proceso, determinar os seus graos de libertade e escoller as mellores variables para a súa optimización. &gt;br&gt; Coñecer os fundamentos básicos dos algoritmos mais importantes de optimización determinista, tanto en variable continua como discreta.  Modelar axeitadamente un problema de optimización e/ou síntese de procesos e utilizar as ferramientas axeitadas para resolverlo.\nB3 B4  C20  D6 D9 D17\n\n\nCoñecer os fundamentos básicos do deseño de procesos mediante simuladores de proceso. A descomposición xerárquica e os fundamentos do deseño baseado en superestructuras. Aplicar os conceptos de integración de enerxía para o deseño de redes de intercambio de calor. Saber adquirir y utilizar información bibliográfica y técnica referida a esta materia. Coñecemento e aplicación da terminología inglesa empregada para descreber os conceptos correspondientes a esta materia.\nB3 B4  C20  D2 D6 D9 D10\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nParte 1\nSimulación\n\n\n\n\nTEMA 1\nSIMULACIÓN DE PROCESOS. DIAGRAMAS DE FLUXO- Simulacións por computador- Tipos de simuladores- Optimización\n\n\nTEMA 2\nSIMULACIÓN SECUENCIAL MODULAR- Descomposición de sistemas a gran escala- Algoritmos de particionamento- Descomposición de Redes Cíclicas Máximas\n\n\nTEMA 3\nSIMULACIÓN ORIENTADA A ECUACIÓNS- Método de factorización local (criterio de Markowitz)- Reordenación “a priori” de matrices dispersas. Fase numérica\n\n\nTEMA 4\nGRAOS DE LIBERDADE DUN DIAGRAMA DE FLUXO- Graos de liberdade- Solución de ecuacións Sistemas de ecuacións nonlineais- Selección das variables de deseño\n\n\nTEMA 5\nPROPIEDADES FÍSICAS EN SIMULADORES DE PROCESOS QUÍMICOS- Obtención e uso de propiedades físicas- Uso dos sistemas de cálculo de propiedades físicas\n\n\nTEMA 6\nDESEÑO CONCEPTUAL DE PROCESOS- Síntese xerárquica- Síntese baseada na programación matemática\n\n\nEXEMPLOS DE APLICACIÓN\n- Síntese de redes de cambiadores de calor (método de deseño “pinch”)- Extensións do método de “pinch”\n\n\nParte 2\nOPTIMIZACIÓN\n\n\nTEMA 7\nOPTIMIZACIÓN DE PROCESOS QUÍMICOS- Conceptos básicos sobre optimización- Optimización non liñal sin restriccións- Conceptos básicos da optimización non liñal con restriccións (igualdade e desigualdade)\n\n\nTEMA 8\nMÉTODOS NUMÉRICOS DE OPTIMIZACIÓN. OPTIMIZACIÓN SIN RESTRICCIÓNS- Optimización multivariable sen restriccións- Método de gradiente- Método de Newton- Métodos da secante\n\n\nTEMA 9\nPROGRAMACIÓN LIÑAL (LP)- Definicións e teoremas básicos da programación liñal- Resolución do problema- O algoritmo Simplex- Programación cuadrática\n\n\nTEMA 10\nMÉTODOS NUMÉRICOS PARA A OPTIMIZACIÓN DE PROBLEMAS NON LIÑAIS CON RESTRICCIÓNS- Métodos de penalización, barreira e Lagranxiana aumentada- Programación cuadrática sucesiva- Método do gradiente reducido\n\n\nESTUDO DE CASOS\n- Exemplos prácticos de aplicación en industrias químicas e de proceso- Utilizando software de simulación e optimización de procesos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nActividade\nHoras na aula\nHoras fóra da aula\nHoras totais\n\n\n\n\nActividades introdutorias\n2\n8\n10\n\n\nLección maxistral\n6\n0\n16\n\n\nAprendizaxe baseado en proxectos\n12\n36\n48\n\n\nEstudo de casos\n6\n0\n6\n\n\nSimulación\n0\n18\n18\n\n\nPrácticas con apoio das TIC\n24\n0\n24\n\n\nResolución de problemas de forma autónoma\n0\n25\n25\n\n\nMetodoloxías baseadas en investigación\n0\n10\n10\n\n\nExame de preguntas de desenvolvemento\n10\n3\n3\n\n\n\n*Os datos que aparecen na táboa de planificación son de carácter orientador, considerando a heteroxeneidade do alumnado.\n\n\n\n\n\n\nActividade\nDescrición\n\n\n\n\nActividades introdutorias\nPresentación e introducción ó uso dos programas de simulación e optimización: Matlab, Pyhton-Cantera, COCO SIMULATOR, CHEMPSEP, DWSIM, HYSYS e ASPEN PLUS\n\n\nLección maxistral\nPresentación verbal organizada de temas referidos ós contidos da asignatura, impartidos polo profesor con axudas visuais. Este método didáctico didáctico, implica a comunicación unidireccional do presentador activo ós estudiantes\n\n\nAprendizaxe baseado en proxectos\nOs estudantes traballarán nun proxecto durante un período de tempo prolongado (o cuatrimestre) que os involucre na resolución dun problema do mundo real ou na resposta a unha pregunta complexa. Demostran os seus coñecementos e habilidades creando un produto público ou unha presentación para un público real\n\n\nEstudo de casos\nSe plantexan escenarios baseados en situacións nas que os alumnos observan, analizan, rexistran, implementan, conclúen, resumen ou recomendan. Os estudos de casos créanse e utilízanse como ferramenta de análise e discusión\n\n\nSimulación\nO alumno ten que preparar, e documentar, unha simulación que implique un proceso orixinal, a mellora de un proceso documentado ou a optimización dun proceso ou planta existente, así como crear unha presentación pública do seu traballo\n\n\nPrácticas con apoio das TIC\nSe plantexarán simulacións de parte de procesos ou unidades de operación para resolver coas distintas ferramentas informáticas que se contemplan na materia (simuladores de proceso, linguaxes de programación, etc.)\n\n\nResolución de problemas de forma autónoma\nSe plantexará a resolución de problemas de libros tradicionais da enxeñaría química que serán resoltos mediante as ferramentas propostas na materia, como alternativa ós métodos tradicionais de resolución\n\n\nMetodoloxías baseadas en investigación\nO alumno deberá documentar o uso de sistemas de busca bibliográfica asi como de datos de interese na web (fontes de información titoriais, etc.)\n\n\n\n\n\n\nMetodoloxías Descrición Simulación O alumno propondrá unha simulación de un proceso novo, mellora de un existente ou optimización de un proceso ou planta ou, no seu caso, debe adoptar o asignado polo profesor que titorará de xeito individualizado ou por grupo cada unha das simulacións da clase. Aprendizaxe baseado en proxectos\nO profesor propondrá pequenos proxectos que os alumnos han de resolver mediante as ferramentas que se lles indiquen na clase e entragar para a súa puntuación dacordo á rúbrica correspondente que será publicada na plataforma de e-learning. Cada alumno debe entragar o traballo realizado en clase ó finalizar a mesma. Os proxectos recibirán unha puntuación acorde á rúbrica que se publicará na plataforma de e-learning. Estudo de casos Se plantexan escenarios baseados en situacións nas que os alumnos observan, analizan, rexistran, implementan, conclúen, resumen ou recomendan. Non haberá probas. Prácticas con apoio das TIC\nNa aula informática ou na aula de teoría se farán simulacións e resolución de problemas mediante ferramentas informáticas que han de ser entregados no memo día polos alumnos. cualificación estará rubricada por rúbrica públicada na plataforma de e-learning.\n\n\n\n\n\n\n\n\n\n\nActividade\nDescrición\n\n\n\n\nAprendizaxe baseado en proxectos\nSe realizará durante todo o semestre e se entregará ó concluir as clases presenciais e antes do exame final. A cualificación estará rubricada por rúbrica públicada na plataforma de e-learning\n\n\nSimulación\nO alumno debe realizae e entregar unha simulación que contribúe á avaliación continua e que debe ser realizada de xeito tutelado durante todo o semestre. A cualificación estará rubricada por rúbrica públicada na plataforma de e-learning\n\n\nResolución de problemas de forma autónoma\nPeriódicamente o alimno debe entregar resoltos os problemas que se lle plantexan.\n\n\nExame de preguntas de desenvolvemento\nCorreesponde ó exame final da asignatura que, no caso de renuncia á avaliación continua, será o total da nota. Está constituído por un ou varios casos, ou simulacións e a súa correccióne stará asemesmo rubricada.\n\n\n\n\n\n\nAlumnos con avaliación continua: A avaliación continua aplicaráse na primeira convocatoria.\nPara os alumnos con renuncia concedida oficialmente polo centro á avaliación continua o exame final valerá o 100%.\nCompromiso ético: Espérase que o alumno presente un comportamento ético adecuado. No caso de detectar un\ncomportamento non ético (copia, plaxio, utilización de aparellos electrónicos non autorizados, e outros) considerarase que o alumno non reúne os requisitos necesarios para superar a materia. Neste caso a cualificación global no presente curso académico será de suspenso (0,0).\n\n\n\n\n\n\n\nKamal I.M. Al-Malah, Aspen Plus: Chemical Engineering Applications , 1st Edition, Wiley, 2016.\nJuma Haydary, Chemical Process Design and Simulation: Aspen Plus and Aspen Hysys Applications , 1st Edition, AIChE, 2019.\nD.M. Himmelblau, K.B. Bischoff, Análisis y Simulación de Procesos , Reverté, 2004.\nSimant Ranjan Upreti, PROCESS MODELING AND SIMULATION FOR CHEMICAL ENGINEERS , 1st Edition, Wiley, 2017.\n\n\n\nDavid. M. Himmelblau, Optimization of Chemical Processes , 2nd Edition, McGraw-Hill Higher Education, 2001.\n\n\n\n\n\n\n\nControl e instrumentación de procesos químicos/V12G350V\n\nDeseño de plantas químicas e de proceso/V12G350V\n\nModelaxe de procesos biotecnolóxicos/V12G350V\n\n\n\n\n\nXestión e posta en servizo de plantas químicas e de proceso/V12G350V\n\nOptimización de produtos/V12G350V\n\nProcesos e produtos biotecnolóxicos/V12G350V\n\nQuímica orgánica industrial/V12G350V\n\n\n\n\n\nEnxeñaría química I/V12G350V\n\nTermodinámica e transmisión de calor/V12G350V\n\nExperimentación en química industrial I/V12G350V\n\nExperimentación en química industrial II/V12G350V\n\nEnxeñaría química II/V12G350V\n\nReactores e biotecnoloxía/V12G350V\n\nCalor e frío na industria de proceso/V12G350V\n\nTécnicas e xestión medioambientais/V12G350V\n\n\n\n\n\nOs pilares que sustentan esta materia concrétanse no uso das técnicas de cálculo numérico, aplicado ós contidos proprios da enxeñaría química: balances de materia i enerxía , fenómenos de trasporte, termodinámica, fluidodinámica, termotecnia, operacións de separación, reactores , control de procesos , etc.",
+    "crumbs": [
+      "Información xeral",
+      "Guía Docente"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#datos-identificativos",
+    "href": "course-syllabus.html#datos-identificativos",
+    "title": "Guía Docente",
+    "section": "",
+    "text": "Materia: Simulación e optimización de procesos químicos Código: V12G350V Titulación: Grao en Enxeñaría en Química Industrial Descritores:\n\n\n\nCreditos ECTS\nSeleción\nCurso\nCuadrimestre\n\n\n\n\n6\nOB\n4\n1c\n\n\nLingua de impartición\nGalego,Inglés\n\n\n\n\nDepartamento\nEnxeñaría Química\n\n\n\n\nCoordinador/a\nSánchez Bermúdez, Ángel Manuel\n\n\n\n\nProfesorado\nSánchez Bermúdez, Ángel Manuel\n\n\n\n\nCorreo-e\nasanchez@uvigo.gal\n\n\n\n\nWeb\nhttp://http://eqea.uvigo.es",
+    "crumbs": [
+      "Información xeral",
+      "Guía Docente"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#descrición-xeral",
+    "href": "course-syllabus.html#descrición-xeral",
+    "title": "Guía Docente",
+    "section": "",
+    "text": "Asignatura obrigatoria que se imparten no 7º cuadrimestre do Grao en Química Industrial, unha vez que o alumno estudou as materias nas que deben demostrar os coñecementos necesarios sobre:\n- Métodos numéricos empregados na enxeñaría química.\n- Deseño de reactores químicos.\n- Deseño de equipos para operacións de separación.\n- Deseño de equipos de transferencia de calor empregados en procesos químicos.\n- Control e seguridade dos procesos químicos.\nEsta materia impártese no último ano. O alumno accede despois de adquirir e desenvolver habilidades para xestionar facilmente as ferramentas informáticas da informática dixital, nas que o uso seguirá funcionando e afondar.",
+    "crumbs": [
+      "Información xeral",
+      "Guía Docente"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#resultados-de-formación-e-aprendizaxe",
+    "href": "course-syllabus.html#resultados-de-formación-e-aprendizaxe",
+    "title": "Guía Docente",
+    "section": "",
+    "text": "Código\nDescrición\n\n\n\n\nB3\nCG3 Coñecemento en materias básicas e tecnolóxicas que os capacite para a aprendizaxe de novos métodos e teorías, e os dote de versatilidade para adaptarse a novas situacións.\n\n\nB4\nCG4 Capacidade para resolver problemas con iniciativa, toma de decisións, creatividade, razoamento crítico e capacidade para comunicar e transmitir coñecementos, habilidades e destrezas no campo da enxeñaría industrial na mención de Química Industrial.\n\n\nC20\nCE20 Capacidade para a análise, deseño, simulación e optimización de procesos e produtos.\n\n\nD2\nT2 Resolución de problemas.\n\n\nD6\nCT6 Aplicación da informática no ámbito de estudo.\n\n\nD8\nCT8 Toma de decisións.\n\n\nD9\nCT9 Aplicar coñecementos.\n\n\nD10\nCT10 Aprendizaxe e traballo autónomos.\n\n\nD17\nCT17 Traballo en equipo.",
+    "crumbs": [
+      "Información xeral",
+      "Guía Docente"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#resultados-previstos-na-materia",
+    "href": "course-syllabus.html#resultados-previstos-na-materia",
+    "title": "Guía Docente",
+    "section": "",
+    "text": "Resultados previstos na materia\nResultados de Formación e Aprendizaxe\n\n\n\n\nSimular un diagrama de fluxo dun proceso en réxime estacionario. Coñecer os métodos mais importantes de simulación de procesos (modular e baseado en ecuacións). Analizar as características estructurais dun proceso químico e determinar o orde de cálculo das unidades,establecer o fluxo de información e seleccionar as variables ou correntes de corte de forma axeitada. Resolver problemas de gran escala modelados por sistemas de ecuacións alxebraicas (sistemas dispersos).\nB3 B4  C20  D6 D8 D9 D10 D17\n\n\nAnalizar un proceso, determinar os seus graos de libertade e escoller as mellores variables para a súa optimización. &gt;br&gt; Coñecer os fundamentos básicos dos algoritmos mais importantes de optimización determinista, tanto en variable continua como discreta.  Modelar axeitadamente un problema de optimización e/ou síntese de procesos e utilizar as ferramientas axeitadas para resolverlo.\nB3 B4  C20  D6 D9 D17\n\n\nCoñecer os fundamentos básicos do deseño de procesos mediante simuladores de proceso. A descomposición xerárquica e os fundamentos do deseño baseado en superestructuras. Aplicar os conceptos de integración de enerxía para o deseño de redes de intercambio de calor. Saber adquirir y utilizar información bibliográfica y técnica referida a esta materia. Coñecemento e aplicación da terminología inglesa empregada para descreber os conceptos correspondientes a esta materia.\nB3 B4  C20  D2 D6 D9 D10",
+    "crumbs": [
+      "Información xeral",
+      "Guía Docente"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#contidos",
+    "href": "course-syllabus.html#contidos",
+    "title": "Guía Docente",
+    "section": "",
+    "text": "Parte 1\nSimulación\n\n\n\n\nTEMA 1\nSIMULACIÓN DE PROCESOS. DIAGRAMAS DE FLUXO- Simulacións por computador- Tipos de simuladores- Optimización\n\n\nTEMA 2\nSIMULACIÓN SECUENCIAL MODULAR- Descomposición de sistemas a gran escala- Algoritmos de particionamento- Descomposición de Redes Cíclicas Máximas\n\n\nTEMA 3\nSIMULACIÓN ORIENTADA A ECUACIÓNS- Método de factorización local (criterio de Markowitz)- Reordenación “a priori” de matrices dispersas. Fase numérica\n\n\nTEMA 4\nGRAOS DE LIBERDADE DUN DIAGRAMA DE FLUXO- Graos de liberdade- Solución de ecuacións Sistemas de ecuacións nonlineais- Selección das variables de deseño\n\n\nTEMA 5\nPROPIEDADES FÍSICAS EN SIMULADORES DE PROCESOS QUÍMICOS- Obtención e uso de propiedades físicas- Uso dos sistemas de cálculo de propiedades físicas\n\n\nTEMA 6\nDESEÑO CONCEPTUAL DE PROCESOS- Síntese xerárquica- Síntese baseada na programación matemática\n\n\nEXEMPLOS DE APLICACIÓN\n- Síntese de redes de cambiadores de calor (método de deseño “pinch”)- Extensións do método de “pinch”\n\n\nParte 2\nOPTIMIZACIÓN\n\n\nTEMA 7\nOPTIMIZACIÓN DE PROCESOS QUÍMICOS- Conceptos básicos sobre optimización- Optimización non liñal sin restriccións- Conceptos básicos da optimización non liñal con restriccións (igualdade e desigualdade)\n\n\nTEMA 8\nMÉTODOS NUMÉRICOS DE OPTIMIZACIÓN. OPTIMIZACIÓN SIN RESTRICCIÓNS- Optimización multivariable sen restriccións- Método de gradiente- Método de Newton- Métodos da secante\n\n\nTEMA 9\nPROGRAMACIÓN LIÑAL (LP)- Definicións e teoremas básicos da programación liñal- Resolución do problema- O algoritmo Simplex- Programación cuadrática\n\n\nTEMA 10\nMÉTODOS NUMÉRICOS PARA A OPTIMIZACIÓN DE PROBLEMAS NON LIÑAIS CON RESTRICCIÓNS- Métodos de penalización, barreira e Lagranxiana aumentada- Programación cuadrática sucesiva- Método do gradiente reducido\n\n\nESTUDO DE CASOS\n- Exemplos prácticos de aplicación en industrias químicas e de proceso- Utilizando software de simulación e optimización de procesos",
+    "crumbs": [
+      "Información xeral",
+      "Guía Docente"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#planificación-horaria-das-clases",
+    "href": "course-syllabus.html#planificación-horaria-das-clases",
+    "title": "Guía Docente",
+    "section": "",
+    "text": "Actividade\nHoras na aula\nHoras fóra da aula\nHoras totais\n\n\n\n\nActividades introdutorias\n2\n8\n10\n\n\nLección maxistral\n6\n0\n16\n\n\nAprendizaxe baseado en proxectos\n12\n36\n48\n\n\nEstudo de casos\n6\n0\n6\n\n\nSimulación\n0\n18\n18\n\n\nPrácticas con apoio das TIC\n24\n0\n24\n\n\nResolución de problemas de forma autónoma\n0\n25\n25\n\n\nMetodoloxías baseadas en investigación\n0\n10\n10\n\n\nExame de preguntas de desenvolvemento\n10\n3\n3\n\n\n\n*Os datos que aparecen na táboa de planificación son de carácter orientador, considerando a heteroxeneidade do alumnado.",
+    "crumbs": [
+      "Información xeral",
+      "Guía Docente"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#metodoloxía-docente",
+    "href": "course-syllabus.html#metodoloxía-docente",
+    "title": "Guía Docente",
+    "section": "",
+    "text": "Actividade\nDescrición\n\n\n\n\nActividades introdutorias\nPresentación e introducción ó uso dos programas de simulación e optimización: Matlab, Pyhton-Cantera, COCO SIMULATOR, CHEMPSEP, DWSIM, HYSYS e ASPEN PLUS\n\n\nLección maxistral\nPresentación verbal organizada de temas referidos ós contidos da asignatura, impartidos polo profesor con axudas visuais. Este método didáctico didáctico, implica a comunicación unidireccional do presentador activo ós estudiantes\n\n\nAprendizaxe baseado en proxectos\nOs estudantes traballarán nun proxecto durante un período de tempo prolongado (o cuatrimestre) que os involucre na resolución dun problema do mundo real ou na resposta a unha pregunta complexa. Demostran os seus coñecementos e habilidades creando un produto público ou unha presentación para un público real\n\n\nEstudo de casos\nSe plantexan escenarios baseados en situacións nas que os alumnos observan, analizan, rexistran, implementan, conclúen, resumen ou recomendan. Os estudos de casos créanse e utilízanse como ferramenta de análise e discusión\n\n\nSimulación\nO alumno ten que preparar, e documentar, unha simulación que implique un proceso orixinal, a mellora de un proceso documentado ou a optimización dun proceso ou planta existente, así como crear unha presentación pública do seu traballo\n\n\nPrácticas con apoio das TIC\nSe plantexarán simulacións de parte de procesos ou unidades de operación para resolver coas distintas ferramentas informáticas que se contemplan na materia (simuladores de proceso, linguaxes de programación, etc.)\n\n\nResolución de problemas de forma autónoma\nSe plantexará a resolución de problemas de libros tradicionais da enxeñaría química que serán resoltos mediante as ferramentas propostas na materia, como alternativa ós métodos tradicionais de resolución\n\n\nMetodoloxías baseadas en investigación\nO alumno deberá documentar o uso de sistemas de busca bibliográfica asi como de datos de interese na web (fontes de información titoriais, etc.)",
+    "crumbs": [
+      "Información xeral",
+      "Guía Docente"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#atención-personalizada",
+    "href": "course-syllabus.html#atención-personalizada",
+    "title": "Guía Docente",
+    "section": "",
+    "text": "Metodoloxías Descrición Simulación O alumno propondrá unha simulación de un proceso novo, mellora de un existente ou optimización de un proceso ou planta ou, no seu caso, debe adoptar o asignado polo profesor que titorará de xeito individualizado ou por grupo cada unha das simulacións da clase. Aprendizaxe baseado en proxectos\nO profesor propondrá pequenos proxectos que os alumnos han de resolver mediante as ferramentas que se lles indiquen na clase e entragar para a súa puntuación dacordo á rúbrica correspondente que será publicada na plataforma de e-learning. Cada alumno debe entragar o traballo realizado en clase ó finalizar a mesma. Os proxectos recibirán unha puntuación acorde á rúbrica que se publicará na plataforma de e-learning. Estudo de casos Se plantexan escenarios baseados en situacións nas que os alumnos observan, analizan, rexistran, implementan, conclúen, resumen ou recomendan. Non haberá probas. Prácticas con apoio das TIC\nNa aula informática ou na aula de teoría se farán simulacións e resolución de problemas mediante ferramentas informáticas que han de ser entregados no memo día polos alumnos. cualificación estará rubricada por rúbrica públicada na plataforma de e-learning.",
+    "crumbs": [
+      "Información xeral",
+      "Guía Docente"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#avaliación",
+    "href": "course-syllabus.html#avaliación",
+    "title": "Guía Docente",
+    "section": "",
+    "text": "Actividade\nDescrición\n\n\n\n\nAprendizaxe baseado en proxectos\nSe realizará durante todo o semestre e se entregará ó concluir as clases presenciais e antes do exame final. A cualificación estará rubricada por rúbrica públicada na plataforma de e-learning\n\n\nSimulación\nO alumno debe realizae e entregar unha simulación que contribúe á avaliación continua e que debe ser realizada de xeito tutelado durante todo o semestre. A cualificación estará rubricada por rúbrica públicada na plataforma de e-learning\n\n\nResolución de problemas de forma autónoma\nPeriódicamente o alimno debe entregar resoltos os problemas que se lle plantexan.\n\n\nExame de preguntas de desenvolvemento\nCorreesponde ó exame final da asignatura que, no caso de renuncia á avaliación continua, será o total da nota. Está constituído por un ou varios casos, ou simulacións e a súa correccióne stará asemesmo rubricada.\n\n\n\n\n\n\nAlumnos con avaliación continua: A avaliación continua aplicaráse na primeira convocatoria.\nPara os alumnos con renuncia concedida oficialmente polo centro á avaliación continua o exame final valerá o 100%.\nCompromiso ético: Espérase que o alumno presente un comportamento ético adecuado. No caso de detectar un\ncomportamento non ético (copia, plaxio, utilización de aparellos electrónicos non autorizados, e outros) considerarase que o alumno non reúne os requisitos necesarios para superar a materia. Neste caso a cualificación global no presente curso académico será de suspenso (0,0).",
+    "crumbs": [
+      "Información xeral",
+      "Guía Docente"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#bibliografía.-fontes-de-información",
+    "href": "course-syllabus.html#bibliografía.-fontes-de-información",
+    "title": "Guía Docente",
+    "section": "",
+    "text": "Kamal I.M. Al-Malah, Aspen Plus: Chemical Engineering Applications , 1st Edition, Wiley, 2016.\nJuma Haydary, Chemical Process Design and Simulation: Aspen Plus and Aspen Hysys Applications , 1st Edition, AIChE, 2019.\nD.M. Himmelblau, K.B. Bischoff, Análisis y Simulación de Procesos , Reverté, 2004.\nSimant Ranjan Upreti, PROCESS MODELING AND SIMULATION FOR CHEMICAL ENGINEERS , 1st Edition, Wiley, 2017.\n\n\n\nDavid. M. Himmelblau, Optimization of Chemical Processes , 2nd Edition, McGraw-Hill Higher Education, 2001.",
+    "crumbs": [
+      "Información xeral",
+      "Guía Docente"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#recomendacións",
+    "href": "course-syllabus.html#recomendacións",
+    "title": "Guía Docente",
+    "section": "",
+    "text": "Control e instrumentación de procesos químicos/V12G350V\n\nDeseño de plantas químicas e de proceso/V12G350V\n\nModelaxe de procesos biotecnolóxicos/V12G350V\n\n\n\n\n\nXestión e posta en servizo de plantas químicas e de proceso/V12G350V\n\nOptimización de produtos/V12G350V\n\nProcesos e produtos biotecnolóxicos/V12G350V\n\nQuímica orgánica industrial/V12G350V\n\n\n\n\n\nEnxeñaría química I/V12G350V\n\nTermodinámica e transmisión de calor/V12G350V\n\nExperimentación en química industrial I/V12G350V\n\nExperimentación en química industrial II/V12G350V\n\nEnxeñaría química II/V12G350V\n\nReactores e biotecnoloxía/V12G350V\n\nCalor e frío na industria de proceso/V12G350V\n\nTécnicas e xestión medioambientais/V12G350V",
+    "crumbs": [
+      "Información xeral",
+      "Guía Docente"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#outros-comentarios",
+    "href": "course-syllabus.html#outros-comentarios",
+    "title": "Guía Docente",
+    "section": "",
+    "text": "Os pilares que sustentan esta materia concrétanse no uso das técnicas de cálculo numérico, aplicado ós contidos proprios da enxeñaría química: balances de materia i enerxía , fenómenos de trasporte, termodinámica, fluidodinámica, termotecnia, operacións de separación, reactores , control de procesos , etc.",
+    "crumbs": [
+      "Información xeral",
+      "Guía Docente"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "IQMCPP - Industrias Químicas da Madeira, Celulosa e Pasta de Papel",
+    "section": "",
+    "text": "Introdución\nEsta páxina contén un esquema dos temas, contido e tarefas para o semestre. Ten en conta que este horario actualizarase a medida que avanza o semestre, con todos os cambios documentados aquí.\n\n\nClases presenciais\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSemán\nData\nTema\nPreparación\nPresentacións\nEA\nLaboratorio\nTraballo individual\nAvaliación\nProxecto\n\n\n\n\n1\nMér, 11 Set\nTema 0 - Benvida + Presentación\n\n\n\n\n\n\n\n\n\n\nMér, 19 Set\nTema 1 - Introdución\n\n🖥️\n\n💻\n\n\n\n\n\n2\nXov, 11 Set\nPráctica Simuladores 1 - Introducción\n\n🖥️\n\n\n\n\n\n\n\n3\n\n\n\n\n\n\n\n\n\n\n\n4\n\n\n\n\n\n\n\n\n\n\n\n5\n\n\n\n\n\n\n\n\n\n\n\n6\n\n\n\n\n\n\n\n\n\n\n\n7\n\n\n\n\n\n\n\n\n\n\n\n8",
+    "crumbs": [
+      "Información xeral",
+      "Programación"
+    ]
+  },
+  {
+    "objectID": "notebooks/Diagramas_Pxy_Txy.html",
+    "href": "notebooks/Diagramas_Pxy_Txy.html",
+    "title": "Obtención do diagrama P-x, T-xy e xy.",
+    "section": "",
+    "text": "import numpy as np\n# Parámetros de Antoine\n\n# heptano\nA_heptano = 4.02832\nB_heptano = 1268.636\nC_heptano = -56.199\n\n#Octano\nA_octano=4.04867\nB_octano=1355.126\nC_octano=-63.633\n\n# Alternativa\n# A = [A_heptano, A_octano]\n# B=[B_heptano, B_octano]\n# A[0] = A del heptano\n\n# Dato: temperatura\nT = 115 + 273.15 # K"
+  },
+  {
+    "objectID": "notebooks/Diagramas_Pxy_Txy.html#aparatdo-2-.-diagrama-t-xy-a-partires-da-presión-total-dada",
+    "href": "notebooks/Diagramas_Pxy_Txy.html#aparatdo-2-.-diagrama-t-xy-a-partires-da-presión-total-dada",
+    "title": "Obtención do diagrama P-x, T-xy e xy.",
+    "section": "Aparatdo 2 . Diagrama T-xy a partires da presión total dada",
+    "text": "Aparatdo 2 . Diagrama T-xy a partires da presión total dada\n\nfrom scipy.optimize import fsolve\n\n\n# Datos do exercicio\n\nP_t = 1.5 #bar\nx_heptano = np.linspace(0,1,11)\n\n# Suponse unha temperatura de partida\n\nT_guess=396\n\n# Créanse dúas listas nas que se almacenarán os datos de temperatura e fraccións molares do heptano, para cada valor de x\n\nlista_temperatura=[]\nlista_y=[]\n\n# Definiranse as funcións para obter as presións de saturación do heptano e o octano\n\ndef p_sat_heptano(T):\n    return 10  ** ( A_heptano - B_heptano / ( T + C_heptano ) )\n\ndef p_sat_octano(T):\n    return 10 ** ( A_octano - B_octano / ( T + C_octano ) )\n\n# Créase un lazo que devolve o valor da temperatura e a fracción molar do vapor para cada valor de x\n\nfor i in x_heptano:\n    def fmin(T):\n        return i*p_sat_heptano(T)/P_t+(1-i)*p_sat_octano(T)/P_t-1\n    solucion=fsolve(fmin,T_guess)\n    lista_temperatura.append(solucion[0])\n    y_heptano=i*p_sat_heptano(solucion)/P_t\n    lista_y.append(y_heptano[0])\n\nprint(lista_temperatura) # valores de temperatura calculados\nprint(lista_y) # valores de y calculados\n\n[np.float64(413.5615852273091), np.float64(409.77113336473025), np.float64(406.2684364969948), np.float64(403.0216612183846), np.float64(400.00305716655544), np.float64(397.18844969691617), np.float64(394.55676804690006), np.float64(392.0896214256247), np.float64(389.77092633460484), np.float64(387.58658343897787), np.float64(385.52419985536085)]\n[np.float64(0.0), np.float64(0.1837276326189331), np.float64(0.33830109800891695), np.float64(0.4693199994809487), np.float64(0.581154434977709), np.float64(0.6772413410638028), np.float64(0.7603047808262194), np.float64(0.832520410718438), np.float64(0.895638942399593), np.float64(0.9510793956603304), np.float64(1.0000000000003693)]\n\n\n\n# Representación do diagrama T-xy\n\nimport matplotlib.pyplot as plt\nplt.plot(x_heptano, lista_temperatura, 'ko-', lista_y, lista_temperatura, 'ro-')\nplt.xlim(0,1)\nplt.xlabel('x, y (heptano)')\nplt.ylabel('Temperatura (K)')\nplt.title('Diagrama T-x,y')\n\nText(0.5, 1.0, 'Diagrama T-x,y')\n\n\n\n\n\n\n\n\n\n\n# Tamén se pde realizar con fsolve aplicado a la ecuación de Antoine, y no al sumatorio de y - 1\nz=np.linspace(0,1, num=11) #composición inicial\n\n# Funciónes para determinar as presións de saturación dos dous compoñentes\n\ndef Psat1(T):\n    return 10**(A_heptano-B_heptano/(T+C_heptano))\ndef Psat2(T):\n    return 10**(A_octano-B_octano/(T+C_octano))\n\n# Datos do enunciado\ny=z\nP = 1.5 #bar\nfrom scipy.optimize import fsolve\n\n\ndef fun1(T):\n    return P - 10**(A_heptano-B_heptano/(T+C_heptano)) # a qué temperatura P externa es igual al otro término\nTinf=fsolve(fun1, 350) # 350K valor inicial suposto\n                       # Tinf = temperatura de fervura do heptano\n\ndef fun2(T):\n    return P - 10**(A_octano-B_octano/(T+C_octano))\nTsup=fsolve(fun2, 373) # Tsup = temperatura de fervura do octano\n\nprint('A temperatura á que hierve o heptano á presión externa é {:5.2f} K.'.format(Tinf[0]))\nprint('A temperatura á que hierve o octano  á presión externa é {:5.2f} K.'.format(Tsup[0]))\n\nA temperatura á que hierve o heptano á presión externa é 385.52 K.\nA temperatura á que hierve o octano  á presión externa é 413.56 K.\n\n\n\nT=np.linspace(Tinf,Tsup, num=11)\nx = (P-Psat2(T))/(Psat1(T)-Psat2(T))\ny=x*Psat1(T)/P\nplt.plot(x, T,'ko-', y,T,'ro-')\nplt.xlim(0,1)\nplt.xlabel('x, y')\nplt.ylabel('T')\nplt.title('Diagrama T-x, y')\n\nText(0.5, 1.0, 'Diagrama T-x, y')"
+  },
+  {
+    "objectID": "notebooks/simulacion-deposito-gravedade.quarto.html",
+    "href": "notebooks/simulacion-deposito-gravedade.quarto.html",
+    "title": "Simulación dinámica dun depósito",
+    "section": "",
+    "text": "Se dispone de un deposito que se vacía por gravedad y se quiere modelar y simular su comportamiento teniendo en cuenta los siguientes datos: - Altura inicial de líquido en el deposito: 1 m\n- caudal de entrada: 3 m3·h-1\n- area del deposito: 10 m2\n- area de salida de la tubería: 0,001 m2"
+  },
+  {
+    "objectID": "notebooks/simulacion-deposito-gravedade.quarto.html#enunciado",
+    "href": "notebooks/simulacion-deposito-gravedade.quarto.html#enunciado",
+    "title": "Simulación dinámica dun depósito",
+    "section": "",
+    "text": "Se dispone de un deposito que se vacía por gravedad y se quiere modelar y simular su comportamiento teniendo en cuenta los siguientes datos: - Altura inicial de líquido en el deposito: 1 m\n- caudal de entrada: 3 m3·h-1\n- area del deposito: 10 m2\n- area de salida de la tubería: 0,001 m2"
+  },
+  {
+    "objectID": "notebooks/simulacion-deposito-gravedade.quarto.html#requisitos",
+    "href": "notebooks/simulacion-deposito-gravedade.quarto.html#requisitos",
+    "title": "Simulación dinámica dun depósito",
+    "section": "Requisitos",
+    "text": "Requisitos\n\nPlantear las ecuaciones que constituyen el modelo.\nResolver el modelo implementando el metodo de Euler explícito.\nComparar los resultados en funcion del paso de integración. Dibujar las curvas de evolucion del sistema. ´\n\n\n\n\nTanque con saída por gravidade"
+  },
+  {
+    "objectID": "notebooks/simulacion-deposito-gravedade.quarto.html#modelo-matemático",
+    "href": "notebooks/simulacion-deposito-gravedade.quarto.html#modelo-matemático",
+    "title": "Simulación dinámica dun depósito",
+    "section": "Modelo matemático",
+    "text": "Modelo matemático\n\nBalance de materia\nDado que o líquido que entra e que sae son o mesmo, pódese supor que non hai variación de densidade, polo que o balance de materia se pode facer en volumen:\n\\[\n\\frac {dV} {dt} = F_{in} − F_{out}\n\\tag{1}\n\\]\nO volume do líquido no reactor ven dado por:\n\\[\nV = h A\n\\tag{2}\n\\]\ne, como a seccion do depósito é constante:\n\\[\n\\frac {dV} {dt} = \\frac {d} {dt} (hA) = A \\frac {dh}{dt}\n\\tag{3}\n\\]\no balance de materia queda do segunte xeito:\n\\[\n\\frac {dh} {dt} = \\frac {1}{A} (F_{in} − F_{out})\n\\tag{4}\n\\]\nonde:\n\\(F_{in}\\): Caudal de entrada ó depósito (m3·h-1).\n\\(F_{out}\\): Caudal de saída do deposito (m3·h-1).\n\\(V\\) : Volumen do deposito (m3).\n\\(h\\): Altura do líquido no depósito (m).\n\\(A\\): Área do depósito (m2.\n\\(A_s\\): Area dó tubo de saída (m2).\n\\(g\\): Gravedad (m·s2).\n\n\nEcuación auxiliar\nA saída do deposito polo fondo prodúcese únicamente polo efecto da gravidade, polo que:\n\\[\nF_{out} = A_s \\sqrt {2 g h}\n\\tag{5}\n\\]\nNon obstante, dado que a gravidade está expresada en ms-2 e o caudal debe de estar m-3·h-1,débese de usar o factor de conversion (3600 s·h-1), polo que:\n\\[\nF_{out} = 3600 A_s \\sqrt {2 g h}\n\\tag{6}\n\\]"
+  },
+  {
+    "objectID": "notebooks/simulacion-deposito-gravedade.quarto.html#simulacion-dinámica",
+    "href": "notebooks/simulacion-deposito-gravedade.quarto.html#simulacion-dinámica",
+    "title": "Simulación dinámica dun depósito",
+    "section": "Simulacion dinámica",
+    "text": "Simulacion dinámica\n\nMétodo de Euler\nComecemos cun pouco de teoría que podes aprender máis sobre Wikipedia se o desexas .\nAquí ten algúns métodos engadidos ao método Forward Euler que se inclúe na mesma categoría ao usar métodos numéricos deste tipo: A diferenza de adiante, a diferenza cara atrás e o método de diferenza central.\nO método Euler é un método numérico que permite resolver ecuacións diferenciais (ecuacións diferenciais ordinarias, ODEs ou EDOs). É un método fácil para aproximar o comportamento da ecuación nun determinado intrervalo determinado.\nEn este exemplo, intentaremos explicar como se pode usar o método Euler para resolver ecuacións diferenciais en [Matlab}(https://es.mathworks.com/products/matlab.html) ou Octave, e analizaremos as carencias máis importantes do método.\nPara facer uso deste método debe coñecerse o a da condición inicial da ecuación diferencial que está intentando resolver, é dicir, se usa para resolver ODEs do tipo IVP."
+  },
+  {
+    "objectID": "notebooks/simulacion-deposito-gravedade.quarto.html#método-de-euler-1",
+    "href": "notebooks/simulacion-deposito-gravedade.quarto.html#método-de-euler-1",
+    "title": "Simulación dinámica dun depósito",
+    "section": "Método de Euler",
+    "text": "Método de Euler\nEste método está ben documentado en diversos sites de internet. Existe unha boa disertación sobre el na [Wikipedia(https://en.wikipedia.org/wiki/Euler_method). É un método de primeiro orde, o que significa que o erro local (erro por paso) é proporcional ao cadrado do tamaño do paso e o erro global (erro nun momento determinado) é proporcional ao tamaño do paso. O método Euler adoita servir de base para construír métodos máis complexos, por exemplo, o método do corrector predictor. Existen variantes en función da implementación así, se pode efalar de:\n\nDiferencia cara adiante:\n\n\\[\nf'(x) = \\frac {f(x+h) - f(x)} {h}\n\\]\n\nDiferencia cara atrás:\n\n\\[\nf'(x) = \\frac {f(x) - f(x+h)} {h}\n\\]\n\nDiferencia central:\n\n\\[\nf'(x) = \\frac {f \\left( x + \\frac {h} {2}  \\right) - f \\left( x - \\frac {h} {2}  \\right) } {h}\n\\]\nImos a implementar este método en python.\n\nimport numpy as np\n\n# Datos\nFin = 3      # Caudal de entrada en m3/h\nA   = 10     # Area do depósito en m2\nAs  = 0.001  # Area de saída en m2\ng   = 9.81;  # Gravedad en m/s2\n\n# Método de Euler explícito\nh = .1\nt0 = 0\ntf = 100 # \nt = np.arange(t0,tf,h) # Vector de tempos de integracion\n\ndef dh_dt(t,h):\n    # Caudal de saída\n    if h &lt; 0:\n        Fout = 0\n    else:\n        Fout = As * 3600 * sqrt ( 2 * g * h )\n    # Balance de materia\n    return (Fin - Fout)/A\n\nx = [] \nfor i in range(1,len(t)):\n    # Algoritmo de Euler para la integracion\n    x[i] = x[i-1] + h*feval(odefun,t(i),x(i))\n\n\n---------------------------------------------------------------------------\nIndexError                                Traceback (most recent call last)\nCell In[1], line 27\n     24 x = [] \n     25 for i in range(1,len(t)):\n     26     # Algoritmo de Euler para la integracion\n---&gt; 27     x[i] = x[i-1] + h*feval(odefun,t(i),x(i))\n\nIndexError: list index out of range\n\n\n\nNa figura seguinte se simulou o comportamento do sistema dividindo o tempo de integración en 20 intervalos, é dicir, usando un paso de integración de 0.25 horas. Pódese ver como o depósito se baleira ata chegar ao réxime estacionario no que se estabiliza a altura.´\n\n# Representacion grafica\nplt.plot(t,h,'bo--')\nxlabel(’Tempo (h)’)\nylabel(’Altura (m)’)\n\nNa Figura 1.3 o comportamento do método de resolución para diferentes pasos de integración. Obsérvase como o método se inculca á medida que aumenta o paso.12 de 126 CAP´ITULO 1. DEPOSITO ´\nFigura 1.3: Simulacion con diferentes pasos de integraci ´ on. ´"
+  },
+  {
+    "objectID": "posts/2023-10-20-probas/index.html",
+    "href": "posts/2023-10-20-probas/index.html",
+    "title": "Cálculos de separacións flash",
+    "section": "",
+    "text": "Tanque de separación flash\n\n\n\nOs cálculos de flash úsanse para procesos de equilibrio vapor/líquido (VLE). Un proceso típico que require cálculos de flash , é aquel no que fluxo de alimentación (F) se separa nun produto vapor (V) e outro líquido (L) como na figura anterior.\nEn principio, os cálculos de flash son sinxelos e implican combinar as ecuacións de VLE cos balances de materia dos compoñentes e, nalgúns casos, o balance de enerxía . Algúns cálculos de flash son:\n\nPunto de burbulla a unha \\(T\\) dada (fácil)\n\nPunto de burbulla a unha \\(p\\) dada (hase de iterar en T)\nPunto de rocío a unha \\(T\\) dada (fácil)\nPunto de rocío a unha \\(p\\) dada (hase de iterar en T )\nFlash a \\(p\\) e \\(T\\) (relativamente fácil)\nflash dadas \\(p\\) e \\(H\\) (flash estándar, por exemplo, para un flash de tanque despois de unha válvula)\nFlash dadas \\(p\\) e \\(S\\) (por exemplo, para unha turbina de condensación)\nFlash dadas \\(U\\) e \\(V\\) (por exemplo, para a simulación dinámica dunha batería de flash adiabáticos)\n\nOs últimos tres son un pouco máis complicadas e esixen o cómputo de relacións de equilibrio e balances de enerxía \\(H\\) , \\(S\\) , etc. A continuación se ilustran algúns cálculos flash. En todos eles se asumime que o VLE ven dado polos valores de \\(K\\), que é:\n\\[\ny_i = K_i \\cdot x_i\n\\]\nonde \\(y_i\\) é a fraccións molares de cada compoñente \\(i\\) na fase vapor e \\(x_i\\) as fraccións molares de cada compoñente \\(i\\) na fase líquida. En xeral, valor de \\(K\\) depende da temperatura \\(T\\) , a presión, \\(p\\) e a composición (ambas, \\(x_i\\) e \\(y_i\\)). Supoñemos mestura idal, e usamos a Lei de Raoult. Neste caso, \\(K_i\\) depende de \\(T\\) e \\(p\\) somentes:\n\\[\nLei \\; de \\; Raoult: K_i = \\frac {p^{saturación}_i (T)} {p}\n\\]\nA presión de saturación, \\(p^{sat} (T)\\) utilizando os parámetros de Antoine.\n\n\nConsideremos primeiro cálculos de puntos de burbulla. Neste caso dáse a composición en fase líquida \\(x_i\\) (corresponde ao caso en que \\(V\\) é moi pequena (\\(V \\geq 20\\)) e \\(x_i = z_i\\) na figura). O punto de burbulla dun líquido é o punto no que o líquido xusto comeza a evaporarse (ferver), que é, cando a primeira burbulla de vapor se forma. Dada unha temperatura constante, debese diminuír a presión ata que se forma a primeira burbulla. Dada unha presión constante, débese aumentar a temperatura ata que se forma a primeira burbulla. En ambos os casos, esto correspondese con axustar \\(T\\) ou \\(p\\) ata que a suma de das fraccións de vpor é a unidade, $ y_i = 1$ ou:\n\\[\n\\sum_i K_i x_i = 1              \n\\]\nonde se coñece \\(x_i\\) . Para o caso ideal onde se cumpre a lei de Raoult isto dá:\n\\[\n\\sum_i x_i p_i^{sat} (T) = p             \n\\]\n\n\nUnha mestura líquida contén 50% de pentano, 30% de hexano e 20% de ciclohexano (en moles), é dicir, \\(x_{pentano} = 0.5; x_{hexano} = 0.3 e x_{ciclohexano} = 0.2\\). A \\(T = 400 K\\) se baixa a presión gradulmente. Cál é a presión de burbulla e a composición do primeiro vapor que condensa?. Supoñer unha mestura líquida ideal e gas ideal (lei de Raoult).\n\n\n\nTemos que atopar unha \\(p\\) que satisfaga a ecuación anterior. Dado que se dá \\(T\\) , isto é trivial. Podemos simplemente calcular \\(p\\): Comezamos por calcular as presións de vapor para os tres compoñentes en \\(T = 400 K\\). Usando os datos da ecuación de Antoine:\n\nimport numpy as np\n\n\n# Datos\nx_pentano     = 0.5\nx_hexano      = 0.3\nx_ciclohexano = 0.2\n# pentano C5H12\nT = 400 # K\nA_pentano = 3.97786\nB_pentano = 1064.840\nC_pentano = -41.136\n# hexano C6H14\nA_hexano = 4.00139\nB_hexano = 1170.875\nC_hexano = -48.833\n# cyclohexano C6H12\nA_ciclohexano = 3.93002\nB_ciclohexano = 1182.774\nC_ciclohexano = -52.532\np_sat_pentano =  10 ** (A_pentano - B_pentano / ( C_pentano + T ))\np_sat_hexano =  10 ** (A_hexano - B_hexano / ( C_hexano + T ))\np_sat_ciclohexano =  10 ** (A_ciclohexano - B_ciclohexano / ( C_ciclohexano + T ))\np_pentano     = x_pentano     * p_sat_pentano\np_hexano      = x_hexano      * p_sat_hexano\np_ciclohexano = x_ciclohexano * p_sat_ciclohexano\np_burbulla    = p_pentano + p_hexano + p_ciclohexano\n\n\nprint('Presión de saturación do pentano     ', '(', T, ') K = ', p_sat_pentano, 'bar')\nprint('Presión de saturación do hexano      ', '(', T, ') K = ', p_sat_hexano, 'bar')\nprint('Presión de saturación do ciclohexano ', '(', T, ') K = ', p_sat_ciclohexano, 'bar')\nprint('Presión parcial do pentano           ', '(', T, ') K = ', p_pentano, 'bar')\nprint('Presión parcial do hexano            ', '(', T, ') K = ', p_hexano, 'bar')\nprint('Presión parcial do ciclohexano       ', '(', T, ') K = ', p_ciclohexano, 'bar')\nprint('Presión de burbulla                  ', '(', T, ') K = ', p_burbulla, 'bar')\n\nPresión de saturación do pentano      ( 400 ) K =  10.247260621669657 bar\nPresión de saturación do hexano       ( 400 ) K =  4.64675917786267 bar\nPresión de saturación do ciclohexano  ( 400 ) K =  3.3576881112499817 bar\nPresión parcial do pentano            ( 400 ) K =  5.1236303108348284 bar\nPresión parcial do hexano             ( 400 ) K =  1.3940277533588008 bar\nPresión parcial do ciclohexano        ( 400 ) K =  0.6715376222499964 bar\nPresión de burbulla                   ( 400 ) K =  7.189195686443625 bar\n\n\nAs fraccións molares calcúlanse a partires da ecuación de Dalton:\n\\[\np_{total} = \\sum_i p_i\n\\]\nlogo:\n\\[\np_i = p_{total}* x_i\n\\]\nPor tanto:\n\\[\nx_i = \\frac{p_i}{p_{total}}\n\\]\n\nx_pentano     = p_pentano / p_burbulla\nx_hexano      = p_hexano / p_burbulla\nx_ciclohexano = p_ciclohexano / p_burbulla\nprint('Fracción  molar do pentano     no punto de burbulla = ', x_pentano)\nprint('Fracción  molar do hexano      no punto de burbulla = ', x_hexano)\nprint('Fracción  molar do ciclohexano no punto de burbulla = ', x_ciclohexano)\n\nFracción  molar do pentano     no punto de burbulla =  0.7126847750849584\nFracción  molar do hexano      no punto de burbulla =  0.19390594082554496\nFracción  molar do ciclohexano no punto de burbulla =  0.09340928408949663\n\n\n\n\n\nConsidera o mesmo líquido do problema anterior. Á presión de 5 bar, a temperatura increméntase gradualmente. Cál é atempertura e a composición do primeiro vapor que se forma?.\n\n\n\nNeste caso, nos dan \\(p\\) e \\(x_i\\) e a ecuación anterior convértese nunha ecuación implícita en \\(T\\) que temos que resolver por medio de algún método numérico, como pode ser iteración simple. Unha forma simple de resolvelo sería ir iterando \\(T\\) ata que a presión de burbulla sexa 5 bar y1 = p1 p = 0.724; y2 = p2 p = 0.187; y3 = p3 p = 0.089\n\n\n\n\nNeste caso, coñecemos a composición da fase de vapor \\(y_i\\) (corresponde ao caso en que \\(L\\) é moi pequena (\\(L \\geq 0\\)) e \\(y_i = z_i\\). O punto de orballo dun vapor (gas) é o punto no que comeza a condensaar, é dicir, cando se forma a primeira gota de líquido. A temperatura constante, débese aumentar a presión ata que se forme o primeiro líquido. A presión constante, débese diminuír a temperatura ata que se forme o primeiro líquido. En ámbalos dous casos, isto corresponde axustar \\(T\\) ou \\(p\\) ata que\n\\[\n\\sum x_i = 1\n\\]\nou:\n\\[\n\\Sigma_{i} y_{i} / K_{i}=1\n\\]\nonde \\(y_i\\) ven dado. Para unha mestura ideal que cumpre ca lei de Raoult:\n\\[\n\\Sigma_{i} \\frac{y_{i}}{p_{i}^{\\mathrm{sat}}(T)}=\\frac{1}{p}\n\\]\n\n\nUnha mestura líquida contén 50% de pentano, 30% de hexano e 20% de ciclohexano (en moles), é dicir, \\(x_{pentano} = 0.5; x_{hexano} = 0.3 e x_{ciclohexano} = 0.2\\). A \\(T = 400 K\\) se incrementa a presión gradulmente. Cál é a presión de orballo e a composición do primeiro líquido que condensa?. Supoñer unha mestura líquida ideal e gas ideal (lei de Raoult).\n\n\n\nAtopar o valor de \\(p\\) que satisfai a ecuación anterior. Posto que \\(T\\) ven dada, a solución é trivial; simplementa calculamos \\(1/p\\) a partires dela.\n\ny_pentano     = 0.5\ny_hexano      = 0.3\ny_ciclohexano = 0.2\nT = 400 # K\np_orballo = 1 / ( y_pentano / p_sat_pentano + y_hexano / p_sat_hexano + y_ciclohexano / p_sat_ciclohexano)\nx_pentano = y_pentano * p_orballo / p_sat_pentano\nx_hexano = y_hexano * p_orballo / p_sat_hexano\nx_ciclohexano = y_ciclohexano * p_orballo / p_sat_ciclohexano\n\n\n# print(\"Presión de orballo a {:5.2f} [K]\".format(T))\nprint(\"Temperatura        = {:5.2f} [bar]\".format(T))\nprint(\"Presión de orballo = {:5.2f} [bar]\".format(p_orballo))\nprint(\"  Composición  Composto         x[i]   y[i]\")\nprint(\"               {:10s}     {:6.4}{:6.4} \".format('pentano',x_pentano,y_pentano))\nprint(\"               {:10s}     {:6.4}{:6.4} \".format('hexano',x_hexano,y_hexano))\nprint(\"               {:10s}    {:6.4}{:6.4} \".format('ciclohexano',x_ciclohexano,y_ciclohexano))\n\nTemperatura        = 400.00 [bar]\nPresión de orballo =  5.78 [bar]\n  Composición  Composto         x[i]   y[i]\n               pentano        0.2822   0.5 \n               hexano         0.3734   0.3 \n               ciclohexano    0.3445   0.2 \n\n\n\n\n\nConsidera a mesma mestura do problema anterios. At \\(p\\) = 5 bar, a temperatura vaise diminuindo gradialmente. Cál é a tenmperatura de orballo e a composición do primeiro líquido que se foram?.\n\n\n\nNeste caso, nos dan \\(p\\) e \\(y_i\\), e a ecuación de antes convértese nunha ecuación implícita en \\(T\\) que necesita de resolverse numéricamente por un método numérico, por exemplo iteración.\n\nfrom scipy.optimize import fsolve\n\n\npresion = 5. # bar\nT_gues  = 400. # K \n\ndef orballo(T):\n    fun = ( 1 / presion) - y_pentano / 10 ** ( A_pentano - B_pentano / ( C_pentano + T ) ) - y_hexano / 10 ** ( A_hexano - B_hexano / ( C_hexano + T ) ) - y_ciclohexano / 10 ** ( A_ciclohexano - B_ciclohexano / ( C_ciclohexano + T ) ) \n    return fun\n\nT_orballo = fsolve(orballo, T_gues)\n\n\nprint(\"Temperatura de orballo calculada con fsolve = \", T_orballo)\n\nTemperatura de orballo calculada con fsolve =  [393.30333147]\n\n\n\nfrom scipy.optimize import root\nT = root(orballo, [300,400])\n\n\nprint(\"Temperatura de orballo calculada con fsolve = \", T_orballo)\n\nTemperatura de orballo calculada con fsolve =  [393.30333147]\n\n\n\n# Táboa 7.2 : Datos para exemplos e exercicios de flash: parámetros de Antoine para p sat ( T ), temperatura normal de ebulición ( T b ) e calor de vaporización ∆ vap H ( T b ) para os compoñentes seleccionados. Datos : Poling, Prausnitz e O'Connell, As propiedades de gases e líquidos , 5 th Ed., McGraw-Hill (2001).\n# log10(psat[bar]) = A - B / ( T [K] + C) Tb [ K ] dv a p H b [ J / m o l ]\n# pentano C5H12\nA_C5 = 3.97786\nB_C5 = 1064.840\nC_C5 = -41.136\n# hexano C6H14\nA_C6 = 4.00139\nB_C6 = 1170.875\nC_C6 = -48.833\n# ciclohexano C6H12\nA_CC6 =3.93002\nB_CC6 = 1182.774\nC_CC6 = -52.532"
+  },
+  {
+    "objectID": "posts/2023-10-20-probas/index.html#cálculos-do-punto-de-burbulla",
+    "href": "posts/2023-10-20-probas/index.html#cálculos-do-punto-de-burbulla",
+    "title": "Cálculos de separacións flash",
+    "section": "",
+    "text": "Consideremos primeiro cálculos de puntos de burbulla. Neste caso dáse a composición en fase líquida \\(x_i\\) (corresponde ao caso en que \\(V\\) é moi pequena (\\(V \\geq 20\\)) e \\(x_i = z_i\\) na figura). O punto de burbulla dun líquido é o punto no que o líquido xusto comeza a evaporarse (ferver), que é, cando a primeira burbulla de vapor se forma. Dada unha temperatura constante, debese diminuír a presión ata que se forma a primeira burbulla. Dada unha presión constante, débese aumentar a temperatura ata que se forma a primeira burbulla. En ambos os casos, esto correspondese con axustar \\(T\\) ou \\(p\\) ata que a suma de das fraccións de vpor é a unidade, $ y_i = 1$ ou:\n\\[\n\\sum_i K_i x_i = 1              \n\\]\nonde se coñece \\(x_i\\) . Para o caso ideal onde se cumpre a lei de Raoult isto dá:\n\\[\n\\sum_i x_i p_i^{sat} (T) = p             \n\\]\n\n\nUnha mestura líquida contén 50% de pentano, 30% de hexano e 20% de ciclohexano (en moles), é dicir, \\(x_{pentano} = 0.5; x_{hexano} = 0.3 e x_{ciclohexano} = 0.2\\). A \\(T = 400 K\\) se baixa a presión gradulmente. Cál é a presión de burbulla e a composición do primeiro vapor que condensa?. Supoñer unha mestura líquida ideal e gas ideal (lei de Raoult).\n\n\n\nTemos que atopar unha \\(p\\) que satisfaga a ecuación anterior. Dado que se dá \\(T\\) , isto é trivial. Podemos simplemente calcular \\(p\\): Comezamos por calcular as presións de vapor para os tres compoñentes en \\(T = 400 K\\). Usando os datos da ecuación de Antoine:\n\nimport numpy as np\n\n\n# Datos\nx_pentano     = 0.5\nx_hexano      = 0.3\nx_ciclohexano = 0.2\n# pentano C5H12\nT = 400 # K\nA_pentano = 3.97786\nB_pentano = 1064.840\nC_pentano = -41.136\n# hexano C6H14\nA_hexano = 4.00139\nB_hexano = 1170.875\nC_hexano = -48.833\n# cyclohexano C6H12\nA_ciclohexano = 3.93002\nB_ciclohexano = 1182.774\nC_ciclohexano = -52.532\np_sat_pentano =  10 ** (A_pentano - B_pentano / ( C_pentano + T ))\np_sat_hexano =  10 ** (A_hexano - B_hexano / ( C_hexano + T ))\np_sat_ciclohexano =  10 ** (A_ciclohexano - B_ciclohexano / ( C_ciclohexano + T ))\np_pentano     = x_pentano     * p_sat_pentano\np_hexano      = x_hexano      * p_sat_hexano\np_ciclohexano = x_ciclohexano * p_sat_ciclohexano\np_burbulla    = p_pentano + p_hexano + p_ciclohexano\n\n\nprint('Presión de saturación do pentano     ', '(', T, ') K = ', p_sat_pentano, 'bar')\nprint('Presión de saturación do hexano      ', '(', T, ') K = ', p_sat_hexano, 'bar')\nprint('Presión de saturación do ciclohexano ', '(', T, ') K = ', p_sat_ciclohexano, 'bar')\nprint('Presión parcial do pentano           ', '(', T, ') K = ', p_pentano, 'bar')\nprint('Presión parcial do hexano            ', '(', T, ') K = ', p_hexano, 'bar')\nprint('Presión parcial do ciclohexano       ', '(', T, ') K = ', p_ciclohexano, 'bar')\nprint('Presión de burbulla                  ', '(', T, ') K = ', p_burbulla, 'bar')\n\nPresión de saturación do pentano      ( 400 ) K =  10.247260621669657 bar\nPresión de saturación do hexano       ( 400 ) K =  4.64675917786267 bar\nPresión de saturación do ciclohexano  ( 400 ) K =  3.3576881112499817 bar\nPresión parcial do pentano            ( 400 ) K =  5.1236303108348284 bar\nPresión parcial do hexano             ( 400 ) K =  1.3940277533588008 bar\nPresión parcial do ciclohexano        ( 400 ) K =  0.6715376222499964 bar\nPresión de burbulla                   ( 400 ) K =  7.189195686443625 bar\n\n\nAs fraccións molares calcúlanse a partires da ecuación de Dalton:\n\\[\np_{total} = \\sum_i p_i\n\\]\nlogo:\n\\[\np_i = p_{total}* x_i\n\\]\nPor tanto:\n\\[\nx_i = \\frac{p_i}{p_{total}}\n\\]\n\nx_pentano     = p_pentano / p_burbulla\nx_hexano      = p_hexano / p_burbulla\nx_ciclohexano = p_ciclohexano / p_burbulla\nprint('Fracción  molar do pentano     no punto de burbulla = ', x_pentano)\nprint('Fracción  molar do hexano      no punto de burbulla = ', x_hexano)\nprint('Fracción  molar do ciclohexano no punto de burbulla = ', x_ciclohexano)\n\nFracción  molar do pentano     no punto de burbulla =  0.7126847750849584\nFracción  molar do hexano      no punto de burbulla =  0.19390594082554496\nFracción  molar do ciclohexano no punto de burbulla =  0.09340928408949663\n\n\n\n\n\nConsidera o mesmo líquido do problema anterior. Á presión de 5 bar, a temperatura increméntase gradualmente. Cál é atempertura e a composición do primeiro vapor que se forma?.\n\n\n\nNeste caso, nos dan \\(p\\) e \\(x_i\\) e a ecuación anterior convértese nunha ecuación implícita en \\(T\\) que temos que resolver por medio de algún método numérico, como pode ser iteración simple. Unha forma simple de resolvelo sería ir iterando \\(T\\) ata que a presión de burbulla sexa 5 bar y1 = p1 p = 0.724; y2 = p2 p = 0.187; y3 = p3 p = 0.089"
+  },
+  {
+    "objectID": "posts/2023-10-20-probas/index.html#cálculos-no-punto-de-orballo",
+    "href": "posts/2023-10-20-probas/index.html#cálculos-no-punto-de-orballo",
+    "title": "Cálculos de separacións flash",
+    "section": "",
+    "text": "Neste caso, coñecemos a composición da fase de vapor \\(y_i\\) (corresponde ao caso en que \\(L\\) é moi pequena (\\(L \\geq 0\\)) e \\(y_i = z_i\\). O punto de orballo dun vapor (gas) é o punto no que comeza a condensaar, é dicir, cando se forma a primeira gota de líquido. A temperatura constante, débese aumentar a presión ata que se forme o primeiro líquido. A presión constante, débese diminuír a temperatura ata que se forme o primeiro líquido. En ámbalos dous casos, isto corresponde axustar \\(T\\) ou \\(p\\) ata que\n\\[\n\\sum x_i = 1\n\\]\nou:\n\\[\n\\Sigma_{i} y_{i} / K_{i}=1\n\\]\nonde \\(y_i\\) ven dado. Para unha mestura ideal que cumpre ca lei de Raoult:\n\\[\n\\Sigma_{i} \\frac{y_{i}}{p_{i}^{\\mathrm{sat}}(T)}=\\frac{1}{p}\n\\]\n\n\nUnha mestura líquida contén 50% de pentano, 30% de hexano e 20% de ciclohexano (en moles), é dicir, \\(x_{pentano} = 0.5; x_{hexano} = 0.3 e x_{ciclohexano} = 0.2\\). A \\(T = 400 K\\) se incrementa a presión gradulmente. Cál é a presión de orballo e a composición do primeiro líquido que condensa?. Supoñer unha mestura líquida ideal e gas ideal (lei de Raoult).\n\n\n\nAtopar o valor de \\(p\\) que satisfai a ecuación anterior. Posto que \\(T\\) ven dada, a solución é trivial; simplementa calculamos \\(1/p\\) a partires dela.\n\ny_pentano     = 0.5\ny_hexano      = 0.3\ny_ciclohexano = 0.2\nT = 400 # K\np_orballo = 1 / ( y_pentano / p_sat_pentano + y_hexano / p_sat_hexano + y_ciclohexano / p_sat_ciclohexano)\nx_pentano = y_pentano * p_orballo / p_sat_pentano\nx_hexano = y_hexano * p_orballo / p_sat_hexano\nx_ciclohexano = y_ciclohexano * p_orballo / p_sat_ciclohexano\n\n\n# print(\"Presión de orballo a {:5.2f} [K]\".format(T))\nprint(\"Temperatura        = {:5.2f} [bar]\".format(T))\nprint(\"Presión de orballo = {:5.2f} [bar]\".format(p_orballo))\nprint(\"  Composición  Composto         x[i]   y[i]\")\nprint(\"               {:10s}     {:6.4}{:6.4} \".format('pentano',x_pentano,y_pentano))\nprint(\"               {:10s}     {:6.4}{:6.4} \".format('hexano',x_hexano,y_hexano))\nprint(\"               {:10s}    {:6.4}{:6.4} \".format('ciclohexano',x_ciclohexano,y_ciclohexano))\n\nTemperatura        = 400.00 [bar]\nPresión de orballo =  5.78 [bar]\n  Composición  Composto         x[i]   y[i]\n               pentano        0.2822   0.5 \n               hexano         0.3734   0.3 \n               ciclohexano    0.3445   0.2 \n\n\n\n\n\nConsidera a mesma mestura do problema anterios. At \\(p\\) = 5 bar, a temperatura vaise diminuindo gradialmente. Cál é a tenmperatura de orballo e a composición do primeiro líquido que se foram?.\n\n\n\nNeste caso, nos dan \\(p\\) e \\(y_i\\), e a ecuación de antes convértese nunha ecuación implícita en \\(T\\) que necesita de resolverse numéricamente por un método numérico, por exemplo iteración.\n\nfrom scipy.optimize import fsolve\n\n\npresion = 5. # bar\nT_gues  = 400. # K \n\ndef orballo(T):\n    fun = ( 1 / presion) - y_pentano / 10 ** ( A_pentano - B_pentano / ( C_pentano + T ) ) - y_hexano / 10 ** ( A_hexano - B_hexano / ( C_hexano + T ) ) - y_ciclohexano / 10 ** ( A_ciclohexano - B_ciclohexano / ( C_ciclohexano + T ) ) \n    return fun\n\nT_orballo = fsolve(orballo, T_gues)\n\n\nprint(\"Temperatura de orballo calculada con fsolve = \", T_orballo)\n\nTemperatura de orballo calculada con fsolve =  [393.30333147]\n\n\n\nfrom scipy.optimize import root\nT = root(orballo, [300,400])\n\n\nprint(\"Temperatura de orballo calculada con fsolve = \", T_orballo)\n\nTemperatura de orballo calculada con fsolve =  [393.30333147]\n\n\n\n# Táboa 7.2 : Datos para exemplos e exercicios de flash: parámetros de Antoine para p sat ( T ), temperatura normal de ebulición ( T b ) e calor de vaporización ∆ vap H ( T b ) para os compoñentes seleccionados. Datos : Poling, Prausnitz e O'Connell, As propiedades de gases e líquidos , 5 th Ed., McGraw-Hill (2001).\n# log10(psat[bar]) = A - B / ( T [K] + C) Tb [ K ] dv a p H b [ J / m o l ]\n# pentano C5H12\nA_C5 = 3.97786\nB_C5 = 1064.840\nC_C5 = -41.136\n# hexano C6H14\nA_C6 = 4.00139\nB_C6 = 1170.875\nC_C6 = -48.833\n# ciclohexano C6H12\nA_CC6 =3.93002\nB_CC6 = 1182.774\nC_CC6 = -52.532"
+  },
+  {
+    "objectID": "posts/2024-10-12/index.html",
+    "href": "posts/2024-10-12/index.html",
+    "title": "Cálculo da constante de eqilibrio e as concentracións mediante a minimizaci´lln da enerxía libre de Gibbs",
+    "section": "",
+    "text": "Calcular as composicións no equilibrio a 1000 K e 1 bar para a reacción de intercambio gas auga (WGS) para unha limentación equimolar de CO e H2O usando: - a minimización da enexía libre de Gibbs - o grao de avance da reacción.\nPara o cálculo das funcióons termodimmámicas usa os polinomios de Shomate.\nConsultado a base de datos do Nist temos os valores eequiridos para resolver o problema.\nCO\n\\(\\DeltaH_{f,gas}^o\\) = -110.53 kJ·mol-1 \\(S^o\\){gas}$ = 197.66 J·mol-1·K-1 CO2\n\\(\\DeltaH_{f,gas}^o\\) = -393.51 kJ·mol-1\n\\(S^o\\){gas}$ = 213.79 J·mol-1·K-1\nH2\n\\(S^o\\){gas}$ = 130.68 J·mol-1·K-1 H2O\n\\(\\DeltaH_{f,gas}^o\\) = -241.83k J·mol-1\n\\(S^o\\){gas}$ = 188.84 J·mol-1·K-1\nRecordamos as as ecuación de Shomate baseadas en 8 termos A, B, C, D, E, F, G, H, que permiten calcular varios parámetros termodinámicos:\n\\[\n\\beg]in{align*}\nC^o_p & = & A + B t + C t^2 + D t^3 + \\frac{E}{t^2} \\\\\nH^o − H°_{298.15} & = & At + B \\frac{B}{\\frac {t^2} {2}} + C \\frac{C}{\\frac {t^3} {3}} + D \\frac{D}{\\frac {t^4} {4}} − \\frac{E}{t^2} + F − H\nS^o = A \\ln(t) + B t + C \\frac{t^2}{2} + D \\frac{t^3}{3} − \\frac{E}{2t^2} + G\n\\end{align*}\n\\]\nonde:\n- Cp = heat capacity (J/molK).\n- H° = standard enthalpy (kJ/mol).\n- S° = standard entropy (J/molK).\n- t = temperature (K) / 1000.\nComo a temperatura do problema é de 1000 K, tomaremos o primeiro conxunto de datos (298-1300 K).\n\n\n\nCO\nCO2\nH2\nH2O\n\n\n\n\nA\n25.56759\n24.99735\n33.066178\n\n\nB\n6.096130\n55.18696\n-11.363417\n\n\nC\n4.054656\n-33.69137\n11.432816\n\n\nD\n-2.671301\n7.948387\n-2.772874\n\n\nE\n0.131021\n-0.136638\n-0.158558\n\n\nF\n-118.0089\n-403.6075\n-9.980797\n\n\nG\n227.3665\n228.2431\n172.707974\n\n\nH\n-110.5271\n-393.5224\n0.0\n\n\n\n\nimport numpy as np\n\nT = 1000  # K\nR = 8.314e-3 # kJ/mol/K\n\nP = 1.0 # atm, this is the total pressure in the reactor\nP0 = 1.0 # atm, this is the standard state pressure\n\nespecies = ['CO', 'CO2', 'H2', 'H2O']\n\n# Entalpías de formación at 298.15 K sacadas do NIST Webbook\n\nHf298 = [\n    -110.53,  # CO\n    -241.826, # H2O\n    -393.51,  # CO2\n       0.0]   # H2\n\n# Parámetros das ecuacións de Shomate para cada especie\n#           A          B           C          D          E            F          G       H\nWB = [[25.56759,  6.096130,     4.054656,  -2.671301,  0.131021, -118.0089, 227.3665,   -110.5271],  # CO\n      [30.09200,  6.832514,     6.793435,  -2.534480,  0.082139, -250.8810, 223.3967,   -241.8264],  # H2O\n      [24.99735,  55.18696,   -33.69137,    7.948387, -0.136638, -403.6075, 228.2431,   -393.5224],  # CO2\n      [33.066178, -11.363417,  11.432816,  -2.772874, -0.158558, -9.980797, 172.707974,    0.0]]     # H2\n\nWB = np.array(WB)\n\n# Ecuacións de Shomate\n\nt = T/1000\nT_H = np.array([t,  t**2 / 2.0, t**3 / 3.0, t**4 / 4.0, -1.0 / t, 1.0, 0.0, -1.0])\nT_S = np.array([np.log(t), t,  t**2 / 2.0,  t**3 / 3.0, -1.0 / (2.0 * t**2), 0.0, 1.0, 0.0])\n\nH = np.dot(WB, T_H)        # (H - H_298.15) kJ/mol\nS = np.dot(WB, T_S/1000.0) # entropía absoluta kJ/mol/K\n\nGio = Hf298 + H - T * S      # Gibbs energy of each component at 1000 K\n\nAgora, construimos a función da enerxía libre de Gibbs, contabilizando o cambio na actividade debido aos cambios de concentración (mestura ideal).\n\ndef func(ni):\n    ni = np.array(ni)\n    sumni = np.sum(ni)\n    Gi =  Gio / ( R * T ) + np.log( ni / sumni * P / P0 )\n    return np.dot(ni, Gi)\n\nImpoñemos a restrición da conservación dos átomos desde as condicións iniciais ata a distribución no equilibrio das especies. Estas restricións teñen a forma de un sistema de ecuacións:\n\\[\nA_{equil} = b_{equil}\n\\]\nonde \\(n\\) é o vector que contén o número de moles de cada especie.\n\nAeq = np.array([[ 1,    0,    1,    0],  # balance C \n                [ 1,    1,    2,    0],  # balance O \n                [ 0,    2,    0,    2]]) # balance H \n\n# alimentación equimolar de 1 mol de H2O e 1 mol de CO\nbeq = np.array([1,  # moles de C na alimentación\n                2,  # moles de O na alimentación\n                2]) # moles de H na alimentación\n\nDefinimos a funxión de conservación de átomos:\n\ndef ec1(ni):\n    'condición da lei de conservación dos átoms'\n    return np.dot(Aeq, ni) - beq\n\nAgora xa podemos resolver. O podemos facer con ‘fmin_slsqp’\n\nfrom scipy.optimize import fmin_slsqp \n\nn0 = [0.5, 0.5, 0.5, 0.5]  # supoñemos valores iniciais\nN = fmin_slsqp(func, n0, f_eqcons=ec1)\nprint(N)\n\nOptimization terminated successfully    (Exit mode 0)\n            Current function value: -95.81000249396038\n            Iterations: 2\n            Function evaluations: 11\n            Gradient evaluations: 2\n[0.45502309 0.45502309 0.54497691 0.54497691]\n\n\n\nCálculo das fraccións molares e presións parciais\nAs presións aquí están de bo acordo coas presións atopadas por outros métodos. O desacordo menor (no terceiro ou cuarto lugar decimal) é probable debido ás tolerancias de converxencia nos distintos algoritmos empregados.\n\nyi = N / np.sum(N)\nPi = yi * P\n\nfor s, y, p in zip(especies, yi, Pi):\n    print('{0:10s}: {1:1.4f} {2:1.4f}'.format(s, y, p))\n\nCO        : 0.2275 0.2275\nCO2       : 0.2275 0.2275\nH2        : 0.2725 0.2725\nH2O       : 0.2725 0.2725\n\n\n\n\nConstantes de equilibrio informático\nPodemos calcular a constante de equilibrio para a reacción:\nCO + H2O ⇌ CO2 + H2\n\nnui = np.array([-1, -1, 1, 1])  # coeficientes estequiométricos da reacción\nK = np.prod(yi**nui)\nprint(K)\n\n1.4344629828663398"
+  },
+  {
+    "objectID": "project-tips-resources.html",
+    "href": "project-tips-resources.html",
+    "title": "Consellos sobre o proxecto e recursos",
+    "section": "",
+    "text": "Learcheme Podes atopar en este repositorio:\nScreencasts: capturas de pantalla curta dun PC tableta con narración. Inclúen exemplos e solucións de problemas, explicacións de conceptos, tutoriales de software, introdución a temas, descricións do diagrama e críticas.\nMódulos interactivos de auto-estudo: inclúindo introducións, exames de conceptos básicos, presentacións, ecuacións importantes, simulacións interactivas, simulacións de autoavaliación, reolución interactiva de problemas en pantalla e puntos clave da Enxeñaría Química.\n(https://nptel.ac.in/courses/103105106)\nFiveThirtyEight data\nTidyTuesday",
+    "crumbs": [
+      "Proxecto",
+      "Tips + recusos"
+    ]
+  },
+  {
+    "objectID": "project-tips-resources.html#fontes-de-información",
+    "href": "project-tips-resources.html#fontes-de-información",
+    "title": "Consellos sobre o proxecto e recursos",
+    "section": "",
+    "text": "Learcheme Podes atopar en este repositorio:\nScreencasts: capturas de pantalla curta dun PC tableta con narración. Inclúen exemplos e solucións de problemas, explicacións de conceptos, tutoriales de software, introdución a temas, descricións do diagrama e críticas.\nMódulos interactivos de auto-estudo: inclúindo introducións, exames de conceptos básicos, presentacións, ecuacións importantes, simulacións interactivas, simulacións de autoavaliación, reolución interactiva de problemas en pantalla e puntos clave da Enxeñaría Química.\n(https://nptel.ac.in/courses/103105106)\nFiveThirtyEight data\nTidyTuesday",
+    "crumbs": [
+      "Proxecto",
+      "Tips + recusos"
+    ]
+  },
+  {
+    "objectID": "project-tips-resources.html#consellos",
+    "href": "project-tips-resources.html#consellos",
+    "title": "Consellos sobre o proxecto e recursos",
+    "section": "Consellos",
+    "text": "Consellos\n\nTitorías Fai preguntas se algunha das expectativas non está clara.\nCódigo: Na túa escritura o teu código debería estar oculto para que o documento sexa ordenado e fácil de ler. Non obstante, o teu documento debería incluír todo o teu código de xeito que se volva a colocar o ficheiro QMD, debería poder obter os resultados que presentaches.\nExcepción: Se queres resaltar algo específico sobre un anaco de código, podes amosar esa parte.",
+    "crumbs": [
+      "Proxecto",
+      "Tips + recusos"
+    ]
+  },
+  {
+    "objectID": "project-tips-resources.html#formato-e-presentando-os-proxecto",
+    "href": "project-tips-resources.html#formato-e-presentando-os-proxecto",
+    "title": "Consellos sobre o proxecto e recursos",
+    "section": "Formato e presentando os proxecto",
+    "text": "Formato e presentando os proxecto\n\nsuprime o código, as advertencias e as mensaxes\n\nInclúe o seguinte código nun pedazo de código na parte superior do seu ficheiro .qmd para suprimir todo o código, avisos e outras mensaxes.\n\n\n\nCabeceiras\n\nUse cabeceiras para etiquetar claramente cada sección.\nInspeccione o esquema do documento para revisar as cabeceiras e os sub-cabeceiros.\n\n\n\nReferencias\n\nInclúe todas as referencias bibliográficas e web nunha sección chamada Referencias ao final do informe.\nEste curso non ten requisitos específicos para formatar citas e referencias.\n\n\n\nApéndice\n\nSe tes un traballo adicional que non encaixa ou non pertence ao corpo do informe, pode poñelo ao final do documento na sección chamada Apéndice.\nOs elementos do apéndice deben estar etiquetados correctamente.\nO apéndice só debe ser para material adicional.O lector debería poder comprender completamente o seu informe sen ver o contido no apéndice.\n\n\n\nRedimensionar as cifras\nRedimensionar as parcelas e as figuras, polo que tes máis espazo para a narración.",
+    "crumbs": [
+      "Proxecto",
+      "Tips + recusos"
+    ]
+  },
+  {
+    "objectID": "project-tips-resources.html#esmérate-na-presentación-dos-gráficos.",
+    "href": "project-tips-resources.html#esmérate-na-presentación-dos-gráficos.",
+    "title": "Consellos sobre o proxecto e recursos",
+    "section": "Esmérate na presentación dos gráficos.",
+    "text": "Esmérate na presentación dos gráficos.\n\nUse títulos informativos, non nomes de variables, para títulos e etiquetas do eixe.\n\nTítulo informativo e etiquetas do eixe\n\nQue os nomes sexan lexibles\n\nNomes capitalizados\n\nOpcional:\n\nUsa un esquema de cores coordinado en todo o documento ou presentación.\n\nAplicado un tema, usa o mesmo tema en todo o documento ou presentación.\n\n\n\nDirectrices para comunicar resultados\n\nNon use nomes variables na túa narración: usa termos descritivos, polo que o lector entende a súa narración sen depender do dicionario de datos.\n\nCoñece a túa audiencia: O teu traballo debería estar escrito para un público xeral pero que comprenda as simulacións os conceptos principais da enxeñaría química.\n\n** Evite a xerga de temas: ** Non supoña que a audiencia coñeza toda a terminoloxía específica relacionada coa súa materia.\nSe debes usar a xerga, inclúe unha breve definición a primeira vez que introduce un termo.\n\n** Diga o “Entón”: ** O seu informe e presentación debería ser máis que unha lista de interpretacións e definicións técnicas. Concéntrate no que significan os resultados, é dicir, o que queres que a audiencia saiba sobre o teu tema despois de ler o teu informe ou ver a túa presentación.\n\n** Conta unha historia: ** Todas as visualizacións, táboas, saída do modelo e narrativa deberían contar unha historia cohesionada.",
+    "crumbs": [
+      "Proxecto",
+      "Tips + recusos"
+    ]
+  },
+  {
+    "objectID": "project-tips-resources.html#recursos-adicionais-",
+    "href": "project-tips-resources.html#recursos-adicionais-",
+    "title": "Consellos sobre o proxecto e recursos",
+    "section": "Recursos adicionais-",
+    "text": "Recursos adicionais-\n\n[Jup]yter Notebook](https://docs.jupyter.org/en/latest/)\nVisualización de datos\n\nMatplotlib\nPlotly\nGuía de visualización de datos",
+    "crumbs": [
+      "Proxecto",
+      "Tips + recusos"
+    ]
+  },
+  {
+    "objectID": "qmd/Minimización-da-Enerxía-Libre-de-Gibbs.html",
+    "href": "qmd/Minimización-da-Enerxía-Libre-de-Gibbs.html",
+    "title": "SOPQ-2425",
+    "section": "",
+    "text": "Neste notebook analizamos a minimización directa da enerxía libre de Gibbs das especies, sen supostos sobre a estequiometría das reaccións. Só aplicamos a restrición de conservación dos átomos. Usamos o NIST Webbook para proporcionar os datos da enerxía de Gibbs de cada especie.\nComo recordatorio, consideramos o equilibrio entre as especies \\(CO\\), \\(H_2O\\), \\(CO_2\\) e \\(H_2\\), a 1000K, e unha presión total de 5 atm cun caudal equimolar inicial de \\(CO\\) e \\(H_2O\\).\nImos almacenar todos os datos e cálculos en vectores, polo que debemos asignar cada posición do vector a unha especie. Aquí están as definicións que utilizamos neste traballo.\n# @title\nimport numpy as np\n\nT = 842  # K\nR = 8.314e-3 # kJ/mol/K\n\nP = 5.37 # atm, this is the total pressure in the reactor\nPo = 1.0 # atm, this is the standard state pressure\n# @title\nspecies = ['CO', 'H2O', 'CO2', 'H2']\nAgora, constrúuiremos a función de enerxía libre de Gibbs, explicando o cambio de actividade debido aos cambios de concentración (mestura ideal).\nImpoñemos a restrición de que todos os átomos se conserven desde as condicións iniciais ata a distribución en equilibrio das especies. Estas restricións teñen a forma de \\(A_{eq} n = b_{eq}\\), onde \\(n\\) é o vector dos números moles de cada especie.\n# @title\n# Heats of formation at 298.15 K\n\nHf298 = [\n    -110.53,  # CO\n    -241.826, # H2O\n    -393.51,  # CO2\n       0.0]   # H2\nAgora estamos preparados para resolver o problema."
+  },
+  {
+    "objectID": "qmd/Minimización-da-Enerxía-Libre-de-Gibbs.html#cálculo-das-fraccións-molares-e-presións-parciais",
+    "href": "qmd/Minimización-da-Enerxía-Libre-de-Gibbs.html#cálculo-das-fraccións-molares-e-presións-parciais",
+    "title": "SOPQ-2425",
+    "section": "1 Cálculo das fraccións molares e presións parciais",
+    "text": "1 Cálculo das fraccións molares e presións parciais\nAs presións aquí están de acordo coas presións atopadas por outros métodos. O pequeno desacordo (no terceiro ou cuarto decimal) débese probablemente a tolerancias de converxencia nos diferentes algoritmos utilizados.\n\n# @title\n# Shomate parameters for each species\n#           A          B           C          D          E            F          G       H\nWB = [[25.56759,  6.096130,     4.054656,  -2.671301,  0.131021, -118.0089, 227.3665,   -110.5271],  # CO\n      [30.09200,  6.832514,     6.793435,  -2.534480,  0.082139, -250.8810, 223.3967,   -241.8264],  # H2O\n      [24.99735,  55.18696,   -33.69137,    7.948387, -0.136638, -403.6075, 228.2431,   -393.5224],  # CO2\n      [33.066178, -11.363417,  11.432816,  -2.772874, -0.158558, -9.980797, 172.707974,    0.0]]     # H2\n\nWB = np.array(WB)\n\n\n# @title\n# Shomate equations\n\nt = T/1000\n\nT_H = np.array([t,  t**2 / 2.0, t**3 / 3.0, t**4 / 4.0, -1.0 / t, 1.0, 0.0, -1.0])\nT_S = np.array([np.log(t), t,  t**2 / 2.0,  t**3 / 3.0, -1.0 / (2.0 * t**2), 0.0, 1.0, 0.0])\n\nH = np.dot(WB, T_H)        # (H - H_298.15) kJ/mol\nS = np.dot(WB, T_S/1000.0) # absolute entropy kJ/mol/K\n\nGjo = Hf298 + H - T*S      # Gibbs energy of each component at 1000 K\n\n\n# @title\ndef func(nj):\n    nj = np.array(nj)\n    Enj = np.sum(nj);\n    Gj =  Gjo / (R * T) + np.log(nj / Enj * P / Po)\n    return np.dot(nj, Gj)\n\n\n# @title\nAeq = np.array([[ 1,    0,    1,    0],  # C balance\n                [ 1,    1,    2,    0],  # O balance\n                [ 0,    2,    0,    2]]) # H balance\n\n\n# @title\n# equimolar feed of 1 mol H2O and 1 mol CO\nbeq = np.array([1,  # mol C fed\n                2,  # mol O fed\n                2]) # mol H fed\n\n\n# @title\ndef ec1(nj):\n    'restriccións da lei de conservaxción de átomos'\n    return np.dot(Aeq, nj) - beq\n\n\n# @title\nfrom scipy.optimize import fmin_slsqp\n\nn0 = [0.5, 0.5, 0.5, 0.5]  # initial guesses\nN = fmin_slsqp(func, n0, f_eqcons=ec1)\nprint (N)\n\nOptimization terminated successfully    (Exit mode 0)\n            Current function value: -99.9406728442514\n            Iterations: 3\n            Function evaluations: 16\n            Gradient evaluations: 3\n[0.35799303 0.35799303 0.64200697 0.64200697]"
+  },
+  {
+    "objectID": "qmd/Minimización-da-Enerxía-Libre-de-Gibbs.html#cálculo-das-fraccións-molares-e-presións-parciais-1",
+    "href": "qmd/Minimización-da-Enerxía-Libre-de-Gibbs.html#cálculo-das-fraccións-molares-e-presións-parciais-1",
+    "title": "SOPQ-2425",
+    "section": "1 Cálculo das fraccións molares e presións parciais",
+    "text": "1 Cálculo das fraccións molares e presións parciais\nAs presións aquí están de acordo cas presións atopadas por outros métodos. O pequeno desacordo (no terceiro ou cuarto decimal) débese probablemente a tolerancias de converxencia nos diferentes algoritmos utilizados.\n\n# @title\nyj = N / np.sum(N)\nPj = yj * P\n\nfor s, y, p in zip(species, yj, Pj):\n    print (s, y, p)\n\nCO 0.17899651631887759 0.9612112926323727\nH2O 0.17899651631887759 0.9612112926323727\nCO2 0.3210034836811224 1.7237887073676275\nH2 0.3210034836811224 1.7237887073676275"
+  },
+  {
+    "objectID": "qmd/Minimización-da-Enerxía-Libre-de-Gibbs.html#cálculo-de-constantes-de-equilibrio",
+    "href": "qmd/Minimización-da-Enerxía-Libre-de-Gibbs.html#cálculo-de-constantes-de-equilibrio",
+    "title": "SOPQ-2425",
+    "section": "2. Cálculo de constantes de equilibrio",
+    "text": "2. Cálculo de constantes de equilibrio\nPodemos calcular a constante de equilibrio para a reacción:\n\\[\nCO+H_2O⇌CO_2+H_2\n\\]\nten en en conta que para definir unha constante de equilibrio é necesario especificar unha reacción, aínda que nin sequera sexa necesario considerar unha reacción para obter a distribución en equilibrio das especies.\n\n# @title\nnuj = np.array([-1, -1, 1, 1])  # stoichiometric coefficients of the reaction\nK = np.prod(yj**nuj)\nprint('A constante de equilibrio (adimensional) vale: {:5.4f}'.format(K))\n\nA constante de equilibrio (adimensional) vale: 3.2161"
+  },
+  {
+    "objectID": "simulacion-de-procesos-gl.html#resumo-das-clases-teóricas",
+    "href": "simulacion-de-procesos-gl.html#resumo-das-clases-teóricas",
+    "title": "Introdución á Simulación de Procesos",
+    "section": "Resumo das clases teóricas",
+    "text": "Resumo das clases teóricas\n\n\n\n\n\n\n\nConceptos\nNivel\n\n\n\n\nFundamentos da simulación de procesos\nBásico\n\n\nIntrodución á simulación de procesos\nBásico\n\n\nRexistro de novos compoñentes\nBásico\n\n\nEstimación de propiedades físicas para simulación de procesos\nBásico\n\n\nSimulación de correntes de reciclado\nBásico"
+  },
+  {
+    "objectID": "simulacion-de-procesos-gl.html#simulación-de-procesos",
+    "href": "simulacion-de-procesos-gl.html#simulación-de-procesos",
+    "title": "Introdución á Simulación de Procesos",
+    "section": "Simulación de procesos",
+    "text": "Simulación de procesos\n A simulación de procesos é unha técnica computacional empregada en varias industrias para:\n- Modelar\n- Analizar e\n- Optimizar procesos complexos.\n - Implica a creación dunha representación ou modelo dixital dun sistema ou proceso real para simular o seu comportamento en diferentes condicións."
+  },
+  {
+    "objectID": "simulacion-de-procesos-gl.html#qué-implica-a-simulación-de-procesos",
+    "href": "simulacion-de-procesos-gl.html#qué-implica-a-simulación-de-procesos",
+    "title": "Introdución á Simulación de Procesos",
+    "section": "Qué implica a simulación de procesos?",
+    "text": "Qué implica a simulación de procesos?\nA simulación de procesos consiste en varias operacións ou tarefas como se mostra no seguinte gráfico\n\n\n\n\n\nflowchart TD\n  A[Inicio] --&gt; B[Modelado]\n  B --&gt; C[Entrada de Datos]\n  C --&gt; D[Simulación]\n  D --&gt; E[Visualización]\n  E --&gt; F[Análise]\n  F --&gt; G[Optimización]\n  G --&gt; H[Aplicación]\n  H --&gt; I[Fin]"
+  },
+  {
+    "objectID": "simulacion-de-procesos-gl.html#modelado",
+    "href": "simulacion-de-procesos-gl.html#modelado",
+    "title": "Introdución á Simulación de Procesos",
+    "section": "Modelado",
+    "text": "Modelado\n A simulación de procesos comeza coa creación dun modelo matemático ou computacional que representa:\n - Os compoñentes\n- As variables e\n- As interaccións clave dun proceso físico.\n Este modelo pode basearse en:\n- Ecuacións matemáticas\n- Datos empíricos\n Ou unha combinación de ambos."
+  },
+  {
+    "objectID": "simulacion-de-procesos-gl.html#simulación",
+    "href": "simulacion-de-procesos-gl.html#simulación",
+    "title": "Introdución á Simulación de Procesos",
+    "section": "Simulación",
+    "text": "Simulación\nUnha vez que o modelo se desenvolve, impleméntase no software de simulación. O software usa algoritmos para: - Realizar cálculos numéricos - Resolver ecuacións para simular o comportamento do proceso ao longo do tempo."
+  },
+  {
+    "objectID": "simulacion-de-procesos-gl.html#parámetros-de-entrada",
+    "href": "simulacion-de-procesos-gl.html#parámetros-de-entrada",
+    "title": "Introdución á Simulación de Procesos",
+    "section": "Parámetros de entrada",
+    "text": "Parámetros de entrada\nOs usuarios poden introducir varios parámetros: - Condicións de funcionamento - Especificacións de equipos - Variables de proceso, etc.  \npara explorar diferentes escenarios e estudar como os cambios afectan o proceso."
+  },
+  {
+    "objectID": "simulacion-de-procesos-gl.html#visualización",
+    "href": "simulacion-de-procesos-gl.html#visualización",
+    "title": "Introdución á Simulación de Procesos",
+    "section": "Visualización",
+    "text": "Visualización\nO software de simulación de procesos adoita proporcionar representacións visuais de: - O proceso simulado, incluíndo - gráficos - animacións.  Isto permite aos usuarios obter información sobre o rendemento e o comportamento do sistema."
+  },
+  {
+    "objectID": "simulacion-de-procesos-gl.html#análise",
+    "href": "simulacion-de-procesos-gl.html#análise",
+    "title": "Introdución á Simulación de Procesos",
+    "section": "Análise",
+    "text": "Análise\nOs usuarios poden analizar os resultados da simulación para avaliar: - A eficiencia - O rendemento - A seguridade do proceso.  Esta análise axuda a: - Identificar posibles bloqueos de botella - Optimizar o uso de recursos - Mellorar o deseño xeral do proceso."
+  },
+  {
+    "objectID": "simulacion-de-procesos-gl.html#optimización",
+    "href": "simulacion-de-procesos-gl.html#optimización",
+    "title": "Introdución á Simulación de Procesos",
+    "section": "Optimización",
+    "text": "Optimización\nA simulación de procesos pódese usar para atopar o conxunto óptimo de: - parámetros ou -condicións  que leven ao resultado desexado, tales como: - Maximizar o rendemento da produción ou - Minimizar o consumo de enerxía. ## Aplicacións:\nA simulación de procesos se utiliza en diversas industrias, incluyendo la ingeniería química, la manufactura, el petróleo y el gas, la farmacéutica y el transporte, para modelar y mejorar procesos como reacciones químicas, líneas de producción, cadenas de suministro, entre otros."
+  },
+  {
+    "objectID": "simulacion-de-procesos-gl.html#beneficios",
+    "href": "simulacion-de-procesos-gl.html#beneficios",
+    "title": "Introdución á Simulación de Procesos",
+    "section": "Beneficios:",
+    "text": "Beneficios:\n A simulación de procesos pode levar a:\n- Un aforro de custos\n- Unha mellor calidade do produto\n- Unha redución de riscos\n- Unha maior seguridade de produción\n permitindo probas virtuais e optimización antes de implementar cambios nos procesos do mundo real."
+  },
+  {
+    "objectID": "simulacion-de-procesos-gl.html#fluxogramas",
+    "href": "simulacion-de-procesos-gl.html#fluxogramas",
+    "title": "Introdución á Simulación de Procesos",
+    "section": "Fluxogramas",
+    "text": "Fluxogramas\nAlexander C. Dimian (2003)  \n\nO diagrama de fluxo é unha descrición sistémica de fluxos de materiais e enerxía en a planta de proceso mediante simulación informática co ámbito de proxectar unha nova planta ou mellorar o rendemento dunha planta existente. \nO diagrama de fluxo pode usarse como axuda para implementar un control en toda a planta estratexia, así como para xestionar o funcionamento da planta."
+  },
+  {
+    "objectID": "simulacion-de-procesos-gl.html#simulación---deseño---optimización-e-síntese-de-procesos-químicos",
+    "href": "simulacion-de-procesos-gl.html#simulación---deseño---optimización-e-síntese-de-procesos-químicos",
+    "title": "Introdución á Simulación de Procesos",
+    "section": "Simulación - Deseño - Optimización e Síntese de Procesos Químicos",
+    "text": "Simulación - Deseño - Optimización e Síntese de Procesos Químicos\n\nModelo de Linnhoff"
+  },
+  {
+    "objectID": "simulacion-de-procesos-gl.html#modelo-de-deseño-de-capas-da-cebola-linnhoff",
+    "href": "simulacion-de-procesos-gl.html#modelo-de-deseño-de-capas-da-cebola-linnhoff",
+    "title": "Introdución á Simulación de Procesos",
+    "section": "Modelo de deseño de capas da cebola (Linnhoff)",
+    "text": "Modelo de deseño de capas da cebola (Linnhoff)\n\nModelo de Linnhoff[Modelo de capa d]\n\nDentro da síntese de procesos, un dos modelos importantes para guiar o fluxo a síntese é o modelo de cebola informado por primeira vez en Linnhoff et al. (1982). Como se mostra na figura 1.3, o exercicio de deseño de procesos comeza desde o núcleo do proceso e móvese cara a fóra. No centro da cebola, deseñase primeiro o sistema do reactor. O deseño do reactor inflúe nas estruturas de separación e reciclaxe segunda capa da cebola. A continuación, as estruturas do reactor e do separador ditan o requisitos xerais de calefacción e refrixeración do proceso. Polo tanto, o sistema de recuperación de calor deséñase a continuación, na terceira capa. Un sistema de utilidade no cuarto A continuación deséñase a capa para proporcionar requisitos adicionais de calefacción e refrixeración, que non se poden satisfacer mediante un sistema de recuperación de calor. Na capa final, o O sistema de tratamento de residuos está deseñado para xestionar varias emisións/efluentes o proceso, previo á descarga ambiental final. Nunha sección posterior deste capítulo, empregarase o modelo de cebola para guiar a simulación do fluxo integrado de procesos químicos."
+  },
+  {
+    "objectID": "simulacion-de-procesos-gl.html#resumo",
+    "href": "simulacion-de-procesos-gl.html#resumo",
+    "title": "Introdución á Simulación de Procesos",
+    "section": "Resumo",
+    "text": "Resumo\nA simulación de procesos é unha poderosa ferramenta que permite a proba virtual e a análise de procesos complexos, facilitando a decisión e a optimización nunha ampla gama de industrias."
+  },
+  {
+    "objectID": "simulacion-de-procesos-gl.html#arquitectura-de-simuladores-de-proceso",
+    "href": "simulacion-de-procesos-gl.html#arquitectura-de-simuladores-de-proceso",
+    "title": "Introdución á Simulación de Procesos",
+    "section": "Arquitectura de simuladores de proceso",
+    "text": "Arquitectura de simuladores de proceso\n\nModular secuencial\n\nBaseado no concepto de modularidade, que estende o concepto da enxeñaría de operación unitaria a un cálculo da unidades de operación mediante un o código informático responsable do cálculo das unidades de proceso.\n\nO cálculo de todo o fluxograma se fai unidade a unidade seguindo unha secuencia de cálculo.\n\n\nO orientado á ecuacións (Simultáneameo - Non modular)\n\nO modelo completo do fluxograma exprésase en forma dun gran sistema disperso de ecuacións alxébricas non lineais, que se solucionan simultaneamente para todas as incógnitas.\n\nModular Simultáneo Combinación de secuencial-modular e orientado á ecuación enfoques"
+  },
+  {
+    "objectID": "simulacion-de-procesos-gl.html#simuladores-de-procesos-comerciais-para-estado-estacionario",
+    "href": "simulacion-de-procesos-gl.html#simuladores-de-procesos-comerciais-para-estado-estacionario",
+    "title": "Introdución á Simulación de Procesos",
+    "section": "Simuladores de procesos Comerciais para Estado Estacionario",
+    "text": "Simuladores de procesos Comerciais para Estado Estacionario\n\nSequenciais – Modulares\n\nAspen Plus\nAspen Hysys\nChemCAD\nPRO II\nUniSim"
+  },
+  {
+    "objectID": "simulacion-de-procesos-gl.html#simuladores-de-procesos-comerciais-para-estado-estacionario-1",
+    "href": "simulacion-de-procesos-gl.html#simuladores-de-procesos-comerciais-para-estado-estacionario-1",
+    "title": "Introdución á Simulación de Procesos",
+    "section": "Simuladores de procesos Comerciais para Estado Estacionario",
+    "text": "Simuladores de procesos Comerciais para Estado Estacionario\n\nOrientados a Ecuación\n\ngProms\nVMGSim\nAspen Plus in EO\nAspen Custom Modeler"
+  },
+  {
+    "objectID": "simulacion-de-procesos-gl.html#servizos-de-propiedades-físicas",
+    "href": "simulacion-de-procesos-gl.html#servizos-de-propiedades-físicas",
+    "title": "Introdución á Simulación de Procesos",
+    "section": "Servizos de propiedades físicas",
+    "text": "Servizos de propiedades físicas\n\nSubministran estimacións para varias propiedades físicas diferentes mentres a simulación está funcionando.\nO equilibrio de fase representa unha das propiedades físicas máis importantes, xa que moitas simulacións de procesos químicos implican destilación, separación, evaporación ou separación líquido - líquidos.\nResolven os balances de masa e enerxía para estas operacións que require a predicción:\n\nVapor - Equilibrio líquido (VLE)\nLíquido - Equilibrio líquido (LLE)\n\n\n\n\n\n\n\n\nNote\n\n\n\nA estimación de propiedades físicas pode consumir ata o 90% do tempo de computación dunha simulación. Os paquetes de propiedades úsanse para predecir o equilibrio de fase e o comportamento de compoñentes puros e sistemas de mestura"
+  }
+]
