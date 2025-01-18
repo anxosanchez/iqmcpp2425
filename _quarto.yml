@@ -5,7 +5,7 @@ project:
 website:
   page-navigation: true
   title: "SOPQ-2425"
-  description: "Web da asignatrua Simulación e Optimización de Procesos Químicos"
+  description: "Web da asignatrua I"
   site-url: https://anxosanchez.github.io/SOPQ-2324
   repo-url: https://github.com/anxosanchez/SOPQ-2324
   repo-actions: [edit, issue]
