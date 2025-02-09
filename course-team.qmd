@@ -13,10 +13,9 @@ format:
 
 Na actualidade é u único Profesor encargado da mesma.
 
-| Horario de titorías presenciais      | Despacho 205 da EEI, Sede Cidade                                                                                          |
-|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| Mércores 09:00 - 12:00               |                                                                                                                           |
-| Xoves    11:00 - 14:00               |                                                                                                                           |
+| Horario de titorías presenciais | Despacho 205 da EEI, Sede Cidade |
+|---------------------------------|----------------------------------|
+| Mércores 09:00 - 12:00          |                                  |
+| Xoves 11:00 - 14:00             |                                  |
 
-En calqueira outra ocadssión debes axendar unha titoría na [páxina de booking](<a href='https://outlook.office365.com/owa/calendar/AxendadeAnxoSnchez@universidadevigo.onmicrosoft.com/bookings/'>Schedule online</a>)
-
+En calqueira outra ocadssión debes axendar unha titoría na \[páxina de booking\](<a href='https://outlook.office365.com/owa/calendar/AxendadeAnxoSnchez@universidadevigo.onmicrosoft.com/bookings/'>Schedule online</a>)

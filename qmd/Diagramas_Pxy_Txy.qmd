@@ -166,4 +166,3 @@ plt.xlabel('x, y')
 plt.ylabel('T')
 plt.title('Diagrama T-x, y')
 ```
-
